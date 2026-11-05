@@ -89,9 +89,12 @@
     if (r) { e.stopPropagation(); r.outerHTML = `<span class="${r.dataset.cls}">${esc(r.dataset.reveal)}</span>`; return; }
     const b = e.target.closest('[data-say]');
     if (!b) return;
-    if (!Speech.canSpeak) { toast('Audio isn’t available in this browser'); return; }
+    Speech.unlock && Speech.unlock();
     b.classList.add('playing');
-    Speech.speak(b.dataset.say, { slow: !!b.dataset.slow, fast: !!b.dataset.fast }).then(() => b.classList.remove('playing'));
+    Speech.speak(b.dataset.say, { slow: !!b.dataset.slow, fast: !!b.dataset.fast }).then((ok) => {
+      b.classList.remove('playing');
+      if (!ok) toast('Turn up volume / check silent mode');
+    });
   });
 
   // ---------- display settings ----------

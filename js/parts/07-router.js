@@ -2,7 +2,7 @@
   // ---------- router ----------
   function render() {
     Speech.stop && Speech.stop();
-    if (window.speechSynthesis) speechSynthesis.cancel();
+    if (window.Speech && Speech.stopSpeak) Speech.stopSpeak(); else if (window.speechSynthesis) speechSynthesis.cancel();
     const parts = (location.hash.replace(/^#\/?/, '') || '').split('/').filter(Boolean);
     try {
       if (!parts.length) viewHome();

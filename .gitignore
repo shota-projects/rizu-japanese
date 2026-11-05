@@ -8,3 +8,4 @@ screenshots/
 .pwtest/
 playwright-report/
 test-results/
+.venv-tts/

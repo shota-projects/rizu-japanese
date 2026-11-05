@@ -285,6 +285,57 @@ const assert = (c, m) => { if (!c) throw new Error('ASSERT: ' + m); };
     await ctx.close();
   }
 
+  // ---------- pre-generated audio (iOS-reliable) ----------
+  {
+    const manifest = JSON.parse(fs.readFileSync(ROOT + 'data/audio-manifest.json', 'utf8'));
+    assert(manifest.count >= 300, 'audio manifest count');
+    const samples = ['久しぶりです', 'お邪魔します', 'はい、元気ですよ。もう九十歳です。'];
+    for (const jp of samples) {
+      const e = manifest.byText[jp];
+      assert(e && e.src, 'manifest entry for ' + jp);
+      const file = ROOT + e.src.replace(/^\.\//, '');
+      assert(fs.existsSync(file), 'audio file on disk ' + file);
+      assert(fs.statSync(file).size > 500, 'audio file non-empty ' + file);
+    }
+    // Live-ish: local static server must 200 the src (same origin as app)
+    const { ctx, page } = await mk('audio', { noRec: true });
+    await page.goto(BASE); await page.waitForSelector('.hero');
+    const checks = await page.evaluate(async (samples) => {
+      // wait briefly for Speech manifest
+      for (let i = 0; i < 40; i++) {
+        if (window.Speech && Speech.audioSrc && Speech.audioSrc(samples[0])) break;
+        await new Promise((r) => setTimeout(r, 50));
+      }
+      const out = [];
+      for (const jp of samples) {
+        const src = Speech.audioSrc(jp);
+        if (!src) { out.push({ jp, ok: false, reason: 'no src' }); continue; }
+        const url = new URL(src, location.href).href;
+        const res = await fetch(url, { method: 'GET', cache: 'no-store' });
+        out.push({ jp, ok: res.ok, status: res.status, src, bytes: +(res.headers.get('content-length') || 0) });
+      }
+      // Tap-play path: unlock + speak should wire the shared Audio element to the mp3.
+      // Headless Chrome often never fires onended / may autoplay-block, so we only assert
+      // that speak() selects the file src (not TTS-only) within a short window.
+      document.body.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true }));
+      Speech.unlock && Speech.unlock();
+      const src0 = Speech.audioSrc(samples[0]);
+      const abs = new URL(src0, location.href).href;
+      const speakP = Speech.speak(samples[0]);
+      await new Promise((r) => setTimeout(r, 200));
+      const cur = (Speech.playerSrc && Speech.playerSrc()) || '';
+      out.push({ jp: samples[0], expectedSrc: abs, playerSrc: cur, wired: cur.indexOf('329cf9756060') >= 0 || cur === abs });
+      speakP.catch(() => {});
+      return out;
+    }, samples);
+    console.log('audio checks', JSON.stringify(checks));
+    for (const c of checks) {
+      if ('status' in c) assert(c.ok && c.status === 200, 'audio HTTP 200 for ' + c.jp + ' ' + JSON.stringify(c));
+      if ('wired' in c) assert(c.wired, 'Speech.speak wired audio element to mp3 ' + JSON.stringify(c));
+    }
+    await ctx.close();
+  }
+
   await browser.close();
   if (errors.length) {
     console.error('CONSOLE ERRORS:\n' + errors.join('\n'));
