@@ -1,11 +1,12 @@
 // Service worker: precache the app shell, then stale-while-revalidate.
 // Bump VERSION after editing files if you want returning visitors to refresh right away.
-const VERSION = 'eliz-jp-v9';
+const VERSION = 'eliz-jp-v10';
 const SHELL = [
   './', './index.html', './manifest.json',
   './css/style.css', './js/store.js', './js/speech.js', './js/app.js',
   './data/speak.json',
   './fonts/mplus-rounded-500.woff2', './fonts/mplus-rounded-700.woff2', './fonts/mplus-rounded-800.woff2',
+  './fonts/quicksand-500.woff2', './fonts/quicksand-600.woff2', './fonts/quicksand-700.woff2',
   './img/mascot-wave.png', './img/mascot-cheer.png', './img/mascot-think.png',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'
 ];
