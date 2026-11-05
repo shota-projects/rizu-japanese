@@ -1,0 +1,267 @@
+{
+  "_readme": "Speak-stage content. Edit freely. Each phrase: jp (as written, kanji OK), kana (reading in kana, used for speech matching), romaji, en, note. Role-play lines: speaker 'them' (app speaks) or 'you' (Eliz answers; first option listed is the correct one, the app shuffles them). Progress is keyed by unit id + jp text, so editing a phrase's jp resets progress for that one phrase only.",
+  "units": [
+    {
+      "id": "greetings",
+      "title": "Hello & nice to meet you",
+      "jpTitle": "あいさつ",
+      "summary": "Greetings and a simple self-introduction.",
+      "phrases": [
+        { "jp": "こんにちは", "kana": "こんにちは", "romaji": "konnichiwa", "en": "Hello / Good afternoon", "note": "The all-purpose daytime hello. The last は is pronounced \"wa\" here." },
+        { "jp": "おはようございます", "kana": "おはようございます", "romaji": "ohayō gozaimasu", "en": "Good morning", "note": "Polite form. With friends and family, just おはよう (ohayō)." },
+        { "jp": "こんばんは", "kana": "こんばんは", "romaji": "konbanwa", "en": "Good evening", "note": "Use after dark. Again, the final は is \"wa\"." },
+        { "jp": "はじめまして", "kana": "はじめまして", "romaji": "hajimemashite", "en": "Nice to meet you (first meeting)", "note": "Only for the very first time you meet someone. It usually opens a self-introduction." },
+        { "jp": "エリズです", "kana": "えりずです", "romaji": "Erizu desu", "en": "I'm Eliz.", "note": "Your name + です. Japanese speakers usually leave out わたしは (\"I\") when it's obvious. Your name in katakana is エリズ." },
+        { "jp": "よろしくお願いします", "kana": "よろしくおねがいします", "romaji": "yoroshiku onegaishimasu", "en": "Nice to meet you / I look forward to working with you", "note": "Closes a self-introduction (after はじめまして… です). Also used when asking someone a favor." },
+        { "jp": "お元気ですか", "kana": "おげんきですか", "romaji": "ogenki desu ka", "en": "How are you?", "note": "Used when you haven't seen someone in a while, not as a daily \"how's it going\"." },
+        { "jp": "元気です", "kana": "げんきです", "romaji": "genki desu", "en": "I'm well.", "note": "The standard reply. You can add おかげさまで (okagesama de, \"thanks to you\") to sound extra polite." },
+        { "jp": "ありがとうございます", "kana": "ありがとうございます", "romaji": "arigatō gozaimasu", "en": "Thank you (polite)", "note": "Safe with everyone. With close friends, ありがとう (arigatō) is enough." },
+        { "jp": "じゃあ、またね", "kana": "じゃあまたね", "romaji": "jā, mata ne", "en": "See you! (casual)", "note": "Friends only. With people you don't know well, say それでは、また (soredewa, mata)." }
+      ],
+      "roleplay": {
+        "title": "Meeting Shota's friend Yuki",
+        "setting": "You're at a café and Shota introduces you to his friend Yuki.",
+        "lines": [
+          { "speaker": "them", "name": "Yuki", "jp": "はじめまして。ゆきです。", "romaji": "Hajimemashite. Yuki desu.", "en": "Nice to meet you. I'm Yuki." },
+          { "speaker": "you", "prompt": "Introduce yourself.", "options": [
+            { "jp": "はじめまして。エリズです。", "romaji": "Hajimemashite. Erizu desu.", "en": "Nice to meet you. I'm Eliz." },
+            { "jp": "じゃあ、またね。", "romaji": "Jā, mata ne.", "en": "See you!" },
+            { "jp": "おはようございます。ゆきです。", "romaji": "Ohayō gozaimasu. Yuki desu.", "en": "Good morning. I'm Yuki." }
+          ]},
+          { "speaker": "them", "name": "Yuki", "jp": "よろしくお願いします。", "romaji": "Yoroshiku onegaishimasu.", "en": "Nice to meet you." },
+          { "speaker": "you", "prompt": "Return the courtesy.", "options": [
+            { "jp": "よろしくお願いします。", "romaji": "Yoroshiku onegaishimasu.", "en": "Nice to meet you." },
+            { "jp": "元気です。", "romaji": "Genki desu.", "en": "I'm well." },
+            { "jp": "こんばんは。", "romaji": "Konbanwa.", "en": "Good evening." }
+          ]},
+          { "speaker": "them", "name": "Yuki", "jp": "日本語、上手ですね！", "romaji": "Nihongo, jōzu desu ne!", "en": "Your Japanese is good!" },
+          { "speaker": "you", "prompt": "Reply modestly, the Japanese way.", "note": "Accepting a compliment directly can sound boastful. いいえ、まだまだです is the classic humble reply.", "options": [
+            { "jp": "いいえ、まだまだです。", "romaji": "Iie, mada mada desu.", "en": "Oh no, I still have a long way to go." },
+            { "jp": "はい、上手です。", "romaji": "Hai, jōzu desu.", "en": "Yes, I'm good at it." },
+            { "jp": "ありがとう、またね。", "romaji": "Arigatō, mata ne.", "en": "Thanks, see you." }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "polite",
+      "title": "Yes, no & polite basics",
+      "jpTitle": "はい・いいえ",
+      "summary": "The little words that get you through any conversation.",
+      "phrases": [
+        { "jp": "はい", "kana": "はい", "romaji": "hai", "en": "Yes", "note": "Also means \"I'm listening\" or \"here you go\" when handing something over." },
+        { "jp": "いいえ", "kana": "いいえ", "romaji": "iie", "en": "No", "note": "Fairly direct. In conversation people often soften it, e.g. いえいえ when brushing off thanks." },
+        { "jp": "すみません", "kana": "すみません", "romaji": "sumimasen", "en": "Excuse me / Sorry", "note": "Your most useful word: getting a server's attention, squeezing past someone, a light apology, even a humble \"thanks\"." },
+        { "jp": "ごめんなさい", "kana": "ごめんなさい", "romaji": "gomen nasai", "en": "I'm sorry", "note": "A personal apology, softer and more heartfelt than すみません. Not used to get attention." },
+        { "jp": "大丈夫です", "kana": "だいじょうぶです", "romaji": "daijōbu desu", "en": "I'm OK / No, thank you", "note": "Also a polite way to decline: offered a bag or a refill you don't want? 大丈夫です." },
+        { "jp": "わかりました", "kana": "わかりました", "romaji": "wakarimashita", "en": "Understood / Got it", "note": "Polite and everyday. Staff will say the extra-formal かしこまりました." },
+        { "jp": "わかりません", "kana": "わかりません", "romaji": "wakarimasen", "en": "I don't understand / I don't know", "note": "Start with すみません、 to soften it." },
+        { "jp": "もう一度お願いします", "kana": "もういちどおねがいします", "romaji": "mō ichido onegaishimasu", "en": "One more time, please.", "note": "Your lifeline when someone speaks too fast." },
+        { "jp": "ゆっくりお願いします", "kana": "ゆっくりおねがいします", "romaji": "yukkuri onegaishimasu", "en": "Slowly, please.", "note": "Pair it with もう一度: もう一度、ゆっくりお願いします." },
+        { "jp": "英語を話せますか", "kana": "えいごをはなせますか", "romaji": "eigo o hanasemasu ka", "en": "Do you speak English?", "note": "英語が話せますか (with が) is equally common." }
+      ],
+      "roleplay": {
+        "title": "Someone stops you on the street",
+        "setting": "A friendly local stops you and starts talking quickly.",
+        "lines": [
+          { "speaker": "them", "name": "Local", "jp": "すみません、ちょっといいですか？", "romaji": "Sumimasen, chotto ii desu ka?", "en": "Excuse me, do you have a moment?" },
+          { "speaker": "you", "prompt": "Say yes.", "options": [
+            { "jp": "はい。", "romaji": "Hai.", "en": "Yes." },
+            { "jp": "ごめんなさい、またね。", "romaji": "Gomen nasai, mata ne.", "en": "Sorry, see you." },
+            { "jp": "こんばんは、エリズです。", "romaji": "Konbanwa, Erizu desu.", "en": "Good evening, I'm Eliz." }
+          ]},
+          { "speaker": "them", "name": "Local", "jp": "この近くに郵便局はありますか？", "romaji": "Kono chikaku ni yūbinkyoku wa arimasu ka?", "en": "Is there a post office near here?", "fast": true },
+          { "speaker": "you", "prompt": "That was fast. Ask them to repeat it.", "options": [
+            { "jp": "すみません、もう一度お願いします。", "romaji": "Sumimasen, mō ichido onegaishimasu.", "en": "Sorry, one more time, please." },
+            { "jp": "はい、わかりました。", "romaji": "Hai, wakarimashita.", "en": "Yes, understood." },
+            { "jp": "大丈夫です。", "romaji": "Daijōbu desu.", "en": "I'm OK." }
+          ]},
+          { "speaker": "them", "name": "Local", "jp": "郵便局です。この近くにありますか？", "romaji": "Yūbinkyoku desu. Kono chikaku ni arimasu ka?", "en": "A post office. Is there one nearby?" },
+          { "speaker": "you", "prompt": "You don't know. Say so politely.", "options": [
+            { "jp": "すみません、わかりません。", "romaji": "Sumimasen, wakarimasen.", "en": "Sorry, I don't know." },
+            { "jp": "はい、元気です。", "romaji": "Hai, genki desu.", "en": "Yes, I'm well." },
+            { "jp": "よろしくお願いします。", "romaji": "Yoroshiku onegaishimasu.", "en": "Nice to meet you." }
+          ]},
+          { "speaker": "them", "name": "Local", "jp": "大丈夫です。ありがとうございます！", "romaji": "Daijōbu desu. Arigatō gozaimasu!", "en": "No problem. Thank you!" }
+        ]
+      }
+    },
+    {
+      "id": "food",
+      "title": "At a café or restaurant",
+      "jpTitle": "レストラン",
+      "summary": "Getting a table, ordering, and paying.",
+      "phrases": [
+        { "jp": "何名様ですか", "kana": "なんめいさまですか", "romaji": "nanmei-sama desu ka", "en": "How many people? (staff asks)", "note": "You'll hear this at the door. Answer with the number of people, or just hold up fingers." },
+        { "jp": "二人です", "kana": "ふたりです", "romaji": "futari desu", "en": "Two people.", "note": "One person is 一人 (hitori), three is 三人 (san-nin)." },
+        { "jp": "メニューをお願いします", "kana": "めにゅーをおねがいします", "romaji": "menyū o onegaishimasu", "en": "The menu, please.", "note": "Add すみません、 first to get a server's attention." },
+        { "jp": "おすすめは何ですか", "kana": "おすすめはなんですか", "romaji": "osusume wa nan desu ka", "en": "What do you recommend?", "note": "Servers love this question and it often gets you the best dish." },
+        { "jp": "これをください", "kana": "これをください", "romaji": "kore o kudasai", "en": "This one, please.", "note": "Point at the menu photo. Works everywhere." },
+        { "jp": "コーヒーを一つお願いします", "kana": "こーひーをひとつおねがいします", "romaji": "kōhī o hitotsu onegaishimasu", "en": "One coffee, please.", "note": "ひとつ, ふたつ, みっつ (one, two, three) count most things you order." },
+        { "jp": "お水をください", "kana": "おみずをください", "romaji": "omizu o kudasai", "en": "Water, please.", "note": "Water is usually free. The お makes it sound polite and soft." },
+        { "jp": "いただきます", "kana": "いただきます", "romaji": "itadakimasu", "en": "(said before eating)", "note": "Like a small thank-you before the first bite. Everyone says it, even alone." },
+        { "jp": "おいしいです", "kana": "おいしいです", "romaji": "oishii desu", "en": "It's delicious.", "note": "With friends, just おいしい！" },
+        { "jp": "ごちそうさまでした", "kana": "ごちそうさまでした", "romaji": "gochisōsama deshita", "en": "Thank you for the meal (after eating)", "note": "Say it after the meal, and to the staff as you leave. It's always appreciated." },
+        { "jp": "お会計お願いします", "kana": "おかいけいおねがいします", "romaji": "okaikei onegaishimasu", "en": "The check, please.", "note": "In many places you pay at the register by the door, not at the table." }
+      ],
+      "roleplay": {
+        "title": "Coffee for two",
+        "setting": "You walk into a small café with Shota.",
+        "lines": [
+          { "speaker": "them", "name": "Staff", "jp": "いらっしゃいませ！何名様ですか？", "romaji": "Irasshaimase! Nanmei-sama desu ka?", "en": "Welcome! How many people?" },
+          { "speaker": "you", "prompt": "Tell them it's two of you.", "options": [
+            { "jp": "二人です。", "romaji": "Futari desu.", "en": "Two people." },
+            { "jp": "おいしいです。", "romaji": "Oishii desu.", "en": "It's delicious." },
+            { "jp": "いただきます。", "romaji": "Itadakimasu.", "en": "(said before eating)" }
+          ]},
+          { "speaker": "them", "name": "Staff", "jp": "ご注文はお決まりですか？", "romaji": "Go-chūmon wa o-kimari desu ka?", "en": "Are you ready to order?" },
+          { "speaker": "you", "prompt": "Order one coffee.", "options": [
+            { "jp": "コーヒーを一つお願いします。", "romaji": "Kōhī o hitotsu onegaishimasu.", "en": "One coffee, please." },
+            { "jp": "ごちそうさまでした。", "romaji": "Gochisōsama deshita.", "en": "Thank you for the meal." },
+            { "jp": "はじめまして。", "romaji": "Hajimemashite.", "en": "Nice to meet you." }
+          ]},
+          { "speaker": "them", "name": "Staff", "jp": "かしこまりました。", "romaji": "Kashikomarimashita.", "en": "Certainly." },
+          { "speaker": "you", "prompt": "Later: ask for the check.", "options": [
+            { "jp": "すみません、お会計お願いします。", "romaji": "Sumimasen, okaikei onegaishimasu.", "en": "Excuse me, the check, please." },
+            { "jp": "すみません、いただきます。", "romaji": "Sumimasen, itadakimasu.", "en": "Excuse me, (before eating)." },
+            { "jp": "お水は二人です。", "romaji": "Omizu wa futari desu.", "en": "The water is two people." }
+          ]},
+          { "speaker": "them", "name": "Staff", "jp": "ありがとうございました！", "romaji": "Arigatō gozaimashita!", "en": "Thank you very much!" }
+        ]
+      }
+    },
+    {
+      "id": "directions",
+      "title": "Finding your way",
+      "jpTitle": "みち",
+      "summary": "Asking where things are and understanding the answer.",
+      "phrases": [
+        { "jp": "トイレはどこですか", "kana": "といれはどこですか", "romaji": "toire wa doko desu ka", "en": "Where's the restroom?", "note": "[thing] は どこですか works for anything you're looking for." },
+        { "jp": "駅はどこですか", "kana": "えきはどこですか", "romaji": "eki wa doko desu ka", "en": "Where's the station?", "note": "駅 (eki) = train station." },
+        { "jp": "この近くにコンビニはありますか", "kana": "このちかくにこんびにはありますか", "romaji": "kono chikaku ni konbini wa arimasu ka", "en": "Is there a convenience store nearby?", "note": "Swap コンビニ for any place: 郵便局 (post office), ATM, 薬局 (pharmacy)." },
+        { "jp": "まっすぐです", "kana": "まっすぐです", "romaji": "massugu desu", "en": "It's straight ahead.", "note": "The small っ is a tiny pause: mas-sugu." },
+        { "jp": "右です", "kana": "みぎです", "romaji": "migi desu", "en": "It's on the right.", "note": "右に曲がってください = please turn right." },
+        { "jp": "左です", "kana": "ひだりです", "romaji": "hidari desu", "en": "It's on the left.", "note": "Tip: 右 (migi) and 左 (hidari) are easy to mix up at first. Say them with a gesture." },
+        { "jp": "あそこです", "kana": "あそこです", "romaji": "asoko desu", "en": "It's over there.", "note": "ここ (here), そこ (there, near you), あそこ (over there, away from both of us)." },
+        { "jp": "ここから遠いですか", "kana": "ここからとおいですか", "romaji": "koko kara tōi desu ka", "en": "Is it far from here?", "note": "The opposite of 遠い (far) is 近い (chikai, near)." },
+        { "jp": "歩いて五分ぐらいです", "kana": "あるいてごふんぐらいです", "romaji": "aruite go-fun gurai desu", "en": "About five minutes on foot.", "note": "ぐらい (or くらい) = \"about\". You'll hear this kind of answer often." },
+        { "jp": "地図で教えてもらえますか", "kana": "ちずでおしえてもらえますか", "romaji": "chizu de oshiete moraemasu ka", "en": "Could you show me on the map?", "note": "Hold up your phone map while you ask. Much easier than following spoken directions." }
+      ],
+      "roleplay": {
+        "title": "Looking for the station",
+        "setting": "You're lost near Shibuya and need the station.",
+        "lines": [
+          { "speaker": "you", "prompt": "Get a passer-by's attention.", "options": [
+            { "jp": "すみません。", "romaji": "Sumimasen.", "en": "Excuse me." },
+            { "jp": "ごめんなさい。", "romaji": "Gomen nasai.", "en": "I'm sorry." },
+            { "jp": "いただきます。", "romaji": "Itadakimasu.", "en": "(said before eating)" }
+          ]},
+          { "speaker": "them", "name": "Passer-by", "jp": "はい？", "romaji": "Hai?", "en": "Yes?" },
+          { "speaker": "you", "prompt": "Ask where the station is.", "options": [
+            { "jp": "駅はどこですか。", "romaji": "Eki wa doko desu ka.", "en": "Where's the station?" },
+            { "jp": "駅はおいしいですか。", "romaji": "Eki wa oishii desu ka.", "en": "Is the station delicious?" },
+            { "jp": "二人です。", "romaji": "Futari desu.", "en": "Two people." }
+          ]},
+          { "speaker": "them", "name": "Passer-by", "jp": "あの信号を右に曲がってください。", "romaji": "Ano shingō o migi ni magatte kudasai.", "en": "Please turn right at that traffic light." },
+          { "speaker": "you", "prompt": "Ask if it's far.", "options": [
+            { "jp": "ここから遠いですか。", "romaji": "Koko kara tōi desu ka.", "en": "Is it far from here?" },
+            { "jp": "トイレは左です。", "romaji": "Toire wa hidari desu.", "en": "The restroom is on the left." },
+            { "jp": "はじめまして。", "romaji": "Hajimemashite.", "en": "Nice to meet you." }
+          ]},
+          { "speaker": "them", "name": "Passer-by", "jp": "いいえ、歩いて五分ぐらいですよ。", "romaji": "Iie, aruite go-fun gurai desu yo.", "en": "No, it's about five minutes on foot." },
+          { "speaker": "you", "prompt": "Thank them.", "options": [
+            { "jp": "ありがとうございます。", "romaji": "Arigatō gozaimasu.", "en": "Thank you." },
+            { "jp": "ごちそうさまでした。", "romaji": "Gochisōsama deshita.", "en": "Thank you for the meal." },
+            { "jp": "わかりません。", "romaji": "Wakarimasen.", "en": "I don't understand." }
+          ]}
+        ]
+      }
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping & prices",
+      "jpTitle": "かいもの",
+      "summary": "Browsing, asking prices, and paying.",
+      "phrases": [
+        { "jp": "いらっしゃいませ", "kana": "いらっしゃいませ", "romaji": "irasshaimase", "en": "Welcome! (staff says)", "note": "You'll hear it the moment you walk in. No need to reply; a smile or small nod is perfect." },
+        { "jp": "見ているだけです", "kana": "みているだけです", "romaji": "mite iru dake desu", "en": "I'm just looking.", "note": "In casual speech it shortens to 見てるだけです (miteru dake desu)." },
+        { "jp": "これはいくらですか", "kana": "これはいくらですか", "romaji": "kore wa ikura desu ka", "en": "How much is this?", "note": "Point at the item. Prices are usually shown, but this is handy at markets." },
+        { "jp": "百円", "kana": "ひゃくえん", "romaji": "hyaku en", "en": "100 yen", "note": "円 (en) = yen. Japanese counts in units of 10,000 (万, man), so 10,000 yen is 一万円 (ichiman en)." },
+        { "jp": "五百円", "kana": "ごひゃくえん", "romaji": "gohyaku en", "en": "500 yen", "note": "Watch the sound changes: 300 is さんびゃく (sanbyaku), 600 is ろっぴゃく (roppyaku)." },
+        { "jp": "千円", "kana": "せんえん", "romaji": "sen en", "en": "1,000 yen", "note": "The most common banknote." },
+        { "jp": "三千円", "kana": "さんぜんえん", "romaji": "sanzen en", "en": "3,000 yen", "note": "3,000 softens to さんぜん (sanzen), and 8,000 is はっせん (hassen)." },
+        { "jp": "試着してもいいですか", "kana": "しちゃくしてもいいですか", "romaji": "shichaku shite mo ii desu ka", "en": "May I try it on?", "note": "〜てもいいですか = \"May I …?\" Very useful pattern." },
+        { "jp": "これにします", "kana": "これにします", "romaji": "kore ni shimasu", "en": "I'll take this one.", "note": "Literally \"I'll go with this\". Also works when choosing from a menu." },
+        { "jp": "カードで払えますか", "kana": "かーどではらえますか", "romaji": "kādo de haraemasu ka", "en": "Can I pay by card?", "note": "Most shops take cards, but small restaurants and shrines may be cash only." },
+        { "jp": "袋は大丈夫です", "kana": "ふくろはだいじょうぶです", "romaji": "fukuro wa daijōbu desu", "en": "I don't need a bag.", "note": "Bags usually cost a few yen now, so cashiers will ask." }
+      ],
+      "roleplay": {
+        "title": "Buying a scarf",
+        "setting": "You find a scarf you love at a small shop.",
+        "lines": [
+          { "speaker": "them", "name": "Staff", "jp": "いらっしゃいませ。", "romaji": "Irasshaimase.", "en": "Welcome." },
+          { "speaker": "you", "prompt": "Ask how much this is.", "options": [
+            { "jp": "これはいくらですか。", "romaji": "Kore wa ikura desu ka.", "en": "How much is this?" },
+            { "jp": "これはどこですか。", "romaji": "Kore wa doko desu ka.", "en": "Where is this?" },
+            { "jp": "いらっしゃいませ。", "romaji": "Irasshaimase.", "en": "Welcome." }
+          ]},
+          { "speaker": "them", "name": "Staff", "jp": "三千円です。", "romaji": "Sanzen en desu.", "en": "It's 3,000 yen." },
+          { "speaker": "you", "prompt": "Say you'll take it.", "options": [
+            { "jp": "これにします。", "romaji": "Kore ni shimasu.", "en": "I'll take this one." },
+            { "jp": "見ているだけです。", "romaji": "Mite iru dake desu.", "en": "I'm just looking." },
+            { "jp": "百円です。", "romaji": "Hyaku en desu.", "en": "It's 100 yen." }
+          ]},
+          { "speaker": "them", "name": "Staff", "jp": "袋はお付けしますか？", "romaji": "Fukuro wa o-tsuke shimasu ka?", "en": "Would you like a bag?" },
+          { "speaker": "you", "prompt": "Politely say you don't need one.", "options": [
+            { "jp": "大丈夫です。", "romaji": "Daijōbu desu.", "en": "No, thank you." },
+            { "jp": "ごめんなさい。", "romaji": "Gomen nasai.", "en": "I'm sorry." },
+            { "jp": "おいしいです。", "romaji": "Oishii desu.", "en": "It's delicious." }
+          ]},
+          { "speaker": "them", "name": "Staff", "jp": "ありがとうございました。", "romaji": "Arigatō gozaimashita.", "en": "Thank you very much." }
+        ]
+      }
+    },
+    {
+      "id": "smalltalk",
+      "title": "Likes & small talk",
+      "jpTitle": "すきなこと",
+      "summary": "Talking about what you do and what you love.",
+      "phrases": [
+        { "jp": "趣味は何ですか", "kana": "しゅみはなんですか", "romaji": "shumi wa nan desu ka", "en": "What are your hobbies?", "note": "A classic getting-to-know-you question." },
+        { "jp": "趣味は料理です", "kana": "しゅみはりょうりです", "romaji": "shumi wa ryōri desu", "en": "My hobby is cooking.", "note": "Swap in your own: 写真 (shashin, photography), 旅行 (ryokō, travel), 絵 (e, drawing)." },
+        { "jp": "何が好きですか", "kana": "なにがすきですか", "romaji": "nani ga suki desu ka", "en": "What do you like?", "note": "好き (suki) = like. Note it uses が, not を." },
+        { "jp": "音楽が好きです", "kana": "おんがくがすきです", "romaji": "ongaku ga suki desu", "en": "I like music.", "note": "[thing] が好きです is the pattern for anything you like." },
+        { "jp": "映画を見るのが好きです", "kana": "えいがをみるのがすきです", "romaji": "eiga o miru no ga suki desu", "en": "I like watching movies.", "note": "Verb + のが好きです = \"I like doing …\"." },
+        { "jp": "デザイナーです", "kana": "でざいなーです", "romaji": "dezainā desu", "en": "I'm a designer.", "note": "Job + です. Graphic designer is グラフィックデザイナー." },
+        { "jp": "日本語を勉強しています", "kana": "にほんごをべんきょうしています", "romaji": "nihongo o benkyō shite imasu", "en": "I'm studying Japanese.", "note": "People will be delighted to hear this, and often slow down for you." },
+        { "jp": "私もです", "kana": "わたしもです", "romaji": "watashi mo desu", "en": "Me too.", "note": "も (mo) = also. Casual: 私も！" },
+        { "jp": "いいですね", "kana": "いいですね", "romaji": "ii desu ne", "en": "That's nice! / Sounds good!", "note": "The ね invites agreement. It's warm and keeps the conversation going." },
+        { "jp": "週末は何をしますか", "kana": "しゅうまつはなにをしますか", "romaji": "shūmatsu wa nani o shimasu ka", "en": "What do you do on weekends?", "note": "Great follow-up question when talk slows down." }
+      ],
+      "roleplay": {
+        "title": "Chatting with Yuki",
+        "setting": "Yuki wants to get to know you better.",
+        "lines": [
+          { "speaker": "them", "name": "Yuki", "jp": "エリズさんのお仕事は何ですか？", "romaji": "Erizu-san no o-shigoto wa nan desu ka?", "en": "What do you do for work, Eliz?" },
+          { "speaker": "you", "prompt": "Say you're a designer.", "options": [
+            { "jp": "デザイナーです。", "romaji": "Dezainā desu.", "en": "I'm a designer." },
+            { "jp": "デザイナーが好きですか。", "romaji": "Dezainā ga suki desu ka.", "en": "Do you like designers?" },
+            { "jp": "いらっしゃいませ。", "romaji": "Irasshaimase.", "en": "Welcome." }
+          ]},
+          { "speaker": "them", "name": "Yuki", "jp": "へえ、すごい！趣味は何ですか？", "romaji": "Hē, sugoi! Shumi wa nan desu ka?", "en": "Wow, amazing! What are your hobbies?" },
+          { "speaker": "you", "prompt": "Say you like music.", "options": [
+            { "jp": "音楽が好きです。", "romaji": "Ongaku ga suki desu.", "en": "I like music." },
+            { "jp": "音楽はどこですか。", "romaji": "Ongaku wa doko desu ka.", "en": "Where is the music?" },
+            { "jp": "音楽を一つお願いします。", "romaji": "Ongaku o hitotsu onegaishimasu.", "en": "One music, please." }
+          ]},
+          { "speaker": "them", "name": "Yuki", "jp": "私も音楽が好きです！", "romaji": "Watashi mo ongaku ga suki desu!", "en": "I like music too!" },
+          { "speaker": "you", "prompt": "React warmly.", "options": [
+            { "jp": "いいですね！", "romaji": "Ii desu ne!", "en": "That's nice!" },
+            { "jp": "わかりません。", "romaji": "Wakarimasen.", "en": "I don't understand." },
+            { "jp": "ごめんなさい。", "romaji": "Gomen nasai.", "en": "I'm sorry." }
+          ]}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_readme": "Read-stage content. Lessons with open:false show as 'coming soon'. Each kana: char, romaji, hint (a memory trick), example word.",
+  "intro": "Japanese uses three scripts. Hiragana (46 sounds) comes first: it spells native words and grammar. Katakana spells foreign words like コーヒー. Kanji comes later.",
+  "lessons": [
+    {
+      "id": "hira-vowels",
+      "script": "Hiragana",
+      "title": "The five vowels",
+      "open": true,
+      "kana": [
+        { "char": "あ", "romaji": "a", "hint": "Sounds like \"ah\", as in \"father\". Picture an apple with a stick through it.", "word": "あさ", "wordRomaji": "asa", "wordEn": "morning" },
+        { "char": "い", "romaji": "i", "hint": "Sounds like \"ee\". Two strokes, like two eels side by side.", "word": "いえ", "wordRomaji": "ie", "wordEn": "house" },
+        { "char": "う", "romaji": "u", "hint": "Sounds like \"oo\", with relaxed lips.", "word": "うみ", "wordRomaji": "umi", "wordEn": "sea" },
+        { "char": "え", "romaji": "e", "hint": "Sounds like the \"e\" in \"pet\".", "word": "えき", "wordRomaji": "eki", "wordEn": "station" },
+        { "char": "お", "romaji": "o", "hint": "Sounds like \"oh\". Like あ, but with a little dash on the right.", "word": "おちゃ", "wordRomaji": "ocha", "wordEn": "green tea" }
+      ]
+    },
+    { "id": "hira-k", "script": "Hiragana", "title": "K-row: か き く け こ", "open": false },
+    { "id": "hira-s", "script": "Hiragana", "title": "S-row: さ し す せ そ", "open": false },
+    { "id": "hira-t", "script": "Hiragana", "title": "T-row: た ち つ て と", "open": false },
+    { "id": "hira-n", "script": "Hiragana", "title": "N-row: な に ぬ ね の", "open": false },
+    { "id": "kata-vowels", "script": "Katakana", "title": "Katakana vowels: ア イ ウ エ オ", "open": false }
+  ]
+}
