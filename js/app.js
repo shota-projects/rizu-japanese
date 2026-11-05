@@ -681,7 +681,7 @@
     go(nextDailyHash());
   }
 
-  // (a) Warm-up: up to 8 due Leitner phrases, speak aloud
+  // (a) Warm-up: up to 8 due Leitner phrases — recall from English (memory test)
   function viewTodayWarm() {
     const d = Store.ensureDaily();
     if (d.warmDone) return go(nextDailyHash());
@@ -708,29 +708,122 @@
       }
       const { phrase: p, unit: u } = due[i];
       const id = pid(u, p);
+      const known = phraseKnown(u, p);
+      const kana = kanaFor(p);
+      const len = [...p.jp].length;
+      const size = len > 12 ? 'xlong' : len > 8 ? 'long' : '';
       $app.innerHTML = `
         ${dailyStepBar('warm')}
         <div class="quiz-top"><span>Review ${i + 1} of ${due.length}</span><div class="bar small"><span style="width:${(i / due.length) * 100}%"></span></div></div>
-        <article class="card phrase-card" id="phrase-card">
+        <article class="card phrase-card warm-card" id="phrase-card">
           <span class="card-deco">${DECO.bow}</span>
-          ${phraseHTML(p, { known: phraseKnown(u, p) })}
-          ${audioButtons(p.jp)}
+          <p class="prompt warm-ask"><span class="eyebrow">Recall</span> How do you say this?</p>
+          <div class="phrase-en warm-en">${esc(p.en)}</div>
+          <div class="warm-answer hidden" id="warm-answer">
+            <div class="phrase big ${size}">
+              <div class="jp phrase-jp" lang="ja">${esc(p.jp)}</div>
+              ${kana ? `<div class="jp phrase-kana" lang="ja">${esc(kana)}</div>` : ''}
+              <div class="phrase-romaji-wrap">${romajiHTML(p.romaji, 'phrase-romaji', known)}</div>
+            </div>
+            <div id="warm-audio">${audioButtons(p.jp)}</div>
+          </div>
           <div class="practice" id="practice"></div>
         </article>
         <button class="btn primary wide" id="warm-next" disabled>Next</button>`;
       let rated = false;
-      speakCheck(document.getElementById('practice'), [p.jp, p.kana].filter(Boolean), (ok) => {
+      const markRated = (ok) => {
         Store.grade(id, !!ok);
         rated = true;
-        document.getElementById('warm-next').disabled = false;
-      });
+        const next = document.getElementById('warm-next');
+        if (next) next.disabled = false;
+      };
+      warmRecallPractice(document.getElementById('practice'), p, markRated);
       document.getElementById('warm-next').onclick = () => {
-        if (!rated) Store.grade(id, true); // skipped rating → gentle pass so flow continues
+        // Never grade a skip as pass — Next stays disabled until a result exists.
+        if (!rated) return;
         i++; show();
       };
-      setTimeout(() => Speech.speak(p.jp), 250);
     };
     show();
+  }
+
+  // Warm-up practice: hide JP until mic attempt or Show answer; then autoplay + rate/override.
+  function warmRecallPractice(container, p, onRated) {
+    const targets = [p.jp, p.kana].filter(Boolean);
+    let revealed = false;
+    const reveal = () => {
+      if (revealed) return;
+      revealed = true;
+      const ans = document.getElementById('warm-answer');
+      if (ans) ans.classList.remove('hidden');
+      const showBtn = container.querySelector('[data-show-answer]');
+      if (showBtn) showBtn.remove();
+      Speech.speak(p.jp);
+      ensureRate();
+    };
+    const ensureRate = () => {
+      if (container.querySelector('.rate-row')) return;
+      container.insertAdjacentHTML('beforeend', `
+        <p class="muted small warm-rate-hint">Be honest — how did you do?</p>
+        <div class="rate-row">
+          <button class="btn ghost" data-rate="0">Again</button>
+          <button class="btn soft" data-rate="1">Got it</button>
+        </div>`);
+      container.querySelectorAll('[data-rate]').forEach((b) => {
+        b.onclick = () => {
+          container.querySelectorAll('[data-rate]').forEach((x) => x.classList.remove('chosen'));
+          b.classList.add('chosen');
+          if (b.dataset.rate === '1') bounce(b);
+          onRated(b.dataset.rate === '1');
+        };
+      });
+    };
+
+    if (Speech.canListen) {
+      container.innerHTML = `
+        <button class="mic" data-mic>${ICON.mic}<span>Tap and say it</span></button>
+        <button class="btn ghost wide" data-show-answer type="button">Show answer</button>
+        <div class="result" data-result></div>`;
+      const btn = container.querySelector('[data-mic]');
+      const out = container.querySelector('[data-result]');
+      container.querySelector('[data-show-answer]').onclick = () => reveal();
+      btn.onclick = async () => {
+        btn.classList.add('listening');
+        btn.querySelector('span').textContent = 'Listening…';
+        try {
+          const alts = await Speech.listen();
+          if (!alts.length) {
+            out.innerHTML = '<p class="muted">I didn’t catch that. Try again a little closer to the mic.</p>';
+            return;
+          }
+          const { score, heard } = Speech.score(alts, targets);
+          const label = score >= 80 ? ['great', 'すごい！ Great'] : score >= 55 ? ['close', 'Close, nice'] : ['again', 'Let’s try again'];
+          out.innerHTML = `<div class="score ${label[0]}"><span class="score-num">${score}%</span><span>${label[1]}</span></div><p class="heard">Heard: <span class="jp">${esc(heard)}</span></p>`;
+          if (score >= 80) celebrate(out.querySelector('.score'));
+          // Below 55 → false; allow Got it / Again override after reveal.
+          onRated(score >= 55);
+          reveal();
+        } catch (err) {
+          const msg = /not-allowed|service-not-allowed/.test(err.message)
+            ? 'Microphone access is blocked. Show the answer and rate yourself.'
+            : 'Speech check isn’t working right now. Show the answer and rate yourself.';
+          out.innerHTML = `<p class="muted">${msg}</p>`;
+          // Fall back to show-answer + self-rate (no auto-grade).
+          if (!container.querySelector('[data-show-answer]')) {
+            container.insertAdjacentHTML('afterbegin', `<button class="btn ghost wide" data-show-answer type="button">Show answer</button>`);
+            container.querySelector('[data-show-answer]').onclick = () => reveal();
+          }
+        } finally {
+          btn.classList.remove('listening');
+          btn.querySelector('span').textContent = 'Tap and say it';
+        }
+      };
+    } else {
+      container.innerHTML = `
+        <p class="muted small">Say it out loud from memory, then check:</p>
+        <button class="btn soft wide" data-show-answer type="button">Show answer</button>`;
+      container.querySelector('[data-show-answer]').onclick = () => reveal();
+    }
   }
 
   // (b) New phrases: 3/5/7 along interleaved curriculum

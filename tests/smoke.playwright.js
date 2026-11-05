@@ -91,8 +91,10 @@ const assert = (c, m) => { if (!c) throw new Error('ASSERT: ' + m); };
     // Skip empty warm-up
     if (await page.$('a[href="#/today/new"]')) await page.click('a[href="#/today/new"]');
     else if (await page.$('#warm-next')) {
-      // rated path — shouldn't happen with empty due, but be safe
+      // Memory warm-up with due phrases: reveal → rate → next
+      const showAns = await page.$('[data-show-answer]'); if (showAns) await showAns.click();
       const rate = await page.$('[data-rate="1"]'); if (rate) await rate.click();
+      await page.waitForSelector('#warm-next:not([disabled])');
       await page.click('#warm-next');
     }
     await page.waitForURL(/#\/today\/new/);
@@ -283,6 +285,51 @@ const assert = (c, m) => { if (!c) throw new Error('ASSERT: ' + m); };
     await page.evaluate(() => document.fonts.ready);
     await shot(page, '08-desktop-home.png');
     await ctx.close();
+  }
+
+  // ---------- warm-up memory recall screenshots ----------
+  {
+    const { ctx, page } = await mk('warm-shots', { noRec: true, keepStorage: true });
+    // Seed due SRS phrases before first paint so warm-up shows a recall card.
+    await ctx.addInitScript(() => {
+      const key = 'eliz-jp-v1';
+      const today = new Date().toISOString().slice(0, 10);
+      const ids = ['f-meet:久しぶりです', 'f-meet:また会えてうれしいです', 'f-meet:お邪魔します'];
+      const now = Date.now() - 1000;
+      const srs = {};
+      const seen = {};
+      ids.forEach((id, i) => { srs[id] = { box: 1, due: now - i }; seen[id] = true; });
+      localStorage.setItem(key, JSON.stringify({
+        daily: { date: today, warmDone: false, newDone: false, convoDone: false, listenDone: false, done: false, newIds: [] },
+        srs, seen,
+        curriculum: { unlocked: 3 },
+        settings: { dailyNew: 3, romaji: 'show' },
+        days: [], units: {}, read: {}
+      }));
+    });
+    await page.goto(BASE + '#/today/warm');
+    await page.waitForSelector('.warm-card .warm-en, #phrase-card .warm-en');
+    const hiddenOk = await page.evaluate(() => {
+      const ans = document.getElementById('warm-answer');
+      const en = document.querySelector('.warm-en');
+      return !!(en && ans && ans.classList.contains('hidden'));
+    });
+    assert(hiddenOk, 'warm hidden state (EN only, answer hidden)');
+    assert(await page.$('[data-show-answer]'), 'Show answer button');
+    assert(await page.$eval('#warm-answer', (el) => el.classList.contains('hidden')), 'jp still hidden');
+    // Audio row lives inside the hidden answer block
+    assert(await page.$eval('#warm-answer .audio-row', (el) => el.closest('#warm-answer').classList.contains('hidden')), 'audio hidden until reveal');
+    await shot(page, '21-warm-hidden.png');
+    await page.click('[data-show-answer]');
+    await page.waitForSelector('#warm-answer:not(.hidden) .phrase-jp');
+    assert(await page.$('[data-rate]'), 'rate buttons after reveal');
+    assert(await page.$('#warm-answer:not(.hidden) .audio-row .pill'), 'audio buttons after reveal');
+    assert(await page.$eval('#warm-next', (b) => b.disabled), 'Next disabled before rating');
+    await shot(page, '22-warm-revealed.png');
+    await page.click('[data-rate="1"]');
+    await page.waitForSelector('#warm-next:not([disabled])');
+    await ctx.close();
+    console.log('warm recall screenshots ok');
   }
 
   // ---------- pre-generated audio (iOS-reliable) ----------
