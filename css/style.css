@@ -77,7 +77,13 @@ main { padding-top: 8px; }
 .hero-mascot { width: 118px; height: auto; margin: 48px -4px 0 0; filter: drop-shadow(0 6px 10px rgba(118, 80, 196, .18)); animation: float 3.6s ease-in-out infinite; }
 @keyframes float { 50% { transform: translateY(-5px) rotate(-1.5deg); } }
 .eyebrow { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--pink); font-weight: 800; margin: 0 0 4px; }
-.hero-jp { font-size: 1.75rem; font-weight: 800; margin: 0; line-height: 1.25; text-wrap: balance; }
+.hero-jp {
+  font-size: clamp(1.28rem, 4.6vw + 0.55rem, 1.75rem);
+  font-weight: 800; margin: 0; line-height: 1.3;
+  word-break: keep-all; line-break: strict; overflow-wrap: normal;
+}
+.hero-jp .greet-phrase,
+.hero-jp .greet-name { display: inline-block; white-space: nowrap; }
 .hero-en { color: var(--ink-2); margin: 6px 0 0; font-size: .95rem; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
 .stat { background: var(--card); border-radius: 20px; padding: 12px; box-shadow: var(--shadow); display: flex; flex-direction: column; align-items: center; border: 2px solid var(--line); }
@@ -250,7 +256,7 @@ main { padding-top: 8px; }
 .done-mascot { width: 150px; height: auto; display: block; margin: 0 auto 4px; }
 .complete-banner { display: inline-flex; gap: 8px; align-items: center; background: var(--ink); color: #fff; padding: 8px 16px; border-radius: 999px; font-weight: 800; font-size: .9rem; }
 .complete-banner .deco { color: var(--pink-mid); }
-.big-jp { font-size: 1.9rem; font-weight: 800; margin: 8px 0 4px; color: var(--lav-deep); }
+.big-jp { font-size: clamp(1.45rem, 5vw + 0.4rem, 1.9rem); font-weight: 800; margin: 8px 0 4px; color: var(--lav-deep); word-break: keep-all; line-break: strict; overflow-wrap: normal; }
 .score-big { font-size: 2.2rem; font-weight: 800; margin: 0; }
 
 /* quiz / listening */

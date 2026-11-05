@@ -64,9 +64,9 @@
   // ---------- HOME ----------
   function greeting() {
     const h = new Date().getHours();
-    if (h < 11) return ['おはよう、エリズ', 'Good morning, Eliz'];
-    if (h < 18) return ['こんにちは、エリズ', 'Hello, Eliz'];
-    return ['こんばんは、エリズ', 'Good evening, Eliz'];
+    if (h < 11) return ['おはよう、リズ', 'Good morning, Eliz'];
+    if (h < 18) return ['こんにちは、リズ', 'Hello, Eliz'];
+    return ['こんばんは、リズ', 'Good evening, Eliz'];
   }
 
   function viewHome() {

@@ -1,6 +1,6 @@
 // Service worker: precache the app shell, then stale-while-revalidate.
 // Bump VERSION after editing files if you want returning visitors to refresh right away.
-const VERSION = 'eliz-jp-v10';
+const VERSION = 'eliz-jp-v11';
 const SHELL = [
   './', './index.html', './manifest.json',
   './css/style.css', './js/store.js', './js/speech.js', './js/app.js',

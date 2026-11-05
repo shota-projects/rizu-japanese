@@ -66,9 +66,13 @@
   // ---------- HOME ----------
   function greeting() {
     const h = new Date().getHours();
-    if (h < 11) return ['おはよう、エリズ', 'Good morning, Eliz'];
-    if (h < 18) return ['こんにちは、エリズ', 'Hello, Eliz'];
-    return ['こんばんは、エリズ', 'Good evening, Eliz'];
+    // Keep the time phrase + name as unbreakable chunks so こんばんは never wraps mid-word.
+    let phrase, en;
+    if (h < 11) { phrase = 'おはよう'; en = 'Good morning, Eliz'; }
+    else if (h < 18) { phrase = 'こんにちは'; en = 'Hello, Eliz'; }
+    else { phrase = 'こんばんは'; en = 'Good evening, Eliz'; }
+    const html = `<span class="greet-phrase">${phrase}、</span><span class="greet-name">リズ</span>`;
+    return [html, en];
   }
 
   function heatmapHTML() {
