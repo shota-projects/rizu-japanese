@@ -1,5 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
+  "style": "r2",
+  "rate": "-10%",
+  "pitch": "+0Hz",
   "voices": {
     "female": "ja-JP-NanamiNeural",
     "male": "ja-JP-KeitaNeural"
@@ -7,2068 +10,2412 @@
   "count": 344,
   "byText": {
     "Suicaで払います": {
-      "src": "./audio/f/27f8d80011df.mp3",
+      "src": "./audio/f/6c96e4b2e0ef.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "27f8d80011df"
+      "hash": "6c96e4b2e0ef",
+      "spoken": "Suicaで払います"
     },
     "Suicaで払います。": {
-      "src": "./audio/f/ead7c0701edf.mp3",
+      "src": "./audio/f/9ea627d131e2.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ead7c0701edf"
-    },
-    "あの信号を左に曲がってください。": {
-      "src": "./audio/f/1bf07c22f073.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "1bf07c22f073"
+      "hash": "9ea627d131e2",
+      "spoken": "Suicaで払います。"
     },
     "あっ、お茶がこぼれちゃった。": {
-      "src": "./audio/f/45b9fe86155e.mp3",
+      "src": "./audio/f/60d56ed9fb92.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "45b9fe86155e"
+      "hash": "60d56ed9fb92",
+      "spoken": "あっ、お茶がこぼれちゃった。"
+    },
+    "あの信号を左に曲がってください。": {
+      "src": "./audio/f/31fc4a94bb0d.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "31fc4a94bb0d",
+      "spoken": "あの信号を左に曲がってください。"
     },
     "あ、ごめんなさい。Post office？": {
-      "src": "./audio/f/db56978da6ee.mp3",
+      "src": "./audio/f/b545ecc57cf7.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "db56978da6ee"
+      "hash": "b545ecc57cf7",
+      "spoken": "あ、ごめんなさい。Post office？"
     },
     "あら、そう？じゃあ、デザートは別腹ね。": {
-      "src": "./audio/f/cdc695514fc7.mp3",
+      "src": "./audio/f/345610aebde0.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "cdc695514fc7"
-    },
-    "あら、リズちゃん。お元気でしたか？": {
-      "src": "./audio/f/31fba13948d3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "31fba13948d3"
-    },
-    "ありがとうございます。": {
-      "src": "./audio/f/29162a7b7170.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "29162a7b7170"
+      "hash": "345610aebde0",
+      "spoken": "あら、そう？じゃあ、デザートは別腹ね。"
     },
     "ありがとうございました。": {
-      "src": "./audio/f/882395686e31.mp3",
+      "src": "./audio/f/dd94f4f24e3a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "882395686e31"
+      "hash": "dd94f4f24e3a",
+      "spoken": "ありがとうございました。"
     },
     "あら、リズちゃん！久しぶり！上がって上がって。": {
-      "src": "./audio/f/34ac973ddd1f.mp3",
+      "src": "./audio/f/dcebaf52d69a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "34ac973ddd1f"
+      "hash": "dcebaf52d69a",
+      "spoken": "あら、リズちゃん。久しぶりね。さあ、上がって。"
     },
     "あら、久しぶり！元気だった？": {
-      "src": "./audio/f/524bf806bc71.mp3",
+      "src": "./audio/f/e1c6475fb184.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "524bf806bc71"
+      "hash": "e1c6475fb184",
+      "spoken": "あら、久しぶり。元気だった？"
     },
-    "ありがとうございます。いただきます。": {
-      "src": "./audio/f/e9a889c83e05.mp3",
+    "あら、リズちゃん。お元気でしたか？": {
+      "src": "./audio/f/9632ce91c2c7.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e9a889c83e05"
+      "hash": "9632ce91c2c7",
+      "spoken": "あら、リズちゃん。お元気でしたか？"
     },
     "ありがとう。またね。": {
-      "src": "./audio/f/6f0a6dc95741.mp3",
+      "src": "./audio/f/63a257bed2f6.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "6f0a6dc95741"
+      "hash": "63a257bed2f6",
+      "spoken": "ありがとう。またね。"
     },
-    "いいえ、ないです。": {
-      "src": "./audio/f/22b0ab4bd9d9.mp3",
+    "ありがとうございます。": {
+      "src": "./audio/f/08d90359bd2a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "22b0ab4bd9d9"
-    },
-    "いいえ、大丈夫です": {
-      "src": "./audio/f/26067f0b10b1.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "26067f0b10b1"
-    },
-    "ありがとうございます。でも、もうおなかいっぱいです。": {
-      "src": "./audio/f/59a41997f570.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "59a41997f570"
+      "hash": "08d90359bd2a",
+      "spoken": "ありがとうございます。"
     },
     "いいえ、まだ勉強中です。": {
-      "src": "./audio/f/990305a88173.mp3",
+      "src": "./audio/f/8cd23fe152bc.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "990305a88173"
+      "hash": "8cd23fe152bc",
+      "spoken": "いいえ、まだ勉強中です。"
+    },
+    "いいえ、ないです。": {
+      "src": "./audio/f/4332133d66fb.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4332133d66fb",
+      "spoken": "いいえ、ないです。"
     },
     "いいえ、元気です。": {
-      "src": "./audio/f/d32b49cc5518.mp3",
+      "src": "./audio/f/e4e4282654b9.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d32b49cc5518"
+      "hash": "e4e4282654b9",
+      "spoken": "いいえ、元気です。"
     },
-    "いいえ、大丈夫です。": {
-      "src": "./audio/f/79e5fa92564b.mp3",
+    "ありがとうございます。いただきます。": {
+      "src": "./audio/f/4ee2c6b3e6b7.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "79e5fa92564b"
+      "hash": "4ee2c6b3e6b7",
+      "spoken": "ありがとうございます。いただきます。"
+    },
+    "ありがとうございます。でも、もうおなかいっぱいです。": {
+      "src": "./audio/f/0ba1a2e260d1.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "0ba1a2e260d1",
+      "spoken": "ありがとうございます。でも、もうおなかいっぱいです。"
     },
     "いいえ、はじめまして。": {
-      "src": "./audio/f/b73619afd313.mp3",
+      "src": "./audio/f/9b550445f835.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b73619afd313"
+      "hash": "9b550445f835",
+      "spoken": "いいえ、はじめまして。"
+    },
+    "いいえ、大丈夫です。": {
+      "src": "./audio/f/719dd970c18e.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "719dd970c18e",
+      "spoken": "いいえ、大丈夫です。"
     },
     "いいえ、持ち帰りでお願いします。": {
-      "src": "./audio/f/f9527fd1f8d5.mp3",
+      "src": "./audio/f/9733ce934526.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f9527fd1f8d5"
+      "hash": "9733ce934526",
+      "spoken": "いいえ、持ち帰りでお願いします。"
     },
-    "いいえ、嫌いです。": {
-      "src": "./audio/f/20ed08812376.mp3",
+    "いいえ、大丈夫です": {
+      "src": "./audio/f/f359f7fa3d62.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "20ed08812376"
+      "hash": "f359f7fa3d62",
+      "spoken": "いいえ、大丈夫です"
     },
     "いいえ、歩いて五分ぐらいです。": {
-      "src": "./audio/f/ae21d160ce4b.mp3",
+      "src": "./audio/f/6b97baf0c26d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ae21d160ce4b"
+      "hash": "6b97baf0c26d",
+      "spoken": "いいえ、歩いて五分ぐらいです。"
     },
     "いいえ、聞こえません。": {
-      "src": "./audio/f/fc822abeb738.mp3",
+      "src": "./audio/f/2219958a2457.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "fc822abeb738"
+      "hash": "2219958a2457",
+      "spoken": "いいえ、聞こえません。"
     },
-    "いえいえ、ありがとう。": {
-      "src": "./audio/f/fc52aaa60aa5.mp3",
+    "いいえ、嫌いです。": {
+      "src": "./audio/f/1ef212b1c156.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "fc52aaa60aa5"
+      "hash": "1ef212b1c156",
+      "spoken": "いいえ、嫌いです。"
     },
     "いただきます": {
-      "src": "./audio/f/25567f8581d3.mp3",
+      "src": "./audio/f/a97e06edd843.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "25567f8581d3"
-    },
-    "いいえ、苦手です。": {
-      "src": "./audio/f/a7ad4ae4708f.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "a7ad4ae4708f"
+      "hash": "a97e06edd843",
+      "spoken": "いただきます"
     },
     "いただきます。": {
-      "src": "./audio/f/a81e7a27fcec.mp3",
+      "src": "./audio/f/0df96a23bb6f.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "a81e7a27fcec"
+      "hash": "0df96a23bb6f",
+      "spoken": "いただきます。"
+    },
+    "いいえ、苦手です。": {
+      "src": "./audio/f/b5c21601cd93.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b5c21601cd93",
+      "spoken": "いいえ、苦手です。"
     },
     "いってきます。": {
-      "src": "./audio/f/9a104c78a109.mp3",
+      "src": "./audio/f/2d67f200cc0d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9a104c78a109"
+      "hash": "2d67f200cc0d",
+      "spoken": "いってきます。"
     },
-    "いってらっしゃい。": {
-      "src": "./audio/f/cad474ca4caf.mp3",
+    "いえいえ、ありがとう。": {
+      "src": "./audio/f/fdf69835ac69.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "cad474ca4caf"
+      "hash": "fdf69835ac69",
+      "spoken": "いえいえ、ありがとう。"
     },
     "いってらっしゃい": {
-      "src": "./audio/f/24cfb32ae9df.mp3",
+      "src": "./audio/f/54c5cb706497.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "24cfb32ae9df"
+      "hash": "54c5cb706497",
+      "spoken": "いってらっしゃい"
     },
     "いらっしゃいませ。": {
-      "src": "./audio/f/4f045262bebe.mp3",
+      "src": "./audio/f/2572f5a46afd.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "4f045262bebe"
+      "hash": "2572f5a46afd",
+      "spoken": "いらっしゃいませ。"
+    },
+    "いってらっしゃい。": {
+      "src": "./audio/f/8fa965e9a2c2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8fa965e9a2c2",
+      "spoken": "いってらっしゃい。"
     },
     "いらっしゃいませ": {
-      "src": "./audio/f/97bed54b1a17.mp3",
+      "src": "./audio/f/c05d95be86db.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "97bed54b1a17"
-    },
-    "いらっしゃい。どうぞ、上がって。": {
-      "src": "./audio/f/4bd2c6b7c547.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "4bd2c6b7c547"
-    },
-    "いらっしゃいませ。お弁当温めますか？": {
-      "src": "./audio/f/a551cb274eb8.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "a551cb274eb8"
+      "hash": "c05d95be86db",
+      "spoken": "いらっしゃいませ"
     },
     "いらっしゃいませ。何名様ですか？": {
-      "src": "./audio/f/3bc3b76f4403.mp3",
+      "src": "./audio/f/812a0e0565f3.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "3bc3b76f4403"
+      "hash": "812a0e0565f3",
+      "spoken": "いらっしゃいませ。何名様ですか？"
+    },
+    "いらっしゃい。どうぞ、上がって。": {
+      "src": "./audio/f/892a4dd28680.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "892a4dd28680",
+      "spoken": "いらっしゃい。どうぞ、上がって。"
+    },
+    "いらっしゃいませ。お弁当温めますか？": {
+      "src": "./audio/f/fd41b1b67b88.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "fd41b1b67b88",
+      "spoken": "いらっしゃいませ。お弁当温めますか？"
     },
     "いらっしゃい！": {
-      "src": "./audio/f/90e9fb673272.mp3",
+      "src": "./audio/f/52a54c3e3f5d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "90e9fb673272"
-    },
-    "いろいろありがとうございました。お邪魔しました。": {
-      "src": "./audio/f/6e9fd3e9cb16.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "6e9fd3e9cb16"
-    },
-    "うん、元気です。": {
-      "src": "./audio/f/64442a48263e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "64442a48263e"
-    },
-    "いろいろありがとうございました": {
-      "src": "./audio/f/63642b7321de.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "63642b7321de"
+      "hash": "52a54c3e3f5d",
+      "spoken": "いらっしゃい。"
     },
     "うん、暑い。": {
-      "src": "./audio/f/ca88d4a787b4.mp3",
+      "src": "./audio/f/247224773a4c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ca88d4a787b4"
+      "hash": "247224773a4c",
+      "spoken": "うん、暑い。"
+    },
+    "いろいろありがとうございました。お邪魔しました。": {
+      "src": "./audio/f/df219709a342.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "df219709a342",
+      "spoken": "いろいろありがとうございました。お邪魔しました。"
     },
     "おかえりなさい": {
-      "src": "./audio/f/66abca6738d5.mp3",
+      "src": "./audio/f/2195ec212b05.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "66abca6738d5"
+      "hash": "2195ec212b05",
+      "spoken": "おかえりなさい"
     },
-    "おかえりなさい。": {
-      "src": "./audio/f/b4ffd03b9dbb.mp3",
+    "いろいろありがとうございました": {
+      "src": "./audio/f/d3826b388f55.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b4ffd03b9dbb"
+      "hash": "d3826b388f55",
+      "spoken": "いろいろありがとうございました"
     },
-    "おかえり！": {
-      "src": "./audio/f/242cac59b420.mp3",
+    "うん、元気です。": {
+      "src": "./audio/f/11c4b205f7ae.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "242cac59b420"
-    },
-    "おじいさん": {
-      "src": "./audio/f/f309e91869f7.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "f309e91869f7"
+      "hash": "11c4b205f7ae",
+      "spoken": "うん、元気です。"
     },
     "おすすめは何ですか": {
-      "src": "./audio/f/fcd6ed5c75b8.mp3",
+      "src": "./audio/f/eca2fd371d88.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "fcd6ed5c75b8"
-    },
-    "おすすめは何ですか。": {
-      "src": "./audio/f/f9e1d6545c6d.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "f9e1d6545c6d"
-    },
-    "おかわりは？": {
-      "src": "./audio/f/fe4dee6bde4d.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "fe4dee6bde4d"
-    },
-    "おはようございます": {
-      "src": "./audio/f/5a3c5f71eeac.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "5a3c5f71eeac"
+      "hash": "eca2fd371d88",
+      "spoken": "おすすめは何ですか"
     },
     "おじいさんです。": {
-      "src": "./audio/f/288391d895df.mp3",
+      "src": "./audio/f/83175d3ec607.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "288391d895df"
+      "hash": "83175d3ec607",
+      "spoken": "おじいさんです。"
     },
-    "おはようございます。": {
-      "src": "./audio/f/e0db4dbed72c.mp3",
+    "おかえりなさい。": {
+      "src": "./audio/f/032116d263fb.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e0db4dbed72c"
+      "hash": "032116d263fb",
+      "spoken": "おかえりなさい。"
     },
-    "おばあさん": {
-      "src": "./audio/f/55ab764826fe.mp3",
+    "おじいさん": {
+      "src": "./audio/f/8108945e11c3.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "55ab764826fe"
+      "hash": "8108945e11c3",
+      "spoken": "おじいさん"
+    },
+    "おかえり！": {
+      "src": "./audio/f/1670b70a8ca4.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "1670b70a8ca4",
+      "spoken": "おかえり。"
+    },
+    "おかわりは？": {
+      "src": "./audio/f/db89cb380299.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "db89cb380299",
+      "spoken": "おかわりは？"
     },
     "おばあさんです。": {
-      "src": "./audio/f/fccf7b81d30d.mp3",
+      "src": "./audio/f/48963ddcaa32.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "fccf7b81d30d"
+      "hash": "48963ddcaa32",
+      "spoken": "おばあさんです。"
     },
-    "おやすみ。": {
-      "src": "./audio/f/16bca1ee24c0.mp3",
+    "おばあさん": {
+      "src": "./audio/f/0df5267637f0.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "16bca1ee24c0"
+      "hash": "0df5267637f0",
+      "spoken": "おばあさん"
     },
-    "おやすみなさい": {
-      "src": "./audio/f/17b912b634f3.mp3",
+    "おはようございます。": {
+      "src": "./audio/f/606b988526cd.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "17b912b634f3"
+      "hash": "606b988526cd",
+      "spoken": "おはようございます。"
+    },
+    "おすすめは何ですか。": {
+      "src": "./audio/f/196c7200180f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "196c7200180f",
+      "spoken": "おすすめは何ですか。"
+    },
+    "おはようございます": {
+      "src": "./audio/f/176aeea4c42e.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "176aeea4c42e",
+      "spoken": "おはようございます"
     },
     "おばあさんはお元気ですか。": {
-      "src": "./audio/f/b7c751f66dd3.mp3",
+      "src": "./audio/f/9c060d5e4b5e.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b7c751f66dd3"
+      "hash": "9c060d5e4b5e",
+      "spoken": "おばあさんはお元気ですか。"
+    },
+    "おやすみ。": {
+      "src": "./audio/f/85c994b0dd69.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "85c994b0dd69",
+      "spoken": "おやすみ。"
     },
     "おやすみなさい。": {
-      "src": "./audio/f/36c28bb331c9.mp3",
+      "src": "./audio/f/e4774ae99207.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "36c28bb331c9"
-    },
-    "お世話になりました": {
-      "src": "./audio/f/a33c915396f1.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "a33c915396f1"
+      "hash": "e4774ae99207",
+      "spoken": "おやすみなさい。"
     },
     "おばあちゃんは九十歳です。": {
-      "src": "./audio/f/84b165106ef9.mp3",
+      "src": "./audio/f/d6c63205ec79.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "84b165106ef9"
+      "hash": "d6c63205ec79",
+      "spoken": "おばあちゃんは九十歳です。"
+    },
+    "お世話になりました": {
+      "src": "./audio/f/587eaee1bded.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "587eaee1bded",
+      "spoken": "お世話になりました"
+    },
+    "おやすみなさい": {
+      "src": "./audio/f/929a4048d5b0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "929a4048d5b0",
+      "spoken": "おやすみなさい"
     },
     "お世話になりました。": {
-      "src": "./audio/f/9b70deddba87.mp3",
+      "src": "./audio/f/0f042aaed90f.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9b70deddba87"
-    },
-    "お会計お願いします": {
-      "src": "./audio/f/53ec7cc7a336.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "53ec7cc7a336"
-    },
-    "お会計お願いします。": {
-      "src": "./audio/f/d3ca185ba1c3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "d3ca185ba1c3"
-    },
-    "お仕事は何？": {
-      "src": "./audio/m/3cfe668ac10c.mp3",
-      "voice": "ja-JP-KeitaNeural",
-      "gender": "male",
-      "hash": "3cfe668ac10c"
-    },
-    "お体に気をつけてください。では、また。": {
-      "src": "./audio/f/3c58f09b6009.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "3c58f09b6009"
-    },
-    "お元気だった？アーバインは暑かったでしょ。": {
-      "src": "./audio/f/4153d565e9b0.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "4153d565e9b0"
+      "hash": "0f042aaed90f",
+      "spoken": "お世話になりました。"
     },
     "お体に気をつけてください": {
-      "src": "./audio/f/8828a2c04a45.mp3",
+      "src": "./audio/f/dfbd46200be5.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "8828a2c04a45"
+      "hash": "dfbd46200be5",
+      "spoken": "お体に気をつけてください"
     },
-    "お元気でしたか": {
-      "src": "./audio/f/0d1b5d1590f9.mp3",
+    "お会計お願いします": {
+      "src": "./audio/f/ec8a01679465.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0d1b5d1590f9"
+      "hash": "ec8a01679465",
+      "spoken": "お会計お願いします"
     },
-    "お土産です": {
-      "src": "./audio/f/99d039f6a06c.mp3",
+    "お仕事は何？": {
+      "src": "./audio/m/67216f749f40.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "67216f749f40",
+      "spoken": "お仕事は何？"
+    },
+    "お体に気をつけてください。では、また。": {
+      "src": "./audio/f/f79cdd8b394a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "99d039f6a06c"
+      "hash": "f79cdd8b394a",
+      "spoken": "お体に気をつけてください。では、また。"
+    },
+    "お元気だった？アーバインは暑かったでしょ。": {
+      "src": "./audio/f/c41daa7ff2d4.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "c41daa7ff2d4",
+      "spoken": "お元気だった？アーバインは暑かったでしょ。"
+    },
+    "お会計お願いします。": {
+      "src": "./audio/f/384f14ce89ab.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "384f14ce89ab",
+      "spoken": "お会計お願いします。"
     },
     "お口に合いますか？": {
-      "src": "./audio/f/1d7cb16654ea.mp3",
+      "src": "./audio/f/e8ab80ce2260.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1d7cb16654ea"
+      "hash": "e8ab80ce2260",
+      "spoken": "お口に合いますか？"
+    },
+    "お土産です": {
+      "src": "./audio/f/3f3be7f1767b.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "3f3be7f1767b",
+      "spoken": "お土産です"
+    },
+    "お元気でしたか": {
+      "src": "./audio/f/ed10152be48c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "ed10152be48c",
+      "spoken": "お元気でしたか"
     },
     "お母さん": {
-      "src": "./audio/f/f4eb2ac566a7.mp3",
+      "src": "./audio/f/9e4081ad2886.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f4eb2ac566a7"
-    },
-    "お土産です。": {
-      "src": "./audio/f/3023ae81b6ff.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "3023ae81b6ff"
+      "hash": "9e4081ad2886",
+      "spoken": "お母さん"
     },
     "お弁当温めますか？": {
-      "src": "./audio/f/322e111f7108.mp3",
+      "src": "./audio/f/812fbf266de2.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "322e111f7108"
+      "hash": "812fbf266de2",
+      "spoken": "お弁当温めますか？"
+    },
+    "お土産です。": {
+      "src": "./audio/f/8ceee24866f4.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8ceee24866f4",
+      "spoken": "お土産です。"
     },
     "お母さんの料理、大好きです": {
-      "src": "./audio/f/e7485dd89e90.mp3",
+      "src": "./audio/f/74bf946e910c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e7485dd89e90"
-    },
-    "お水をください": {
-      "src": "./audio/f/427c18f5926d.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "427c18f5926d"
-    },
-    "お水です。": {
-      "src": "./audio/f/9e8302b36319.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "9e8302b36319"
-    },
-    "お水をください。": {
-      "src": "./audio/f/98e0a0648505.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "98e0a0648505"
-    },
-    "お気遣いありがとうございます": {
-      "src": "./audio/f/b437a62911d7.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "b437a62911d7"
+      "hash": "74bf946e910c",
+      "spoken": "お母さんの料理、大好きです"
     },
     "お母さん、久しぶりです！また会えてうれしいです。お邪魔します。": {
-      "src": "./audio/f/05dc2a3c1a9b.mp3",
+      "src": "./audio/f/9d565c5b1629.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "05dc2a3c1a9b"
+      "hash": "9d565c5b1629",
+      "spoken": "お母さん、久しぶりです。また会えてうれしいです。お邪魔します。"
+    },
+    "お水をください": {
+      "src": "./audio/f/8bd912f29763.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8bd912f29763",
+      "spoken": "お水をください"
+    },
+    "お気遣いありがとうございます": {
+      "src": "./audio/f/8aaaf8b74a26.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8aaaf8b74a26",
+      "spoken": "お気遣いありがとうございます"
+    },
+    "お水です。": {
+      "src": "./audio/f/6933cba56197.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "6933cba56197",
+      "spoken": "お水です。"
+    },
+    "お水をください。": {
+      "src": "./audio/f/561ac292222f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "561ac292222f",
+      "spoken": "お水をください。"
     },
     "お父さん": {
-      "src": "./audio/f/e1110589655f.mp3",
+      "src": "./audio/f/512df6459e15.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e1110589655f"
-    },
-    "お箸です。": {
-      "src": "./audio/f/66b0fb9beed2.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "66b0fb9beed2"
-    },
-    "お箸をください。": {
-      "src": "./audio/f/9e9f3b48f7f9.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "9e9f3b48f7f9"
-    },
-    "お箸はご利用ですか": {
-      "src": "./audio/f/4aa6603238e3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "4aa6603238e3"
-    },
-    "お邪魔しました": {
-      "src": "./audio/f/a39da3de4bf1.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "a39da3de4bf1"
-    },
-    "お箸はご利用ですか？": {
-      "src": "./audio/f/0365850568c7.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "0365850568c7"
-    },
-    "お邪魔しました。": {
-      "src": "./audio/f/142439d391e8.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "142439d391e8"
+      "hash": "512df6459e15",
+      "spoken": "お父さん"
     },
     "お父さんは元気だよ。…あれ、しょうたは？また寝てるの？": {
-      "src": "./audio/f/f7b7448baaf9.mp3",
+      "src": "./audio/f/626e4e2176c4.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f7b7448baaf9"
+      "hash": "626e4e2176c4",
+      "spoken": "お父さんは元気だよ。あれ、しょうたは、また寝てるの。"
+    },
+    "お箸です。": {
+      "src": "./audio/f/09729a266113.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "09729a266113",
+      "spoken": "お箸です。"
+    },
+    "お箸はご利用ですか": {
+      "src": "./audio/f/4b709f232c65.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4b709f232c65",
+      "spoken": "お箸はご利用ですか"
+    },
+    "お箸はご利用ですか？": {
+      "src": "./audio/f/b11481a75295.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b11481a75295",
+      "spoken": "お箸はご利用ですか？"
+    },
+    "お箸をください。": {
+      "src": "./audio/f/4122c009392c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4122c009392c",
+      "spoken": "お箸をください。"
+    },
+    "お邪魔しました": {
+      "src": "./audio/f/e2813d4e3e6f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e2813d4e3e6f",
+      "spoken": "お邪魔しました"
+    },
+    "お邪魔しました。": {
+      "src": "./audio/f/6ce782340664.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "6ce782340664",
+      "spoken": "お邪魔しました。"
     },
     "お邪魔します": {
-      "src": "./audio/f/ea9a37877146.mp3",
+      "src": "./audio/f/fa62280b9875.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ea9a37877146"
-    },
-    "お邪魔します。": {
-      "src": "./audio/f/502e60b9d4e4.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "502e60b9d4e4"
+      "hash": "fa62280b9875",
+      "spoken": "お邪魔します"
     },
     "お飲み物はいかがですか？": {
-      "src": "./audio/f/291cc81dc5b6.mp3",
+      "src": "./audio/f/ac84231518cb.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "291cc81dc5b6"
+      "hash": "ac84231518cb",
+      "spoken": "お飲み物はいかがですか？"
     },
-    "ここから遠いですか": {
-      "src": "./audio/f/25a3d6bce64c.mp3",
+    "お邪魔します。": {
+      "src": "./audio/f/471da0f9bf37.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "25a3d6bce64c"
-    },
-    "ここから遠いですか。": {
-      "src": "./audio/f/7bb54d1f4838.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "7bb54d1f4838"
+      "hash": "471da0f9bf37",
+      "spoken": "お邪魔します。"
     },
     "お魚が好きです": {
-      "src": "./audio/f/d1ba0e233db0.mp3",
+      "src": "./audio/f/445c44dc6291.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d1ba0e233db0"
+      "hash": "445c44dc6291",
+      "spoken": "お魚が好きです"
+    },
+    "ここから遠いですか。": {
+      "src": "./audio/f/62716ff21c2f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "62716ff21c2f",
+      "spoken": "ここから遠いですか。"
+    },
+    "ここから遠いですか": {
+      "src": "./audio/f/e05c1a589647.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e05c1a589647",
+      "spoken": "ここから遠いですか"
     },
     "ここをまっすぐ行って、二つ目の角を右に曲がって、すぐ左です。": {
-      "src": "./audio/f/eeb88b62e27a.mp3",
+      "src": "./audio/f/616a9c30fa39.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "eeb88b62e27a"
+      "hash": "616a9c30fa39",
+      "spoken": "ここをまっすぐ行って、二つ目の角を右に曲がって、すぐ左です。"
     },
     "この方はどなたですか": {
-      "src": "./audio/f/f12bb117cb24.mp3",
+      "src": "./audio/f/9f43faf4f986.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f12bb117cb24"
-    },
-    "この近くにコンビニはありますか": {
-      "src": "./audio/f/d8c9033d491c.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "d8c9033d491c"
-    },
-    "これにします": {
-      "src": "./audio/f/3d9192b39b71.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "3d9192b39b71"
-    },
-    "これ、高いです。": {
-      "src": "./audio/f/f44e6516710e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "f44e6516710e"
+      "hash": "9f43faf4f986",
+      "spoken": "この方はどなたですか"
     },
     "この電車は渋谷に止まりますか": {
-      "src": "./audio/f/79415384417e.mp3",
+      "src": "./audio/f/8cd7b3393333.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "79415384417e"
-    },
-    "これにします。": {
-      "src": "./audio/f/fa504f0620e4.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "fa504f0620e4"
+      "hash": "8cd7b3393333",
+      "spoken": "この電車は渋谷に止まりますか"
     },
     "これ、お土産です。ほんの気持ちですが、どうぞ。": {
-      "src": "./audio/f/e7a920826c9b.mp3",
+      "src": "./audio/f/d2d4fb65f481.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e7a920826c9b"
+      "hash": "d2d4fb65f481",
+      "spoken": "これ、お土産です。ほんの気持ちですが、どうぞ。"
     },
-    "これは何ですか。": {
-      "src": "./audio/f/7770e30a4148.mp3",
+    "これ、高いです。": {
+      "src": "./audio/f/5317bef0688b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "7770e30a4148"
+      "hash": "5317bef0688b",
+      "spoken": "これ、高いです。"
+    },
+    "この近くにコンビニはありますか": {
+      "src": "./audio/f/ec32b51abb64.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "ec32b51abb64",
+      "spoken": "この近くにコンビニはありますか"
+    },
+    "これにします": {
+      "src": "./audio/f/215b49dccfcb.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "215b49dccfcb",
+      "spoken": "これにします"
     },
     "これはいくらですか": {
-      "src": "./audio/f/d33c910ad45c.mp3",
+      "src": "./audio/f/60bd640e7606.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d33c910ad45c"
+      "hash": "60bd640e7606",
+      "spoken": "これはいくらですか"
     },
-    "これは何ですか": {
-      "src": "./audio/f/8d7e636d901a.mp3",
+    "これにします。": {
+      "src": "./audio/f/4162b5befc03.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "8d7e636d901a"
-    },
-    "これをください": {
-      "src": "./audio/f/39eb03e8b77c.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "39eb03e8b77c"
-    },
-    "これにします。カードで払えますか。": {
-      "src": "./audio/f/2e96d866d48c.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "2e96d866d48c"
+      "hash": "4162b5befc03",
+      "spoken": "これにします。"
     },
     "これは、しょうたのおばあちゃんです。": {
-      "src": "./audio/m/2c59d4481471.mp3",
+      "src": "./audio/m/550ade51c21f.mp3",
       "voice": "ja-JP-KeitaNeural",
       "gender": "male",
-      "hash": "2c59d4481471"
+      "hash": "550ade51c21f",
+      "spoken": "これは、しょうたのおばあちゃんです。"
     },
-    "ごちそうさまでした": {
-      "src": "./audio/f/11c8fca7e223.mp3",
+    "これにします。カードで払えますか。": {
+      "src": "./audio/f/93010b555124.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "11c8fca7e223"
+      "hash": "93010b555124",
+      "spoken": "これにします。カードで払えますか。"
     },
-    "ごちそうさまでした。": {
-      "src": "./audio/f/9880d7b768dc.mp3",
+    "これは何ですか": {
+      "src": "./audio/f/d210e8aeca64.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9880d7b768dc"
+      "hash": "d210e8aeca64",
+      "spoken": "これは何ですか"
     },
-    "これをください。": {
-      "src": "./audio/f/29c8fa41c8c3.mp3",
+    "これは何ですか。": {
+      "src": "./audio/f/10b946397b28.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "29c8fa41c8c3"
+      "hash": "10b946397b28",
+      "spoken": "これは何ですか。"
     },
-    "ご注文はお決まりですか？": {
-      "src": "./audio/f/35f38f7fde4e.mp3",
+    "これをください": {
+      "src": "./audio/f/d4484e5aa1ac.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "35f38f7fde4e"
+      "hash": "d4484e5aa1ac",
+      "spoken": "これをください"
     },
     "ご両親はお元気ですか？": {
-      "src": "./audio/m/f1bc39c778ca.mp3",
+      "src": "./audio/m/8e8639403f0c.mp3",
       "voice": "ja-JP-KeitaNeural",
       "gender": "male",
-      "hash": "f1bc39c778ca"
+      "hash": "8e8639403f0c",
+      "spoken": "ご両親はお元気ですか？"
+    },
+    "これをください。": {
+      "src": "./audio/f/9f5ae0b8af30.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "9f5ae0b8af30",
+      "spoken": "これをください。"
+    },
+    "ごちそうさまでした": {
+      "src": "./audio/f/de6f6d2d6bf0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "de6f6d2d6bf0",
+      "spoken": "ごちそうさまでした"
+    },
+    "ごちそうさまでした。": {
+      "src": "./audio/f/9509ca130c22.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "9509ca130c22",
+      "spoken": "ごちそうさまでした。"
     },
     "ご両親はお元気ですか": {
-      "src": "./audio/f/b880305bf278.mp3",
+      "src": "./audio/f/11336a5a17ec.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b880305bf278"
+      "hash": "11336a5a17ec",
+      "spoken": "ご両親はお元気ですか"
     },
-    "ご飯ができましたよ。": {
-      "src": "./audio/f/001ff865f7ec.mp3",
+    "ご注文はお決まりですか？": {
+      "src": "./audio/f/07234a7f2346.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "001ff865f7ec"
-    },
-    "ご飯ですよ！": {
-      "src": "./audio/f/b1188338cc67.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "b1188338cc67"
+      "hash": "07234a7f2346",
+      "spoken": "ご注文はお決まりですか？"
     },
     "しょうがないですね。": {
-      "src": "./audio/f/cfd337cefca5.mp3",
+      "src": "./audio/f/ba1b76da5402.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "cfd337cefca5"
+      "hash": "ba1b76da5402",
+      "spoken": "しょうがないですね。"
     },
-    "しょうた、また寝てるんですか": {
-      "src": "./audio/f/f22270d91314.mp3",
+    "ご飯ですよ！": {
+      "src": "./audio/f/c71544fb4950.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f22270d91314"
-    },
-    "しょうた、また遅刻だよ。": {
-      "src": "./audio/f/d40983c6c4ff.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "d40983c6c4ff"
+      "hash": "c71544fb4950",
+      "spoken": "ご飯ですよ。"
     },
     "しょうた、また寝てるんですか。しょうがないですね。": {
-      "src": "./audio/f/4fc062ced193.mp3",
+      "src": "./audio/f/fd6f7f88b00d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "4fc062ced193"
+      "hash": "fd6f7f88b00d",
+      "spoken": "しょうた、また寝てるんですか。しょうがないですね。"
+    },
+    "しょうた、また寝てるんですか": {
+      "src": "./audio/f/bb0dafe1ecb2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "bb0dafe1ecb2",
+      "spoken": "しょうた、また寝てるんですか"
+    },
+    "ご飯ができましたよ。": {
+      "src": "./audio/f/8555b0aa1fc3.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8555b0aa1fc3",
+      "spoken": "ご飯ができましたよ。"
+    },
+    "しょうた、また遅刻だよ。": {
+      "src": "./audio/f/6d2f2d0c3e94.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "6d2f2d0c3e94",
+      "spoken": "しょうた、また遅刻だよ。"
     },
     "しょうたはいる？": {
-      "src": "./audio/f/9f3467a8f5c9.mp3",
+      "src": "./audio/f/c7917a4915be.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9f3467a8f5c9"
-    },
-    "しょうたに代わってくれる？": {
-      "src": "./audio/f/1911ff856d20.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "1911ff856d20"
-    },
-    "しょうたさんに代わります": {
-      "src": "./audio/f/0605ace67b82.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "0605ace67b82"
-    },
-    "すみません": {
-      "src": "./audio/f/cce1862bcbd9.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "cce1862bcbd9"
+      "hash": "c7917a4915be",
+      "spoken": "しょうたはいる？"
     },
     "すごいですね！": {
-      "src": "./audio/f/c64cd3d2ed15.mp3",
+      "src": "./audio/f/32daa20d824e.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c64cd3d2ed15"
+      "hash": "32daa20d824e",
+      "spoken": "すごいですね。"
     },
-    "すみません、ゆっくり話してください。": {
-      "src": "./audio/f/9bd333eb1625.mp3",
+    "しょうたに代わってくれる？": {
+      "src": "./audio/f/9a361f8f35ec.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9bd333eb1625"
+      "hash": "9a361f8f35ec",
+      "spoken": "しょうたに代わってくれる？"
     },
-    "すみません、わかりません。": {
-      "src": "./audio/f/c67a93f6b901.mp3",
+    "すみません": {
+      "src": "./audio/f/55ff221ccbe9.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c67a93f6b901"
+      "hash": "55ff221ccbe9",
+      "spoken": "すみません"
     },
-    "すみません、これはいくらですか。": {
-      "src": "./audio/f/2ec9fc8b780d.mp3",
+    "しょうたさんに代わります": {
+      "src": "./audio/f/26d0eba6e34c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "2ec9fc8b780d"
+      "hash": "26d0eba6e34c",
+      "spoken": "しょうたさんに代わります"
     },
     "すみません、この辺に郵便局ありますか？": {
-      "src": "./audio/f/ee2971d98929.mp3",
+      "src": "./audio/f/77dc9b417a6a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ee2971d98929"
+      "hash": "77dc9b417a6a",
+      "spoken": "すみません、この辺に郵便局ありますか？"
+    },
+    "すみません、ゆっくり話してください。": {
+      "src": "./audio/f/1d0e71596e4f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "1d0e71596e4f",
+      "spoken": "すみません、ゆっくり話してください。"
     },
     "すみません、よく聞こえません。": {
-      "src": "./audio/f/f693399d361f.mp3",
+      "src": "./audio/f/5a25d056b457.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f693399d361f"
+      "hash": "5a25d056b457",
+      "spoken": "すみません、よく聞こえません。"
     },
-    "すみません、画面が固まっています。": {
-      "src": "./audio/f/c5aa8e30f2b8.mp3",
+    "すみません、これはいくらですか。": {
+      "src": "./audio/f/209ce6deb648.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c5aa8e30f2b8"
+      "hash": "209ce6deb648",
+      "spoken": "すみません、これはいくらですか。"
     },
-    "ぜひ": {
-      "src": "./audio/f/d472b7cb2d91.mp3",
+    "すみません、わかりません。": {
+      "src": "./audio/f/eeed9353026c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d472b7cb2d91"
+      "hash": "eeed9353026c",
+      "spoken": "すみません、わかりません。"
     },
     "すみません、駅はどこですか。": {
-      "src": "./audio/f/77427f344049.mp3",
+      "src": "./audio/f/2176961283bc.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "77427f344049"
+      "hash": "2176961283bc",
+      "spoken": "すみません、駅はどこですか。"
     },
-    "ぜひ。": {
-      "src": "./audio/f/f85a3fe654bf.mp3",
+    "ぜひ": {
+      "src": "./audio/f/c105da371250.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f85a3fe654bf"
+      "hash": "c105da371250",
+      "spoken": "ぜひ"
+    },
+    "すみません、画面が固まっています。": {
+      "src": "./audio/f/e50f996a4769.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e50f996a4769",
+      "spoken": "すみません、画面が固まっています。"
     },
     "ぜひ！一緒に作りたいです。": {
-      "src": "./audio/f/d8852b99bcf6.mp3",
+      "src": "./audio/f/154df6c93bde.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d8852b99bcf6"
+      "hash": "154df6c93bde",
+      "spoken": "ぜひ、一緒に作りたいです。"
     },
-    "それはよかった。": {
-      "src": "./audio/m/1b7bed707090.mp3",
-      "voice": "ja-JP-KeitaNeural",
-      "gender": "male",
-      "hash": "1b7bed707090"
-    },
-    "そうですね。": {
-      "src": "./audio/f/5640932ec5c5.mp3",
+    "ぜひ。": {
+      "src": "./audio/f/7a3ba695c0fa.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "5640932ec5c5"
+      "hash": "7a3ba695c0fa",
+      "spoken": "ぜひ。"
     },
     "そうですね": {
-      "src": "./audio/f/b7e74bb4b1f4.mp3",
+      "src": "./audio/f/7eaf34a1c2de.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b7e74bb4b1f4"
+      "hash": "7eaf34a1c2de",
+      "spoken": "そうですね"
     },
-    "ただいま": {
-      "src": "./audio/f/e0fe8f456d1a.mp3",
+    "そうですね。": {
+      "src": "./audio/f/f4c5b3ef293c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e0fe8f456d1a"
-    },
-    "たくさん食べてね。": {
-      "src": "./audio/f/263e1f35e0eb.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "263e1f35e0eb"
+      "hash": "f4c5b3ef293c",
+      "spoken": "そうですね。"
     },
     "そうですね。本当に暑いですね。": {
-      "src": "./audio/f/3ce9ea9a4978.mp3",
+      "src": "./audio/f/2b43cc0c9d69.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "3ce9ea9a4978"
+      "hash": "2b43cc0c9d69",
+      "spoken": "そうですね。本当に暑いですね。"
+    },
+    "それはよかった。": {
+      "src": "./audio/m/21c478657912.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "21c478657912",
+      "spoken": "それはよかった。"
+    },
+    "ただいま": {
+      "src": "./audio/f/3be012b3ceba.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "3be012b3ceba",
+      "spoken": "ただいま"
     },
     "ただいま。": {
-      "src": "./audio/f/e32fd58d250b.mp3",
+      "src": "./audio/f/818998662b30.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e32fd58d250b"
-    },
-    "つまらないものですが": {
-      "src": "./audio/f/35c56ca13bfb.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "35c56ca13bfb"
+      "hash": "818998662b30",
+      "spoken": "ただいま。"
     },
     "ただいま！": {
-      "src": "./audio/f/abd783f3338d.mp3",
+      "src": "./audio/f/9d7af4609c56.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "abd783f3338d"
+      "hash": "9d7af4609c56",
+      "spoken": "ただいま。"
     },
-    "とてもおいしいです": {
-      "src": "./audio/f/36be6c1c63dc.mp3",
+    "つまらないものですが": {
+      "src": "./audio/f/52df2cf36953.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "36be6c1c63dc"
+      "hash": "52df2cf36953",
+      "spoken": "つまらないものですが"
     },
-    "では、また": {
-      "src": "./audio/f/1a9a7515ae69.mp3",
+    "たくさん食べてね。": {
+      "src": "./audio/f/1c14c17aaa99.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1a9a7515ae69"
-    },
-    "では、また。": {
-      "src": "./audio/f/72d48cff8373.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "72d48cff8373"
+      "hash": "1c14c17aaa99",
+      "spoken": "たくさん食べてね。"
     },
     "つまらないものですが。": {
-      "src": "./audio/f/8c9142b8a3ac.mp3",
+      "src": "./audio/f/944f1dda8590.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "8c9142b8a3ac"
+      "hash": "944f1dda8590",
+      "spoken": "つまらないものですが。"
     },
-    "とてもおいしいです。": {
-      "src": "./audio/f/bad440288280.mp3",
+    "とてもおいしいです": {
+      "src": "./audio/f/be63c51f2737.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "bad440288280"
+      "hash": "be63c51f2737",
+      "spoken": "とてもおいしいです"
+    },
+    "では、また": {
+      "src": "./audio/f/7f4f410738ee.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "7f4f410738ee",
+      "spoken": "では、また"
+    },
+    "では、また。": {
+      "src": "./audio/f/e4d90a0dd113.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e4d90a0dd113",
+      "spoken": "では、また。"
     },
     "どうぞ": {
-      "src": "./audio/f/0c5589abf72d.mp3",
+      "src": "./audio/f/9336c6b2ea23.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0c5589abf72d"
+      "hash": "9336c6b2ea23",
+      "spoken": "どうぞ"
     },
-    "どうぞ。": {
-      "src": "./audio/f/c0c2c2722aac.mp3",
+    "とてもおいしいです。": {
+      "src": "./audio/f/2dc00687bfb3.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c0c2c2722aac"
+      "hash": "2dc00687bfb3",
+      "spoken": "とてもおいしいです。"
     },
     "どうぞ、上がってください。": {
-      "src": "./audio/f/cf35caf66aea.mp3",
+      "src": "./audio/f/b9517e933ea9.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "cf35caf66aea"
-    },
-    "はい、いただきます。": {
-      "src": "./audio/f/be6eb13f89f5.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "be6eb13f89f5"
+      "hash": "b9517e933ea9",
+      "spoken": "どうぞ、上がってください。"
     },
     "どこですか。": {
-      "src": "./audio/f/da7462e18294.mp3",
+      "src": "./audio/f/f2479d11566e.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "da7462e18294"
+      "hash": "f2479d11566e",
+      "spoken": "どこですか。"
+    },
+    "どうぞ。": {
+      "src": "./audio/f/c0001b0a80f2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "c0001b0a80f2",
+      "spoken": "どうぞ。"
     },
     "どう？お口に合う？": {
-      "src": "./audio/f/d75da03ea44b.mp3",
+      "src": "./audio/f/2e41df379a4d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d75da03ea44b"
+      "hash": "2e41df379a4d",
+      "spoken": "どう？お口に合う？"
     },
     "はい、いただきます": {
-      "src": "./audio/f/926c4530f06c.mp3",
+      "src": "./audio/f/175712bc63b3.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "926c4530f06c"
+      "hash": "175712bc63b3",
+      "spoken": "はい、いただきます"
     },
-    "はい、お世話になりました。": {
-      "src": "./audio/f/b831a2943531.mp3",
+    "はい、いただきます。": {
+      "src": "./audio/f/70b74f0191ce.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b831a2943531"
+      "hash": "70b74f0191ce",
+      "spoken": "はい、いただきます。"
     },
     "はい、お願いします。": {
-      "src": "./audio/f/25dff07919d2.mp3",
+      "src": "./audio/f/8eb353508301.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "25dff07919d2"
+      "hash": "8eb353508301",
+      "spoken": "はい、お願いします。"
     },
-    "はい、お父さんもお母さんも元気です。": {
-      "src": "./audio/f/3d01fa439d27.mp3",
+    "はい、お世話になりました。": {
+      "src": "./audio/f/a43e7250ed41.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "3d01fa439d27"
+      "hash": "a43e7250ed41",
+      "spoken": "はい、お世話になりました。"
     },
     "はい、お願いします": {
-      "src": "./audio/f/5accbb16f77b.mp3",
+      "src": "./audio/f/ca8e02d1a0ee.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "5accbb16f77b"
+      "hash": "ca8e02d1a0ee",
+      "spoken": "はい、お願いします"
+    },
+    "はい、お父さんもお母さんも元気です。": {
+      "src": "./audio/f/b11e0fdec98f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b11e0fdec98f",
+      "spoken": "はい、お父さんもお母さんも元気です。"
     },
     "はい、しょうたさんに代わります。": {
-      "src": "./audio/f/7af125d452bc.mp3",
+      "src": "./audio/f/d5a67d273e69.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "7af125d452bc"
+      "hash": "d5a67d273e69",
+      "spoken": "はい、しょうたさんに代わります。"
     },
     "はい、とてもおいしいです。": {
-      "src": "./audio/f/c1a3a7a16901.mp3",
+      "src": "./audio/f/1d83d605d016.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c1a3a7a16901"
-    },
-    "はい、とてもおいしいです！": {
-      "src": "./audio/f/f449a60b8d4e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "f449a60b8d4e"
+      "hash": "1d83d605d016",
+      "spoken": "はい、とてもおいしいです。"
     },
     "はい、どうぞ。": {
-      "src": "./audio/f/44a77ad23d63.mp3",
+      "src": "./audio/f/f7bdaf91b771.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "44a77ad23d63"
-    },
-    "はい、二人です。": {
-      "src": "./audio/f/d2fb2d6d45c3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "d2fb2d6d45c3"
+      "hash": "f7bdaf91b771",
+      "spoken": "はい、どうぞ。"
     },
     "はい、三千円です。": {
-      "src": "./audio/f/0400712c89d0.mp3",
+      "src": "./audio/f/607af0ae2e1f.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0400712c89d0"
+      "hash": "607af0ae2e1f",
+      "spoken": "はい、三千円です。"
     },
-    "はい、今行きます！": {
-      "src": "./audio/f/f1fda2465ace.mp3",
+    "はい、とてもおいしいです！": {
+      "src": "./audio/f/390121121cab.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f1fda2465ace"
+      "hash": "390121121cab",
+      "spoken": "はい、とてもおいしいです。"
     },
-    "はい、何かお手伝いしましょうか。": {
-      "src": "./audio/f/589e284385c7.mp3",
+    "はい、二人です。": {
+      "src": "./audio/f/c6204af46f65.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "589e284385c7"
+      "hash": "c6204af46f65",
+      "spoken": "はい、二人です。"
     },
     "はい、久しぶりです！元気です。": {
-      "src": "./audio/f/b1bf70e72c94.mp3",
+      "src": "./audio/f/6a1ea4a6f998.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b1bf70e72c94"
+      "hash": "6a1ea4a6f998",
+      "spoken": "はい、久しぶりです。元気です。"
     },
-    "はい、千円です。": {
-      "src": "./audio/f/0fe67381e3a2.mp3",
+    "はい、今行きます！": {
+      "src": "./audio/f/7dfb8b1c2243.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0fe67381e3a2"
+      "hash": "7dfb8b1c2243",
+      "spoken": "はい、今行きます。"
+    },
+    "はい、何かお手伝いしましょうか。": {
+      "src": "./audio/f/09028cde28ea.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "09028cde28ea",
+      "spoken": "はい、何かお手伝いしましょうか。"
     },
     "はい、元気です。おばあさんは？": {
-      "src": "./audio/f/621450881868.mp3",
+      "src": "./audio/f/d7a39691ce1a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "621450881868"
+      "hash": "d7a39691ce1a",
+      "spoken": "はい、元気です。おばあさんは？"
     },
-    "はい、元気です。お父さんは？": {
-      "src": "./audio/f/a749d705dd46.mp3",
+    "はい、千円です。": {
+      "src": "./audio/f/09b39dac0d5b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "a749d705dd46"
-    },
-    "はい、姉が一人います。": {
-      "src": "./audio/f/d7685f3f12ea.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "d7685f3f12ea"
-    },
-    "はい、好きです。ぜひ一緒に作りたいです。": {
-      "src": "./audio/f/b29292c4d851.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "b29292c4d851"
-    },
-    "はい、大丈夫です。袋はご利用ですか？": {
-      "src": "./audio/f/b37caf3a78f4.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "b37caf3a78f4"
-    },
-    "はい、弟が一人います。": {
-      "src": "./audio/f/56424ffd9f58.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "56424ffd9f58"
+      "hash": "09b39dac0d5b",
+      "spoken": "はい、千円です。"
     },
     "はい、元気ですよ。もう九十歳です。": {
-      "src": "./audio/m/fb10c86b0b63.mp3",
+      "src": "./audio/m/7a4adb085207.mp3",
       "voice": "ja-JP-KeitaNeural",
       "gender": "male",
-      "hash": "fb10c86b0b63"
+      "hash": "7a4adb085207",
+      "spoken": "はい、元気ですよ。もう九十歳です。"
     },
-    "はい、母です。": {
-      "src": "./audio/f/610ef1699829.mp3",
+    "はい、元気です。お父さんは？": {
+      "src": "./audio/f/cf53f29f1e17.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "610ef1699829"
+      "hash": "cf53f29f1e17",
+      "spoken": "はい、元気です。お父さんは？"
+    },
+    "はい、大丈夫です。袋はご利用ですか？": {
+      "src": "./audio/f/f7f7d2d99079.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "f7f7d2d99079",
+      "spoken": "はい、大丈夫です。袋はご利用ですか？"
+    },
+    "はい、好きです。ぜひ一緒に作りたいです。": {
+      "src": "./audio/f/8910147dc4e4.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8910147dc4e4",
+      "spoken": "はい、好きです。ぜひ一緒に作りたいです。"
     },
     "はい、父も母も元気です。": {
-      "src": "./audio/f/d2f7f8ec19c9.mp3",
+      "src": "./audio/f/2963a0665d20.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d2f7f8ec19c9"
+      "hash": "2963a0665d20",
+      "spoken": "はい、父も母も元気です。"
     },
-    "はじめまして。": {
-      "src": "./audio/f/3c39203c48ca.mp3",
+    "はい、姉が一人います。": {
+      "src": "./audio/f/07ea0ae0687a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "3c39203c48ca"
+      "hash": "07ea0ae0687a",
+      "spoken": "はい、姉が一人います。"
     },
-    "はい、苦手です。": {
-      "src": "./audio/f/0ebe6aa17faf.mp3",
+    "はい、弟が一人います。": {
+      "src": "./audio/f/dff1c6cd04e4.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0ebe6aa17faf"
+      "hash": "dff1c6cd04e4",
+      "spoken": "はい、弟が一人います。"
     },
     "はい、道に迷いました。": {
-      "src": "./audio/f/934c3c9704d3.mp3",
+      "src": "./audio/f/db0b833b8bbd.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "934c3c9704d3"
+      "hash": "db0b833b8bbd",
+      "spoken": "はい、道に迷いました。"
     },
-    "はじめまして。リズです。": {
-      "src": "./audio/f/1521e86d2924.mp3",
+    "はい、母です。": {
+      "src": "./audio/f/142b9e1c69a8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1521e86d2924"
+      "hash": "142b9e1c69a8",
+      "spoken": "はい、母です。"
     },
-    "ほんの気持ちです。": {
-      "src": "./audio/f/7ccc607260a7.mp3",
+    "はい、苦手です。": {
+      "src": "./audio/f/e846e6aaf9de.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "7ccc607260a7"
+      "hash": "e846e6aaf9de",
+      "spoken": "はい、苦手です。"
+    },
+    "はじめまして。": {
+      "src": "./audio/f/13562fcb4407.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "13562fcb4407",
+      "spoken": "はじめまして。"
     },
     "はじめまして。しょうたの母です。": {
-      "src": "./audio/f/c43de4bc87bd.mp3",
+      "src": "./audio/f/4a2eade466d8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c43de4bc87bd"
+      "hash": "4a2eade466d8",
+      "spoken": "はじめまして。しょうたの母です。"
     },
-    "また会えてうれしいです": {
-      "src": "./audio/f/a6d4c443b363.mp3",
+    "はじめまして。リズです。": {
+      "src": "./audio/f/fe2e8f429277.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "a6d4c443b363"
-    },
-    "また来てね。": {
-      "src": "./audio/f/00b28a6c8e22.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "00b28a6c8e22"
-    },
-    "まっすぐです": {
-      "src": "./audio/f/53b1f6226758.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "53b1f6226758"
+      "hash": "fe2e8f429277",
+      "spoken": "はじめまして。リズです。"
     },
     "まあ、気を遣わなくていいのに。ありがとう。": {
-      "src": "./audio/f/48f239f3ed21.mp3",
+      "src": "./audio/f/1b9b76e8dfcb.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "48f239f3ed21"
+      "hash": "1b9b76e8dfcb",
+      "spoken": "まあ、気を遣わなくていいのに。ありがとう。"
+    },
+    "ほんの気持ちです。": {
+      "src": "./audio/f/b784db7dfc11.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b784db7dfc11",
+      "spoken": "ほんの気持ちです。"
+    },
+    "また来てね。": {
+      "src": "./audio/f/ec7f84f14805.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "ec7f84f14805",
+      "spoken": "また来てね。"
+    },
+    "また会えてうれしいです": {
+      "src": "./audio/f/fa72b3e2b3b2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "fa72b3e2b3b2",
+      "spoken": "また会えてうれしいです"
+    },
+    "まっすぐです": {
+      "src": "./audio/f/c258751e3b71.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "c258751e3b71",
+      "spoken": "まっすぐです"
     },
     "まっすぐですね。": {
-      "src": "./audio/f/79d9f1e4a930.mp3",
+      "src": "./audio/f/ad9b4500efe6.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "79d9f1e4a930"
+      "hash": "ad9b4500efe6",
+      "spoken": "まっすぐですね。"
     },
     "もうおなかいっぱいです": {
-      "src": "./audio/f/d9fb2946773e.mp3",
+      "src": "./audio/f/2e9db8f02e73.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d9fb2946773e"
+      "hash": "2e9db8f02e73",
+      "spoken": "もうおなかいっぱいです"
     },
     "もうおなかいっぱいです。": {
-      "src": "./audio/f/22b5e449efe2.mp3",
+      "src": "./audio/f/b7a8e082e6bc.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "22b5e449efe2"
+      "hash": "b7a8e082e6bc",
+      "spoken": "もうおなかいっぱいです。"
     },
     "もう一度お願いします": {
-      "src": "./audio/f/459ec391610b.mp3",
+      "src": "./audio/f/9564e10ae41c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "459ec391610b"
+      "hash": "9564e10ae41c",
+      "spoken": "もう一度お願いします"
     },
     "もう一度お願いします。": {
-      "src": "./audio/f/2cbf885f7a5f.mp3",
+      "src": "./audio/f/0cd0ca84ae94.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "2cbf885f7a5f"
+      "hash": "0cd0ca84ae94",
+      "spoken": "もう一度お願いします。"
     },
     "もう一度言いますね。": {
-      "src": "./audio/f/8bec441ddaf0.mp3",
+      "src": "./audio/f/b718437fe665.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "8bec441ddaf0"
-    },
-    "もう少しいかがですか": {
-      "src": "./audio/f/80d61d6fa0c3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "80d61d6fa0c3"
-    },
-    "もしもし": {
-      "src": "./audio/f/fd1c71305f4e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "fd1c71305f4e"
+      "hash": "b718437fe665",
+      "spoken": "もう一度言いますね。"
     },
     "もう少しいかがですか？": {
-      "src": "./audio/f/2e4857106a2f.mp3",
+      "src": "./audio/f/09f21e3caf25.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "2e4857106a2f"
+      "hash": "09f21e3caf25",
+      "spoken": "もう少しいかがですか？"
+    },
+    "もう少しいかがですか": {
+      "src": "./audio/f/0cf4a1b1f1dd.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "0cf4a1b1f1dd",
+      "spoken": "もう少しいかがですか"
     },
     "もう遅いから、寝ましょうか。": {
-      "src": "./audio/f/c147e6c5f0de.mp3",
+      "src": "./audio/f/25611dbcdef0.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c147e6c5f0de"
+      "hash": "25611dbcdef0",
+      "spoken": "もう遅いから、寝ましょうか。"
     },
-    "もしもし、リズです。": {
-      "src": "./audio/f/1b2016aa81fc.mp3",
+    "もしもし": {
+      "src": "./audio/f/266e340e1695.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1b2016aa81fc"
+      "hash": "266e340e1695",
+      "spoken": "もしもし"
     },
     "もしもし、リズです": {
-      "src": "./audio/f/e8d7c257da5b.mp3",
+      "src": "./audio/f/aab3b00855da.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e8d7c257da5b"
+      "hash": "aab3b00855da",
+      "spoken": "もしもし、リズです"
     },
-    "もしもし。": {
-      "src": "./audio/f/59395133415f.mp3",
+    "もしもし、リズです。": {
+      "src": "./audio/f/c82d4d080886.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "59395133415f"
+      "hash": "c82d4d080886",
+      "spoken": "もしもし、リズです。"
     },
     "もしもし？": {
-      "src": "./audio/f/9df62e8d6bf2.mp3",
+      "src": "./audio/f/8cba6c863a93.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9df62e8d6bf2"
-    },
-    "ゆっくり話してください": {
-      "src": "./audio/f/fa0cb093ada8.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "fa0cb093ada8"
-    },
-    "ゆっくり話してください。": {
-      "src": "./audio/f/a7693683d547.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "a7693683d547"
+      "hash": "8cba6c863a93",
+      "spoken": "もしもし？"
     },
     "もしもし、聞こえますか？": {
-      "src": "./audio/f/bc1a6e1833f3.mp3",
+      "src": "./audio/f/eff1cb273d8f.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "bc1a6e1833f3"
+      "hash": "eff1cb273d8f",
+      "spoken": "もしもし、聞こえますか？"
+    },
+    "もしもし。": {
+      "src": "./audio/f/cbabfd32e16d.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "cbabfd32e16d",
+      "spoken": "もしもし。"
     },
     "ゆう・びん・きょく、ありますか？": {
-      "src": "./audio/f/faeaba040fcf.mp3",
+      "src": "./audio/f/b1c3eea084e7.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "faeaba040fcf"
+      "hash": "b1c3eea084e7",
+      "spoken": "ゆう・びん・きょく、ありますか？"
     },
-    "わかりました": {
-      "src": "./audio/f/e373802575c2.mp3",
+    "ゆっくり話してください": {
+      "src": "./audio/f/7d240e19c12b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e373802575c2"
+      "hash": "7d240e19c12b",
+      "spoken": "ゆっくり話してください"
+    },
+    "ゆっくり話してください。": {
+      "src": "./audio/f/0b7374087420.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "0b7374087420",
+      "spoken": "ゆっくり話してください。"
     },
     "わかりました。": {
-      "src": "./audio/f/731afb2a1ab5.mp3",
+      "src": "./audio/f/bd11ba7d4844.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "731afb2a1ab5"
+      "hash": "bd11ba7d4844",
+      "spoken": "わかりました。"
     },
-    "よく聞こえません": {
-      "src": "./audio/f/3ceefce141ac.mp3",
+    "わかりました": {
+      "src": "./audio/f/90d88295d366.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "3ceefce141ac"
-    },
-    "わかりません": {
-      "src": "./audio/f/6dcfc9b79bdb.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "6dcfc9b79bdb"
-    },
-    "カードで払えますか。": {
-      "src": "./audio/f/80249f87b1ca.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "80249f87b1ca"
-    },
-    "アメリカから来ました。": {
-      "src": "./audio/f/5a15505699bb.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "5a15505699bb"
-    },
-    "カードで払えますか": {
-      "src": "./audio/f/ac7df4e92161.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "ac7df4e92161"
+      "hash": "90d88295d366",
+      "spoken": "わかりました"
     },
     "わかりました。すみません、この辺はわかりません。": {
-      "src": "./audio/f/63ae6d66b211.mp3",
+      "src": "./audio/f/06214f28d4c8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "63ae6d66b211"
+      "hash": "06214f28d4c8",
+      "spoken": "わかりました。すみません、この辺はわかりません。"
+    },
+    "わかりません": {
+      "src": "./audio/f/169bfe76afe2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "169bfe76afe2",
+      "spoken": "わかりません"
+    },
+    "アメリカから来ました。": {
+      "src": "./audio/f/ee27772c7f34.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "ee27772c7f34",
+      "spoken": "アメリカから来ました。"
+    },
+    "よく聞こえません": {
+      "src": "./audio/f/c0eef15ca285.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "c0eef15ca285",
+      "spoken": "よく聞こえません"
+    },
+    "カードで払えますか。": {
+      "src": "./audio/f/c4178335e6e8.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "c4178335e6e8",
+      "spoken": "カードで払えますか。"
     },
     "アーバインとソウル出身です": {
-      "src": "./audio/f/ad1f013960c6.mp3",
+      "src": "./audio/f/e014e4320a77.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ad1f013960c6"
+      "hash": "e014e4320a77",
+      "spoken": "アーバインとソウル出身です"
+    },
+    "カードで払えますか": {
+      "src": "./audio/f/4d64909a5230.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4d64909a5230",
+      "spoken": "カードで払えますか"
     },
     "グラフィックデザイナーをしています": {
-      "src": "./audio/f/0d9e67cb5242.mp3",
+      "src": "./audio/f/25ddaad476ff.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0d9e67cb5242"
-    },
-    "コーヒーを一つお願いします。": {
-      "src": "./audio/f/0a7a1f435561.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "0a7a1f435561"
-    },
-    "トイレはどこですか": {
-      "src": "./audio/f/5d52bcd566e4.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "5d52bcd566e4"
-    },
-    "ポイントカードはお持ちですか": {
-      "src": "./audio/f/9d607ce89ec8.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "9d607ce89ec8"
-    },
-    "グラフィックデザイナーをしています。": {
-      "src": "./audio/f/fe3c14c3cb75.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "fe3c14c3cb75"
+      "hash": "25ddaad476ff",
+      "spoken": "グラフィックデザイナーをしています"
     },
     "コーヒーを一つお願いします": {
-      "src": "./audio/f/4513cfd02887.mp3",
+      "src": "./audio/f/7e712c5cea21.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "4513cfd02887"
+      "hash": "7e712c5cea21",
+      "spoken": "コーヒーを一つお願いします"
     },
-    "ポイントカードはお持ちですか？": {
-      "src": "./audio/f/aaafcaee2ec2.mp3",
+    "グラフィックデザイナーをしています。": {
+      "src": "./audio/f/067542d7815e.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "aaafcaee2ec2"
+      "hash": "067542d7815e",
+      "spoken": "グラフィックデザイナーをしています。"
+    },
+    "ポイントカードはお持ちですか": {
+      "src": "./audio/f/df676eaf87d1.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "df676eaf87d1",
+      "spoken": "ポイントカードはお持ちですか"
+    },
+    "トイレはどこですか": {
+      "src": "./audio/f/652c233f2a7f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "652c233f2a7f",
+      "spoken": "トイレはどこですか"
+    },
+    "コーヒーを一つお願いします。": {
+      "src": "./audio/f/15b85a945f76.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "15b85a945f76",
+      "spoken": "コーヒーを一つお願いします。"
     },
     "メニューをお願いします": {
-      "src": "./audio/f/c50ec590cf88.mp3",
+      "src": "./audio/f/46df35e33146.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c50ec590cf88"
-    },
-    "レシートは大丈夫です": {
-      "src": "./audio/f/815a9b4bcdb8.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "815a9b4bcdb8"
-    },
-    "リズちゃんに兄弟はいるの？": {
-      "src": "./audio/m/a07bba317f06.mp3",
-      "voice": "ja-JP-KeitaNeural",
-      "gender": "male",
-      "hash": "a07bba317f06"
-    },
-    "一つです。": {
-      "src": "./audio/f/f4e23f66aa2a.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "f4e23f66aa2a"
-    },
-    "リズちゃん、趣味は何？": {
-      "src": "./audio/f/861c306228ad.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "861c306228ad"
-    },
-    "ローマ字でお願いします。": {
-      "src": "./audio/f/eaa0b951db58.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "eaa0b951db58"
+      "hash": "46df35e33146",
+      "spoken": "メニューをお願いします"
     },
     "リズちゃん、料理するの？": {
-      "src": "./audio/f/4d017e5eeed2.mp3",
+      "src": "./audio/f/5e6532f57e5a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "4d017e5eeed2"
+      "hash": "5e6532f57e5a",
+      "spoken": "リズちゃん、料理するの？"
+    },
+    "ポイントカードはお持ちですか？": {
+      "src": "./audio/f/a5da8a248b80.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "a5da8a248b80",
+      "spoken": "ポイントカードはお持ちですか？"
+    },
+    "リズちゃんに兄弟はいるの？": {
+      "src": "./audio/m/f18b464a24e4.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "f18b464a24e4",
+      "spoken": "リズちゃんに兄弟はいるの？"
+    },
+    "リズちゃん、趣味は何？": {
+      "src": "./audio/f/ccd4912fa751.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "ccd4912fa751",
+      "spoken": "リズちゃん、趣味は何？"
+    },
+    "レシートは大丈夫です": {
+      "src": "./audio/f/4e2f824b9d53.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4e2f824b9d53",
+      "spoken": "レシートは大丈夫です"
+    },
+    "一つです。": {
+      "src": "./audio/f/20af27d861cb.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "20af27d861cb",
+      "spoken": "一つです。"
     },
     "一人っ子です。": {
-      "src": "./audio/f/63157f3625b2.mp3",
+      "src": "./audio/f/b2a425fdcfdd.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "63157f3625b2"
+      "hash": "b2a425fdcfdd",
+      "spoken": "一人っ子です。"
     },
-    "三千円": {
-      "src": "./audio/f/05d6b120cbe6.mp3",
+    "ローマ字でお願いします。": {
+      "src": "./audio/f/b53db17a5697.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "05d6b120cbe6"
+      "hash": "b53db17a5697",
+      "spoken": "ローマ字でお願いします。"
     },
     "三番線です。": {
-      "src": "./audio/f/11eb736ccaf7.mp3",
+      "src": "./audio/f/36bde9ecab81.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "11eb736ccaf7"
+      "hash": "36bde9ecab81",
+      "spoken": "三番線です。"
     },
     "三千円です。": {
-      "src": "./audio/f/429099f13251.mp3",
+      "src": "./audio/f/66919bb199f9.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "429099f13251"
+      "hash": "66919bb199f9",
+      "spoken": "三千円です。"
     },
     "乗り換えです。": {
-      "src": "./audio/f/e04ac799e44b.mp3",
+      "src": "./audio/f/8e0b242689b8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e04ac799e44b"
-    },
-    "久しぶりです": {
-      "src": "./audio/f/329cf9756060.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "329cf9756060"
+      "hash": "8e0b242689b8",
+      "spoken": "乗り換えです。"
     },
     "乗り換えはどこですか": {
-      "src": "./audio/f/294658804af9.mp3",
+      "src": "./audio/f/82058f6aa9a3.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "294658804af9"
+      "hash": "82058f6aa9a3",
+      "spoken": "乗り換えはどこですか"
     },
-    "二人です。": {
-      "src": "./audio/f/be01c1fc1bb1.mp3",
+    "久しぶりです": {
+      "src": "./audio/f/f80d2c3a4092.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "be01c1fc1bb1"
+      "hash": "f80d2c3a4092",
+      "spoken": "久しぶりです"
+    },
+    "三千円": {
+      "src": "./audio/f/e9f059a1f437.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e9f059a1f437",
+      "spoken": "三千円"
     },
     "二人です": {
-      "src": "./audio/f/a554a4a22c16.mp3",
+      "src": "./audio/f/2952128bf4b2.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "a554a4a22c16"
+      "hash": "2952128bf4b2",
+      "spoken": "二人です"
     },
-    "二人はどこで会ったの？": {
-      "src": "./audio/m/d4879e4b23c2.mp3",
-      "voice": "ja-JP-KeitaNeural",
-      "gender": "male",
-      "hash": "d4879e4b23c2"
-    },
-    "五百円": {
-      "src": "./audio/f/c685e280f421.mp3",
+    "二人です。": {
+      "src": "./audio/f/dde76c2c487c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "c685e280f421"
-    },
-    "二人はどこで会ったんですか？": {
-      "src": "./audio/f/82ad5871575a.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "82ad5871575a"
+      "hash": "dde76c2c487c",
+      "spoken": "二人です。"
     },
     "京都に行きます。": {
-      "src": "./audio/f/9bc7826efb44.mp3",
+      "src": "./audio/f/b24ec26035d1.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9bc7826efb44"
+      "hash": "b24ec26035d1",
+      "spoken": "京都に行きます。"
     },
-    "今日は暑いですね": {
-      "src": "./audio/f/aaa3f88076f8.mp3",
+    "二人はどこで会ったんですか？": {
+      "src": "./audio/f/79e431e15d7b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "aaa3f88076f8"
+      "hash": "79e431e15d7b",
+      "spoken": "二人はどこで会ったんですか？"
     },
-    "今日は暑いね。": {
-      "src": "./audio/m/bbde0bc19cc7.mp3",
+    "二人はどこで会ったの？": {
+      "src": "./audio/m/667b9db6f17a.mp3",
       "voice": "ja-JP-KeitaNeural",
       "gender": "male",
-      "hash": "bbde0bc19cc7"
+      "hash": "667b9db6f17a",
+      "spoken": "二人はどこで会ったの？"
+    },
+    "五百円": {
+      "src": "./audio/f/d8a8dfa10ea4.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "d8a8dfa10ea4",
+      "spoken": "五百円"
     },
     "今、キッチン手伝ってくれる？": {
-      "src": "./audio/f/d659c09f850b.mp3",
+      "src": "./audio/f/2dba0a6b922f.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d659c09f850b"
+      "hash": "2dba0a6b922f",
+      "spoken": "今、キッチン手伝ってくれる？"
     },
-    "今日もよろしくお願いします": {
-      "src": "./audio/f/f62ee5b80c11.mp3",
+    "今日は暑いですね": {
+      "src": "./audio/f/220788fe0030.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f62ee5b80c11"
+      "hash": "220788fe0030",
+      "spoken": "今日は暑いですね"
     },
-    "仕事で会いました": {
-      "src": "./audio/f/c9b99fbea859.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "c9b99fbea859"
+    "今日は暑いね。": {
+      "src": "./audio/m/3124953848e0.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "3124953848e0",
+      "spoken": "今日は暑いね。"
     },
     "仕事で会いました。": {
-      "src": "./audio/f/ab925274de5e.mp3",
+      "src": "./audio/f/1bb1b29eea47.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ab925274de5e"
+      "hash": "1bb1b29eea47",
+      "spoken": "仕事で会いました。"
+    },
+    "仕事で会いました": {
+      "src": "./audio/f/6e8e541d00a0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "6e8e541d00a0",
+      "spoken": "仕事で会いました"
+    },
+    "今日もよろしくお願いします": {
+      "src": "./audio/f/df66d3f6ea08.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "df66d3f6ea08",
+      "spoken": "今日もよろしくお願いします"
     },
     "他の色もありますよ。": {
-      "src": "./audio/f/792483bceb4c.mp3",
+      "src": "./audio/f/f4c769411617.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "792483bceb4c"
-    },
-    "以上でよろしいですか": {
-      "src": "./audio/f/c6a7610927a3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "c6a7610927a3"
-    },
-    "付き合って二年になります": {
-      "src": "./audio/f/e6a9a1e3ec1a.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "e6a9a1e3ec1a"
+      "hash": "f4c769411617",
+      "spoken": "他の色もありますよ。"
     },
     "何かお困りですか？": {
-      "src": "./audio/f/74588fb119ba.mp3",
+      "src": "./audio/f/e88ff1b1208b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "74588fb119ba"
-    },
-    "付き合って二年になります。": {
-      "src": "./audio/f/e434888376f2.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "e434888376f2"
-    },
-    "何名様ですか": {
-      "src": "./audio/f/de62605c83c0.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "de62605c83c0"
-    },
-    "何か手伝おうか？": {
-      "src": "./audio/f/fe77fa1175df.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "fe77fa1175df"
+      "hash": "e88ff1b1208b",
+      "spoken": "何かお困りですか？"
     },
     "何かお手伝いしましょうか": {
-      "src": "./audio/f/1fb5b9c5a313.mp3",
+      "src": "./audio/f/328cbb63aebe.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1fb5b9c5a313"
+      "hash": "328cbb63aebe",
+      "spoken": "何かお手伝いしましょうか"
+    },
+    "付き合って二年になります": {
+      "src": "./audio/f/183f07cc36ed.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "183f07cc36ed",
+      "spoken": "付き合って二年になります"
+    },
+    "以上でよろしいですか": {
+      "src": "./audio/f/71862472c2f8.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "71862472c2f8",
+      "spoken": "以上でよろしいですか"
+    },
+    "何か手伝おうか？": {
+      "src": "./audio/f/a3019a8f6215.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "a3019a8f6215",
+      "spoken": "何か手伝おうか？"
+    },
+    "付き合って二年になります。": {
+      "src": "./audio/f/db99fd6d94fb.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "db99fd6d94fb",
+      "spoken": "付き合って二年になります。"
+    },
+    "何名様ですか": {
+      "src": "./audio/f/5e27f3d44498.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "5e27f3d44498",
+      "spoken": "何名様ですか"
     },
     "作り方を教えてください": {
-      "src": "./audio/f/ca92c7f44456.mp3",
+      "src": "./audio/f/bcb97c39b6ea.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "ca92c7f44456"
-    },
-    "充電器はありますか": {
-      "src": "./audio/f/d9c3cddace4e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "d9c3cddace4e"
-    },
-    "助けてください": {
-      "src": "./audio/f/ff981a0756cd.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "ff981a0756cd"
-    },
-    "助けてください。": {
-      "src": "./audio/f/c6566ed82493.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "c6566ed82493"
+      "hash": "bcb97c39b6ea",
+      "spoken": "作り方を教えてください"
     },
     "元気ですよ。…あれ？聞こえる？": {
-      "src": "./audio/f/009bcd007a8c.mp3",
+      "src": "./audio/f/2ebf1564807c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "009bcd007a8c"
+      "hash": "2ebf1564807c",
+      "spoken": "元気ですよ。あれ？聞こえる？"
+    },
+    "充電器はありますか": {
+      "src": "./audio/f/868ee4602d18.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "868ee4602d18",
+      "spoken": "充電器はありますか"
+    },
+    "助けてください": {
+      "src": "./audio/f/872bb955c5ad.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "872bb955c5ad",
+      "spoken": "助けてください"
     },
     "六百八十円です。": {
-      "src": "./audio/f/232e83b79719.mp3",
+      "src": "./audio/f/6a8b9819e70b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "232e83b79719"
+      "hash": "6a8b9819e70b",
+      "spoken": "六百八十円です。"
     },
-    "助けてください！": {
-      "src": "./audio/f/f927aae67e88.mp3",
+    "助けてください。": {
+      "src": "./audio/f/1b3d887b7bc8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "f927aae67e88"
-    },
-    "千五百円です。": {
-      "src": "./audio/f/cf937312b850.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "cf937312b850"
+      "hash": "1b3d887b7bc8",
+      "spoken": "助けてください。"
     },
     "千円": {
-      "src": "./audio/f/1ae8cde53509.mp3",
+      "src": "./audio/f/e7e6d409c711.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1ae8cde53509"
-    },
-    "右です。": {
-      "src": "./audio/f/ebb56d0402fb.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "ebb56d0402fb"
+      "hash": "e7e6d409c711",
+      "spoken": "千円"
     },
     "右です": {
-      "src": "./audio/f/2a80cfed337c.mp3",
+      "src": "./audio/f/1b6477f07119.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "2a80cfed337c"
+      "hash": "1b6477f07119",
+      "spoken": "右です"
+    },
+    "助けてください！": {
+      "src": "./audio/f/8fb81fc8aba9.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8fb81fc8aba9",
+      "spoken": "助けてください。"
+    },
+    "千五百円です。": {
+      "src": "./audio/f/d705c47723c6.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "d705c47723c6",
+      "spoken": "千五百円です。"
     },
     "友達の紹介で会いました。": {
-      "src": "./audio/f/365e8ddfcb58.mp3",
+      "src": "./audio/f/22b5f0fb9692.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "365e8ddfcb58"
+      "hash": "22b5f0fb9692",
+      "spoken": "友達の紹介で会いました。"
     },
-    "右ですね。": {
-      "src": "./audio/f/9b62427deac9.mp3",
+    "右です。": {
+      "src": "./audio/f/1283d860cf25.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9b62427deac9"
-    },
-    "声が小さいです。": {
-      "src": "./audio/f/10f64b4134a3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "10f64b4134a3"
-    },
-    "四百五十円です。": {
-      "src": "./audio/f/805fa4dcfbc1.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "805fa4dcfbc1"
+      "hash": "1283d860cf25",
+      "spoken": "右です。"
     },
     "寒くなりましたね": {
-      "src": "./audio/f/1de286a409c0.mp3",
+      "src": "./audio/f/d2c941bbc7e8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1de286a409c0"
-    },
-    "寒くなりましたね。": {
-      "src": "./audio/f/f612444e87bf.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "f612444e87bf"
-    },
-    "左です": {
-      "src": "./audio/f/6cd6ecf25f69.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "6cd6ecf25f69"
-    },
-    "左です。": {
-      "src": "./audio/f/1f7f31ceec77.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "1f7f31ceec77"
-    },
-    "少しだけお願いします。": {
-      "src": "./audio/f/6076e6d198b2.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "6076e6d198b2"
-    },
-    "少しだけお願いします": {
-      "src": "./audio/f/e5bdd1463c38.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "e5bdd1463c38"
-    },
-    "左ですね。": {
-      "src": "./audio/f/1f35db559172.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "1f35db559172"
+      "hash": "d2c941bbc7e8",
+      "spoken": "寒くなりましたね"
     },
     "大丈夫、大丈夫。気にしないで。": {
-      "src": "./audio/f/5e24990bc9ba.mp3",
+      "src": "./audio/f/1f4a5e52e3db.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "5e24990bc9ba"
+      "hash": "1f4a5e52e3db",
+      "spoken": "大丈夫、大丈夫。気にしないで。"
+    },
+    "四百五十円です。": {
+      "src": "./audio/f/f84655521431.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "f84655521431",
+      "spoken": "四百五十円です。"
+    },
+    "右ですね。": {
+      "src": "./audio/f/d47b7e7bac15.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "d47b7e7bac15",
+      "spoken": "右ですね。"
+    },
+    "声が小さいです。": {
+      "src": "./audio/f/03c12801be4f.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "03c12801be4f",
+      "spoken": "声が小さいです。"
+    },
+    "寒くなりましたね。": {
+      "src": "./audio/f/9a9eadb5bdda.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "9a9eadb5bdda",
+      "spoken": "寒くなりましたね。"
+    },
+    "少しだけお願いします。": {
+      "src": "./audio/f/82c45d9a421b.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "82c45d9a421b",
+      "spoken": "少しだけお願いします。"
+    },
+    "左です。": {
+      "src": "./audio/f/5e94c09f64ba.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "5e94c09f64ba",
+      "spoken": "左です。"
+    },
+    "少しだけお願いします": {
+      "src": "./audio/f/8e6366255872.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8e6366255872",
+      "spoken": "少しだけお願いします"
     },
     "店内でお召し上がりですか": {
-      "src": "./audio/f/0800d2690262.mp3",
+      "src": "./audio/f/38e77d49f3de.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0800d2690262"
+      "hash": "38e77d49f3de",
+      "spoken": "店内でお召し上がりですか"
+    },
+    "左ですね。": {
+      "src": "./audio/f/8b692abe9ca7.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8b692abe9ca7",
+      "spoken": "左ですね。"
+    },
+    "左です": {
+      "src": "./audio/f/1b7da24ea1d9.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "1b7da24ea1d9",
+      "spoken": "左です"
     },
     "店内でお召し上がりですか？": {
-      "src": "./audio/f/cdaff7659ecf.mp3",
+      "src": "./audio/f/757b85b0c759.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "cdaff7659ecf"
-    },
-    "持ち帰りでお願いします": {
-      "src": "./audio/f/032fdfeba0d3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "032fdfeba0d3"
-    },
-    "持ち帰りでお願いします。": {
-      "src": "./audio/f/4767a1c8967f.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "4767a1c8967f"
-    },
-    "弟さんは元気？": {
-      "src": "./audio/m/c1f23f98f375.mp3",
-      "voice": "ja-JP-KeitaNeural",
-      "gender": "male",
-      "hash": "c1f23f98f375"
+      "hash": "757b85b0c759",
+      "spoken": "店内でお召し上がりですか？"
     },
     "弟が一人います": {
-      "src": "./audio/f/e9389b66d357.mp3",
+      "src": "./audio/f/bff7ac29cc46.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e9389b66d357"
+      "hash": "bff7ac29cc46",
+      "spoken": "弟が一人います"
     },
-    "持ち帰りです。": {
-      "src": "./audio/f/7e4c3a5e76a2.mp3",
+    "持ち帰りでお願いします": {
+      "src": "./audio/f/dd4da35731e5.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "7e4c3a5e76a2"
+      "hash": "dd4da35731e5",
+      "spoken": "持ち帰りでお願いします"
     },
-    "新宿行きは何番線ですか": {
-      "src": "./audio/f/e884666f3f41.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "e884666f3f41"
-    },
-    "新宿はおいしいです。": {
-      "src": "./audio/f/9110cf16f932.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "9110cf16f932"
-    },
-    "新宿行きは何番線ですか。": {
-      "src": "./audio/f/aada3618f32b.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "aada3618f32b"
-    },
-    "日本のいろんなところに行きたいです": {
-      "src": "./audio/f/30b9e2634f6c.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "30b9e2634f6c"
-    },
-    "日本のいろんなところに行きたいです。": {
-      "src": "./audio/f/15627afd3bd4.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "15627afd3bd4"
-    },
-    "料理するの？一緒に作ろうか。最近何かいい映画見た？": {
-      "src": "./audio/f/6c471d6d2927.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "6c471d6d2927"
-    },
-    "本当にすみません": {
-      "src": "./audio/f/0016bf8f28b9.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "0016bf8f28b9"
-    },
-    "日本語で何と言いますか": {
-      "src": "./audio/f/40e90159195a.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "40e90159195a"
-    },
-    "本当にすみません。": {
-      "src": "./audio/f/e549730ff7e6.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "e549730ff7e6"
-    },
-    "書いてもらえますか": {
-      "src": "./audio/f/12ed47c7e6a6.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "12ed47c7e6a6"
-    },
-    "本当にすみません！": {
-      "src": "./audio/f/b9bb34853c7a.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "b9bb34853c7a"
-    },
-    "日本のいろんなところに行きたいです。大阪にも行ってみたいです。": {
-      "src": "./audio/f/42f9ab57d2c6.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "42f9ab57d2c6"
-    },
-    "次の駅ですね。わかりました。": {
-      "src": "./audio/f/8be70940f3f1.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "8be70940f3f1"
-    },
-    "次の駅で乗り換えてください。": {
-      "src": "./audio/f/89c80605b0fa.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "89c80605b0fa"
-    },
-    "歩いて五分です。": {
-      "src": "./audio/f/a9c00c7fe41e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "a9c00c7fe41e"
-    },
-    "母": {
-      "src": "./audio/f/78ce0b021c44.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "78ce0b021c44"
-    },
-    "歩いて五分ぐらいです": {
-      "src": "./audio/f/eb17292e51c3.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "eb17292e51c3"
-    },
-    "母は元気です。": {
-      "src": "./audio/f/134570ce36a5.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "134570ce36a5"
-    },
-    "気にしないでください": {
-      "src": "./audio/f/1cfe9f98cfc0.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "1cfe9f98cfc0"
-    },
-    "次はどこ行きたい？": {
-      "src": "./audio/m/67a07fefd4a1.mp3",
+    "弟さんは元気？": {
+      "src": "./audio/m/8486dcd0416e.mp3",
       "voice": "ja-JP-KeitaNeural",
       "gender": "male",
-      "hash": "67a07fefd4a1"
+      "hash": "8486dcd0416e",
+      "spoken": "弟さんは元気？"
+    },
+    "持ち帰りでお願いします。": {
+      "src": "./audio/f/db0ea5789d5c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "db0ea5789d5c",
+      "spoken": "持ち帰りでお願いします。"
+    },
+    "持ち帰りです。": {
+      "src": "./audio/f/771bfe812ab0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "771bfe812ab0",
+      "spoken": "持ち帰りです。"
+    },
+    "料理するの？一緒に作ろうか。最近何かいい映画見た？": {
+      "src": "./audio/f/4fc9e8dc1aa5.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4fc9e8dc1aa5",
+      "spoken": "料理するの？一緒に作ろうか。最近何かいい映画見た？"
+    },
+    "新宿行きは何番線ですか": {
+      "src": "./audio/f/b08eb6138dfb.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b08eb6138dfb",
+      "spoken": "新宿行きは何番線ですか"
+    },
+    "日本のいろんなところに行きたいです。": {
+      "src": "./audio/f/08bad771a5b2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "08bad771a5b2",
+      "spoken": "日本のいろんなところに行きたいです。"
+    },
+    "新宿行きは何番線ですか。": {
+      "src": "./audio/f/4715a0f7af58.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4715a0f7af58",
+      "spoken": "新宿行きは何番線ですか。"
+    },
+    "新宿はおいしいです。": {
+      "src": "./audio/f/e15f964d0d49.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e15f964d0d49",
+      "spoken": "新宿はおいしいです。"
+    },
+    "日本のいろんなところに行きたいです": {
+      "src": "./audio/f/af04328c7a93.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "af04328c7a93",
+      "spoken": "日本のいろんなところに行きたいです"
+    },
+    "日本のいろんなところに行きたいです。大阪にも行ってみたいです。": {
+      "src": "./audio/f/9094fa5f888d.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "9094fa5f888d",
+      "spoken": "日本のいろんなところに行きたいです。大阪にも行ってみたいです。"
+    },
+    "本当にすみません": {
+      "src": "./audio/f/119216f9050a.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "119216f9050a",
+      "spoken": "本当にすみません"
+    },
+    "日本語で何と言いますか": {
+      "src": "./audio/f/249f703b36a5.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "249f703b36a5",
+      "spoken": "日本語で何と言いますか"
+    },
+    "本当にすみません。": {
+      "src": "./audio/f/51870d2ae6a6.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "51870d2ae6a6",
+      "spoken": "本当にすみません。"
+    },
+    "書いてもらえますか": {
+      "src": "./audio/f/a68629e1e544.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "a68629e1e544",
+      "spoken": "書いてもらえますか"
+    },
+    "本当にすみません！": {
+      "src": "./audio/f/8f5b34a3f429.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8f5b34a3f429",
+      "spoken": "本当にすみません。"
+    },
+    "次の駅ですね。わかりました。": {
+      "src": "./audio/f/2015f0b6dc86.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "2015f0b6dc86",
+      "spoken": "次の駅ですね。わかりました。"
+    },
+    "次はどこ行きたい？": {
+      "src": "./audio/m/e89974836c2e.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "e89974836c2e",
+      "spoken": "次はどこ行きたい？"
+    },
+    "次の駅で乗り換えてください。": {
+      "src": "./audio/f/3fca94376803.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "3fca94376803",
+      "spoken": "次の駅で乗り換えてください。"
+    },
+    "歩いて五分です。": {
+      "src": "./audio/f/b5d1c24d7f0a.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b5d1c24d7f0a",
+      "spoken": "歩いて五分です。"
+    },
+    "母は元気です。": {
+      "src": "./audio/f/cc22e560f8b0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "cc22e560f8b0",
+      "spoken": "母は元気です。"
+    },
+    "気にしないでください": {
+      "src": "./audio/f/41941f986d17.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "41941f986d17",
+      "spoken": "気にしないでください"
+    },
+    "母": {
+      "src": "./audio/f/53933aac8726.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "53933aac8726",
+      "spoken": "母"
     },
     "気にしないでください。": {
-      "src": "./audio/f/4006df1d74db.mp3",
+      "src": "./audio/f/e5d5acf0705d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "4006df1d74db"
+      "hash": "e5d5acf0705d",
+      "spoken": "気にしないでください。"
+    },
+    "歩いて五分ぐらいです": {
+      "src": "./audio/f/25e0174e91d8.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "25e0174e91d8",
+      "spoken": "歩いて五分ぐらいです"
     },
     "気にしないでね。": {
-      "src": "./audio/f/b6ec5c58d2b0.mp3",
+      "src": "./audio/f/87f6d31ebf8b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b6ec5c58d2b0"
-    },
-    "温めますか": {
-      "src": "./audio/f/1198fe760c61.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "1198fe760c61"
+      "hash": "87f6d31ebf8b",
+      "spoken": "気にしないでね。"
     },
     "気に入ってもらえるとうれしいです": {
-      "src": "./audio/f/35c4d24a3fe6.mp3",
+      "src": "./audio/f/6f1fa3bb0a5b.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "35c4d24a3fe6"
+      "hash": "6f1fa3bb0a5b",
+      "spoken": "気に入ってもらえるとうれしいです"
     },
     "気を遣わなくていいのに。": {
-      "src": "./audio/f/13b29fa6148e.mp3",
+      "src": "./audio/f/2c32e2c62186.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "13b29fa6148e"
+      "hash": "2c32e2c62186",
+      "spoken": "気を遣わなくていいのに。"
     },
     "気に入ってもらえるとうれしいです。": {
-      "src": "./audio/f/a66830c90ac9.mp3",
+      "src": "./audio/f/87ea5f1499b5.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "a66830c90ac9"
+      "hash": "87ea5f1499b5",
+      "spoken": "気に入ってもらえるとうれしいです。"
     },
     "父": {
-      "src": "./audio/f/0b27d61a0761.mp3",
+      "src": "./audio/f/1c3a0a4b9ccb.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0b27d61a0761"
+      "hash": "1c3a0a4b9ccb",
+      "spoken": "父"
     },
-    "漢字で書きましょうか？": {
-      "src": "./audio/f/536e2b0559bd.mp3",
+    "温めますか": {
+      "src": "./audio/f/4c80218a75f2.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "536e2b0559bd"
-    },
-    "百円": {
-      "src": "./audio/f/dd134499531a.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "dd134499531a"
+      "hash": "4c80218a75f2",
+      "spoken": "温めますか"
     },
     "父も母も元気です": {
-      "src": "./audio/f/3d58d04b8685.mp3",
+      "src": "./audio/f/3559cbeb5920.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "3d58d04b8685"
+      "hash": "3559cbeb5920",
+      "spoken": "父も母も元気です"
     },
     "父も母も元気です。": {
-      "src": "./audio/f/301dc484426c.mp3",
+      "src": "./audio/f/3db70d678bf3.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "301dc484426c"
+      "hash": "3db70d678bf3",
+      "spoken": "父も母も元気です。"
+    },
+    "漢字で書きましょうか？": {
+      "src": "./audio/f/eda013c0a010.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "eda013c0a010",
+      "spoken": "漢字で書きましょうか？"
+    },
+    "百円": {
+      "src": "./audio/f/ca6b2c50c8b0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "ca6b2c50c8b0",
+      "spoken": "百円"
     },
     "画面が固まっています": {
-      "src": "./audio/f/da6532cc2c0d.mp3",
+      "src": "./audio/f/6b5ad823ae97.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "da6532cc2c0d"
-    },
-    "私こそ、何かお手伝いしましょうか。": {
-      "src": "./audio/f/295394bd8bff.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "295394bd8bff"
+      "hash": "6b5ad823ae97",
+      "spoken": "画面が固まっています"
     },
     "聞こえますか": {
-      "src": "./audio/f/0fcb0def755f.mp3",
+      "src": "./audio/f/21ffbd148d2a.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "0fcb0def755f"
+      "hash": "21ffbd148d2a",
+      "spoken": "聞こえますか"
     },
-    "英語を話せますか。": {
-      "src": "./audio/f/e20d32eb2b6b.mp3",
+    "私こそ、何かお手伝いしましょうか。": {
+      "src": "./audio/f/7d52ccb9407c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e20d32eb2b6b"
-    },
-    "英語を話せますか": {
-      "src": "./audio/f/41bc7bd204f5.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "41bc7bd204f5"
-    },
-    "行ってきます": {
-      "src": "./audio/f/bf1bd8269afb.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "bf1bd8269afb"
-    },
-    "袋は大丈夫です": {
-      "src": "./audio/f/cb941d448c67.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "cb941d448c67"
+      "hash": "7d52ccb9407c",
+      "spoken": "私こそ、何かお手伝いしましょうか。"
     },
     "苦手なものはありますか？": {
-      "src": "./audio/f/b91eac2eb6f2.mp3",
+      "src": "./audio/f/7317611e5d06.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "b91eac2eb6f2"
+      "hash": "7317611e5d06",
+      "spoken": "苦手なものはありますか？"
     },
-    "袋はご利用ですか": {
-      "src": "./audio/f/32babbcf7b75.mp3",
+    "英語を話せますか": {
+      "src": "./audio/f/3142f66c1924.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "32babbcf7b75"
+      "hash": "3142f66c1924",
+      "spoken": "英語を話せますか"
     },
-    "見ているだけです。": {
-      "src": "./audio/f/009dabb2d3a7.mp3",
+    "英語を話せますか。": {
+      "src": "./audio/f/b93137dbb093.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "009dabb2d3a7"
+      "hash": "b93137dbb093",
+      "spoken": "英語を話せますか。"
     },
     "袋は大丈夫です。": {
-      "src": "./audio/f/d50d298fda9f.mp3",
+      "src": "./audio/f/3941b0a9f99f.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "d50d298fda9f"
+      "hash": "3941b0a9f99f",
+      "spoken": "袋は大丈夫です。"
+    },
+    "行ってきます": {
+      "src": "./audio/f/8c7ab2e6e9f5.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8c7ab2e6e9f5",
+      "spoken": "行ってきます"
+    },
+    "袋はご利用ですか": {
+      "src": "./audio/f/4a5b324151a2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4a5b324151a2",
+      "spoken": "袋はご利用ですか"
+    },
+    "袋は大丈夫です": {
+      "src": "./audio/f/96b5cb50a368.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "96b5cb50a368",
+      "spoken": "袋は大丈夫です"
     },
     "見ているだけです": {
-      "src": "./audio/f/54e27d7dd5da.mp3",
+      "src": "./audio/f/c3f16b8bb6ec.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "54e27d7dd5da"
+      "hash": "c3f16b8bb6ec",
+      "spoken": "見ているだけです"
+    },
+    "見ているだけです。": {
+      "src": "./audio/f/7fb21fc58bce.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "7fb21fc58bce",
+      "spoken": "見ているだけです。"
     },
     "試着してもいいですか": {
-      "src": "./audio/f/5e0478865db7.mp3",
+      "src": "./audio/f/77dfcf1d49d8.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "5e0478865db7"
-    },
-    "試着してもいいですか。": {
-      "src": "./audio/f/3b22c4bf9645.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "3b22c4bf9645"
+      "hash": "77dfcf1d49d8",
+      "spoken": "試着してもいいですか"
     },
     "試着室はあちらです。": {
-      "src": "./audio/f/8a359dbb092a.mp3",
+      "src": "./audio/f/27357036524c.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "8a359dbb092a"
+      "hash": "27357036524c",
+      "spoken": "試着室はあちらです。"
+    },
+    "試着してもいいですか。": {
+      "src": "./audio/f/19febc0a1063.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "19febc0a1063",
+      "spoken": "試着してもいいですか。"
     },
     "趣味は絵を描くことです。": {
-      "src": "./audio/f/fb822a8231b5.mp3",
+      "src": "./audio/f/6b68186bfd95.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "fb822a8231b5"
-    },
-    "辛いものはちょっと苦手です": {
-      "src": "./audio/f/683f77911d4c.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "683f77911d4c"
-    },
-    "買い物と料理と映画を見るのが好きです": {
-      "src": "./audio/f/0b1feb877000.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "0b1feb877000"
+      "hash": "6b68186bfd95",
+      "spoken": "趣味は絵を描くことです。"
     },
     "買い物と料理と映画を見るのが好きです。": {
-      "src": "./audio/f/e3e52681c53f.mp3",
+      "src": "./audio/f/53e274aaf865.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "e3e52681c53f"
+      "hash": "53e274aaf865",
+      "spoken": "買い物と料理と映画を見るのが好きです。"
+    },
+    "買い物と料理と映画を見るのが好きです": {
+      "src": "./audio/f/4f29652b9393.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "4f29652b9393",
+      "spoken": "買い物と料理と映画を見るのが好きです"
+    },
+    "辛いものはちょっと苦手です": {
+      "src": "./audio/f/f6dbb95eba09.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "f6dbb95eba09",
+      "spoken": "辛いものはちょっと苦手です"
     },
     "週末は何をしますか": {
-      "src": "./audio/f/db480dad80fa.mp3",
+      "src": "./audio/f/906bc6685421.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "db480dad80fa"
-    },
-    "辛いものはちょっと苦手です。": {
-      "src": "./audio/f/c7c83d19cfba.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "c7c83d19cfba"
-    },
-    "遅れてすみません": {
-      "src": "./audio/f/939e979b7aba.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "939e979b7aba"
-    },
-    "雨が降りそうですね。": {
-      "src": "./audio/f/26a4e86bce7e.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "26a4e86bce7e"
-    },
-    "駅はどこですか": {
-      "src": "./audio/f/84e5eae60d6f.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "84e5eae60d6f"
+      "hash": "906bc6685421",
+      "spoken": "週末は何をしますか"
     },
     "道に迷いました": {
-      "src": "./audio/f/9aa9b6a78c0b.mp3",
+      "src": "./audio/f/fee5e3675ccc.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "9aa9b6a78c0b"
+      "hash": "fee5e3675ccc",
+      "spoken": "道に迷いました"
+    },
+    "遅れてすみません": {
+      "src": "./audio/f/bea7a7a19e60.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "bea7a7a19e60",
+      "spoken": "遅れてすみません"
+    },
+    "雨が降りそうですね。": {
+      "src": "./audio/f/3b185a8612b9.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "3b185a8612b9",
+      "spoken": "雨が降りそうですね。"
+    },
+    "辛いものはちょっと苦手です。": {
+      "src": "./audio/f/de231762064a.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "de231762064a",
+      "spoken": "辛いものはちょっと苦手です。"
     },
     "駅です。": {
-      "src": "./audio/f/385faa0f00f7.mp3",
+      "src": "./audio/f/3138d3d5a708.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "385faa0f00f7"
+      "hash": "3138d3d5a708",
+      "spoken": "駅です。"
     },
     "駅はどこですか。": {
-      "src": "./audio/f/2743523b6640.mp3",
+      "src": "./audio/f/2890ebc0d67d.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "2743523b6640"
+      "hash": "2890ebc0d67d",
+      "spoken": "駅はどこですか。"
+    },
+    "駅はどこですか": {
+      "src": "./audio/f/37ed7a992e72.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "37ed7a992e72",
+      "spoken": "駅はどこですか"
     },
     "駅ですか？あそこの信号を右に曲がって、まっすぐです。": {
-      "src": "./audio/f/1027356aa495.mp3",
+      "src": "./audio/f/70a30dbec150.mp3",
       "voice": "ja-JP-NanamiNeural",
       "gender": "female",
-      "hash": "1027356aa495"
+      "hash": "70a30dbec150",
+      "spoken": "駅ですか？あそこの信号を右に曲がって、まっすぐです。"
     }
   }
 }

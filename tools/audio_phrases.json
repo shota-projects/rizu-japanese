@@ -1,1722 +1,2066 @@
 [
   {
     "text": "Suicaで払います",
+    "spoken": "Suicaで払います",
     "gender": "female",
-    "hash": "27f8d80011df"
+    "hash": "6c96e4b2e0ef"
   },
   {
     "text": "Suicaで払います。",
+    "spoken": "Suicaで払います。",
     "gender": "female",
-    "hash": "ead7c0701edf"
+    "hash": "9ea627d131e2"
   },
   {
     "text": "あ、ごめんなさい。Post office？",
+    "spoken": "あ、ごめんなさい。Post office？",
     "gender": "female",
-    "hash": "db56978da6ee"
+    "hash": "b545ecc57cf7"
   },
   {
     "text": "あっ、お茶がこぼれちゃった。",
+    "spoken": "あっ、お茶がこぼれちゃった。",
     "gender": "female",
-    "hash": "45b9fe86155e"
+    "hash": "60d56ed9fb92"
   },
   {
     "text": "あの信号を左に曲がってください。",
+    "spoken": "あの信号を左に曲がってください。",
     "gender": "female",
-    "hash": "1bf07c22f073"
+    "hash": "31fc4a94bb0d"
   },
   {
     "text": "あら、そう？じゃあ、デザートは別腹ね。",
+    "spoken": "あら、そう？じゃあ、デザートは別腹ね。",
     "gender": "female",
-    "hash": "cdc695514fc7"
+    "hash": "345610aebde0"
   },
   {
     "text": "あら、リズちゃん。お元気でしたか？",
+    "spoken": "あら、リズちゃん。お元気でしたか？",
     "gender": "female",
-    "hash": "31fba13948d3"
+    "hash": "9632ce91c2c7"
   },
   {
     "text": "あら、リズちゃん！久しぶり！上がって上がって。",
+    "spoken": "あら、リズちゃん。久しぶりね。さあ、上がって。",
     "gender": "female",
-    "hash": "34ac973ddd1f"
+    "hash": "dcebaf52d69a"
   },
   {
     "text": "あら、久しぶり！元気だった？",
+    "spoken": "あら、久しぶり。元気だった？",
     "gender": "female",
-    "hash": "524bf806bc71"
+    "hash": "e1c6475fb184"
   },
   {
     "text": "ありがとう。またね。",
+    "spoken": "ありがとう。またね。",
     "gender": "female",
-    "hash": "6f0a6dc95741"
+    "hash": "63a257bed2f6"
   },
   {
     "text": "ありがとうございました。",
+    "spoken": "ありがとうございました。",
     "gender": "female",
-    "hash": "882395686e31"
+    "hash": "dd94f4f24e3a"
   },
   {
     "text": "ありがとうございます。",
+    "spoken": "ありがとうございます。",
     "gender": "female",
-    "hash": "29162a7b7170"
+    "hash": "08d90359bd2a"
   },
   {
     "text": "ありがとうございます。いただきます。",
+    "spoken": "ありがとうございます。いただきます。",
     "gender": "female",
-    "hash": "e9a889c83e05"
+    "hash": "4ee2c6b3e6b7"
   },
   {
     "text": "ありがとうございます。でも、もうおなかいっぱいです。",
+    "spoken": "ありがとうございます。でも、もうおなかいっぱいです。",
     "gender": "female",
-    "hash": "59a41997f570"
+    "hash": "0ba1a2e260d1"
   },
   {
     "text": "いいえ、ないです。",
+    "spoken": "いいえ、ないです。",
     "gender": "female",
-    "hash": "22b0ab4bd9d9"
+    "hash": "4332133d66fb"
   },
   {
     "text": "いいえ、はじめまして。",
+    "spoken": "いいえ、はじめまして。",
     "gender": "female",
-    "hash": "b73619afd313"
+    "hash": "9b550445f835"
   },
   {
     "text": "いいえ、まだ勉強中です。",
+    "spoken": "いいえ、まだ勉強中です。",
     "gender": "female",
-    "hash": "990305a88173"
+    "hash": "8cd23fe152bc"
   },
   {
     "text": "いいえ、元気です。",
+    "spoken": "いいえ、元気です。",
     "gender": "female",
-    "hash": "d32b49cc5518"
+    "hash": "e4e4282654b9"
   },
   {
     "text": "いいえ、大丈夫です",
+    "spoken": "いいえ、大丈夫です",
     "gender": "female",
-    "hash": "26067f0b10b1"
+    "hash": "f359f7fa3d62"
   },
   {
     "text": "いいえ、大丈夫です。",
+    "spoken": "いいえ、大丈夫です。",
     "gender": "female",
-    "hash": "79e5fa92564b"
+    "hash": "719dd970c18e"
   },
   {
     "text": "いいえ、嫌いです。",
+    "spoken": "いいえ、嫌いです。",
     "gender": "female",
-    "hash": "20ed08812376"
+    "hash": "1ef212b1c156"
   },
   {
     "text": "いいえ、持ち帰りでお願いします。",
+    "spoken": "いいえ、持ち帰りでお願いします。",
     "gender": "female",
-    "hash": "f9527fd1f8d5"
+    "hash": "9733ce934526"
   },
   {
     "text": "いいえ、歩いて五分ぐらいです。",
+    "spoken": "いいえ、歩いて五分ぐらいです。",
     "gender": "female",
-    "hash": "ae21d160ce4b"
+    "hash": "6b97baf0c26d"
   },
   {
     "text": "いいえ、聞こえません。",
+    "spoken": "いいえ、聞こえません。",
     "gender": "female",
-    "hash": "fc822abeb738"
+    "hash": "2219958a2457"
   },
   {
     "text": "いいえ、苦手です。",
+    "spoken": "いいえ、苦手です。",
     "gender": "female",
-    "hash": "a7ad4ae4708f"
+    "hash": "b5c21601cd93"
   },
   {
     "text": "いえいえ、ありがとう。",
+    "spoken": "いえいえ、ありがとう。",
     "gender": "female",
-    "hash": "fc52aaa60aa5"
+    "hash": "fdf69835ac69"
   },
   {
     "text": "いただきます",
+    "spoken": "いただきます",
     "gender": "female",
-    "hash": "25567f8581d3"
+    "hash": "a97e06edd843"
   },
   {
     "text": "いただきます。",
+    "spoken": "いただきます。",
     "gender": "female",
-    "hash": "a81e7a27fcec"
+    "hash": "0df96a23bb6f"
   },
   {
     "text": "いってきます。",
+    "spoken": "いってきます。",
     "gender": "female",
-    "hash": "9a104c78a109"
+    "hash": "2d67f200cc0d"
   },
   {
     "text": "いってらっしゃい",
+    "spoken": "いってらっしゃい",
     "gender": "female",
-    "hash": "24cfb32ae9df"
+    "hash": "54c5cb706497"
   },
   {
     "text": "いってらっしゃい。",
+    "spoken": "いってらっしゃい。",
     "gender": "female",
-    "hash": "cad474ca4caf"
+    "hash": "8fa965e9a2c2"
   },
   {
     "text": "いらっしゃい。どうぞ、上がって。",
+    "spoken": "いらっしゃい。どうぞ、上がって。",
     "gender": "female",
-    "hash": "4bd2c6b7c547"
+    "hash": "892a4dd28680"
   },
   {
     "text": "いらっしゃいませ",
+    "spoken": "いらっしゃいませ",
     "gender": "female",
-    "hash": "97bed54b1a17"
+    "hash": "c05d95be86db"
   },
   {
     "text": "いらっしゃいませ。",
+    "spoken": "いらっしゃいませ。",
     "gender": "female",
-    "hash": "4f045262bebe"
+    "hash": "2572f5a46afd"
   },
   {
     "text": "いらっしゃいませ。お弁当温めますか？",
+    "spoken": "いらっしゃいませ。お弁当温めますか？",
     "gender": "female",
-    "hash": "a551cb274eb8"
+    "hash": "fd41b1b67b88"
   },
   {
     "text": "いらっしゃいませ。何名様ですか？",
+    "spoken": "いらっしゃいませ。何名様ですか？",
     "gender": "female",
-    "hash": "3bc3b76f4403"
+    "hash": "812a0e0565f3"
   },
   {
     "text": "いらっしゃい！",
+    "spoken": "いらっしゃい。",
     "gender": "female",
-    "hash": "90e9fb673272"
+    "hash": "52a54c3e3f5d"
   },
   {
     "text": "いろいろありがとうございました",
+    "spoken": "いろいろありがとうございました",
     "gender": "female",
-    "hash": "63642b7321de"
+    "hash": "d3826b388f55"
   },
   {
     "text": "いろいろありがとうございました。お邪魔しました。",
+    "spoken": "いろいろありがとうございました。お邪魔しました。",
     "gender": "female",
-    "hash": "6e9fd3e9cb16"
+    "hash": "df219709a342"
   },
   {
     "text": "うん、元気です。",
+    "spoken": "うん、元気です。",
     "gender": "female",
-    "hash": "64442a48263e"
+    "hash": "11c4b205f7ae"
   },
   {
     "text": "うん、暑い。",
+    "spoken": "うん、暑い。",
     "gender": "female",
-    "hash": "ca88d4a787b4"
+    "hash": "247224773a4c"
   },
   {
     "text": "おかえりなさい",
+    "spoken": "おかえりなさい",
     "gender": "female",
-    "hash": "66abca6738d5"
+    "hash": "2195ec212b05"
   },
   {
     "text": "おかえりなさい。",
+    "spoken": "おかえりなさい。",
     "gender": "female",
-    "hash": "b4ffd03b9dbb"
+    "hash": "032116d263fb"
   },
   {
     "text": "おかえり！",
+    "spoken": "おかえり。",
     "gender": "female",
-    "hash": "242cac59b420"
+    "hash": "1670b70a8ca4"
   },
   {
     "text": "おかわりは？",
+    "spoken": "おかわりは？",
     "gender": "female",
-    "hash": "fe4dee6bde4d"
+    "hash": "db89cb380299"
   },
   {
     "text": "おじいさん",
+    "spoken": "おじいさん",
     "gender": "female",
-    "hash": "f309e91869f7"
+    "hash": "8108945e11c3"
   },
   {
     "text": "おじいさんです。",
+    "spoken": "おじいさんです。",
     "gender": "female",
-    "hash": "288391d895df"
+    "hash": "83175d3ec607"
   },
   {
     "text": "おすすめは何ですか",
+    "spoken": "おすすめは何ですか",
     "gender": "female",
-    "hash": "fcd6ed5c75b8"
+    "hash": "eca2fd371d88"
   },
   {
     "text": "おすすめは何ですか。",
+    "spoken": "おすすめは何ですか。",
     "gender": "female",
-    "hash": "f9e1d6545c6d"
+    "hash": "196c7200180f"
   },
   {
     "text": "おはようございます",
+    "spoken": "おはようございます",
     "gender": "female",
-    "hash": "5a3c5f71eeac"
+    "hash": "176aeea4c42e"
   },
   {
     "text": "おはようございます。",
+    "spoken": "おはようございます。",
     "gender": "female",
-    "hash": "e0db4dbed72c"
+    "hash": "606b988526cd"
   },
   {
     "text": "おばあさん",
+    "spoken": "おばあさん",
     "gender": "female",
-    "hash": "55ab764826fe"
+    "hash": "0df5267637f0"
   },
   {
     "text": "おばあさんです。",
+    "spoken": "おばあさんです。",
     "gender": "female",
-    "hash": "fccf7b81d30d"
+    "hash": "48963ddcaa32"
   },
   {
     "text": "おばあさんはお元気ですか。",
+    "spoken": "おばあさんはお元気ですか。",
     "gender": "female",
-    "hash": "b7c751f66dd3"
+    "hash": "9c060d5e4b5e"
   },
   {
     "text": "おばあちゃんは九十歳です。",
+    "spoken": "おばあちゃんは九十歳です。",
     "gender": "female",
-    "hash": "84b165106ef9"
+    "hash": "d6c63205ec79"
   },
   {
     "text": "おやすみ。",
+    "spoken": "おやすみ。",
     "gender": "female",
-    "hash": "16bca1ee24c0"
+    "hash": "85c994b0dd69"
   },
   {
     "text": "おやすみなさい",
+    "spoken": "おやすみなさい",
     "gender": "female",
-    "hash": "17b912b634f3"
+    "hash": "929a4048d5b0"
   },
   {
     "text": "おやすみなさい。",
+    "spoken": "おやすみなさい。",
     "gender": "female",
-    "hash": "36c28bb331c9"
+    "hash": "e4774ae99207"
   },
   {
     "text": "お世話になりました",
+    "spoken": "お世話になりました",
     "gender": "female",
-    "hash": "a33c915396f1"
+    "hash": "587eaee1bded"
   },
   {
     "text": "お世話になりました。",
+    "spoken": "お世話になりました。",
     "gender": "female",
-    "hash": "9b70deddba87"
+    "hash": "0f042aaed90f"
   },
   {
     "text": "お仕事は何？",
+    "spoken": "お仕事は何？",
     "gender": "male",
-    "hash": "3cfe668ac10c"
+    "hash": "67216f749f40"
   },
   {
     "text": "お会計お願いします",
+    "spoken": "お会計お願いします",
     "gender": "female",
-    "hash": "53ec7cc7a336"
+    "hash": "ec8a01679465"
   },
   {
     "text": "お会計お願いします。",
+    "spoken": "お会計お願いします。",
     "gender": "female",
-    "hash": "d3ca185ba1c3"
+    "hash": "384f14ce89ab"
   },
   {
     "text": "お体に気をつけてください",
+    "spoken": "お体に気をつけてください",
     "gender": "female",
-    "hash": "8828a2c04a45"
+    "hash": "dfbd46200be5"
   },
   {
     "text": "お体に気をつけてください。では、また。",
+    "spoken": "お体に気をつけてください。では、また。",
     "gender": "female",
-    "hash": "3c58f09b6009"
+    "hash": "f79cdd8b394a"
   },
   {
     "text": "お元気だった？アーバインは暑かったでしょ。",
+    "spoken": "お元気だった？アーバインは暑かったでしょ。",
     "gender": "female",
-    "hash": "4153d565e9b0"
+    "hash": "c41daa7ff2d4"
   },
   {
     "text": "お元気でしたか",
+    "spoken": "お元気でしたか",
     "gender": "female",
-    "hash": "0d1b5d1590f9"
+    "hash": "ed10152be48c"
   },
   {
     "text": "お口に合いますか？",
+    "spoken": "お口に合いますか？",
     "gender": "female",
-    "hash": "1d7cb16654ea"
+    "hash": "e8ab80ce2260"
   },
   {
     "text": "お土産です",
+    "spoken": "お土産です",
     "gender": "female",
-    "hash": "99d039f6a06c"
+    "hash": "3f3be7f1767b"
   },
   {
     "text": "お土産です。",
+    "spoken": "お土産です。",
     "gender": "female",
-    "hash": "3023ae81b6ff"
+    "hash": "8ceee24866f4"
   },
   {
     "text": "お弁当温めますか？",
+    "spoken": "お弁当温めますか？",
     "gender": "female",
-    "hash": "322e111f7108"
+    "hash": "812fbf266de2"
   },
   {
     "text": "お母さん",
+    "spoken": "お母さん",
     "gender": "female",
-    "hash": "f4eb2ac566a7"
+    "hash": "9e4081ad2886"
   },
   {
     "text": "お母さん、久しぶりです！また会えてうれしいです。お邪魔します。",
+    "spoken": "お母さん、久しぶりです。また会えてうれしいです。お邪魔します。",
     "gender": "female",
-    "hash": "05dc2a3c1a9b"
+    "hash": "9d565c5b1629"
   },
   {
     "text": "お母さんの料理、大好きです",
+    "spoken": "お母さんの料理、大好きです",
     "gender": "female",
-    "hash": "e7485dd89e90"
+    "hash": "74bf946e910c"
   },
   {
     "text": "お気遣いありがとうございます",
+    "spoken": "お気遣いありがとうございます",
     "gender": "female",
-    "hash": "b437a62911d7"
+    "hash": "8aaaf8b74a26"
   },
   {
     "text": "お水です。",
+    "spoken": "お水です。",
     "gender": "female",
-    "hash": "9e8302b36319"
+    "hash": "6933cba56197"
   },
   {
     "text": "お水をください",
+    "spoken": "お水をください",
     "gender": "female",
-    "hash": "427c18f5926d"
+    "hash": "8bd912f29763"
   },
   {
     "text": "お水をください。",
+    "spoken": "お水をください。",
     "gender": "female",
-    "hash": "98e0a0648505"
+    "hash": "561ac292222f"
   },
   {
     "text": "お父さん",
+    "spoken": "お父さん",
     "gender": "female",
-    "hash": "e1110589655f"
+    "hash": "512df6459e15"
   },
   {
     "text": "お父さんは元気だよ。…あれ、しょうたは？また寝てるの？",
+    "spoken": "お父さんは元気だよ。あれ、しょうたは、また寝てるの。",
     "gender": "female",
-    "hash": "f7b7448baaf9"
+    "hash": "626e4e2176c4"
   },
   {
     "text": "お箸です。",
+    "spoken": "お箸です。",
     "gender": "female",
-    "hash": "66b0fb9beed2"
+    "hash": "09729a266113"
   },
   {
     "text": "お箸はご利用ですか",
+    "spoken": "お箸はご利用ですか",
     "gender": "female",
-    "hash": "4aa6603238e3"
+    "hash": "4b709f232c65"
   },
   {
     "text": "お箸はご利用ですか？",
+    "spoken": "お箸はご利用ですか？",
     "gender": "female",
-    "hash": "0365850568c7"
+    "hash": "b11481a75295"
   },
   {
     "text": "お箸をください。",
+    "spoken": "お箸をください。",
     "gender": "female",
-    "hash": "9e9f3b48f7f9"
+    "hash": "4122c009392c"
   },
   {
     "text": "お邪魔しました",
+    "spoken": "お邪魔しました",
     "gender": "female",
-    "hash": "a39da3de4bf1"
+    "hash": "e2813d4e3e6f"
   },
   {
     "text": "お邪魔しました。",
+    "spoken": "お邪魔しました。",
     "gender": "female",
-    "hash": "142439d391e8"
+    "hash": "6ce782340664"
   },
   {
     "text": "お邪魔します",
+    "spoken": "お邪魔します",
     "gender": "female",
-    "hash": "ea9a37877146"
+    "hash": "fa62280b9875"
   },
   {
     "text": "お邪魔します。",
+    "spoken": "お邪魔します。",
     "gender": "female",
-    "hash": "502e60b9d4e4"
+    "hash": "471da0f9bf37"
   },
   {
     "text": "お飲み物はいかがですか？",
+    "spoken": "お飲み物はいかがですか？",
     "gender": "female",
-    "hash": "291cc81dc5b6"
+    "hash": "ac84231518cb"
   },
   {
     "text": "お魚が好きです",
+    "spoken": "お魚が好きです",
     "gender": "female",
-    "hash": "d1ba0e233db0"
+    "hash": "445c44dc6291"
   },
   {
     "text": "ここから遠いですか",
+    "spoken": "ここから遠いですか",
     "gender": "female",
-    "hash": "25a3d6bce64c"
+    "hash": "e05c1a589647"
   },
   {
     "text": "ここから遠いですか。",
+    "spoken": "ここから遠いですか。",
     "gender": "female",
-    "hash": "7bb54d1f4838"
+    "hash": "62716ff21c2f"
   },
   {
     "text": "ここをまっすぐ行って、二つ目の角を右に曲がって、すぐ左です。",
+    "spoken": "ここをまっすぐ行って、二つ目の角を右に曲がって、すぐ左です。",
     "gender": "female",
-    "hash": "eeb88b62e27a"
+    "hash": "616a9c30fa39"
   },
   {
     "text": "この方はどなたですか",
+    "spoken": "この方はどなたですか",
     "gender": "female",
-    "hash": "f12bb117cb24"
+    "hash": "9f43faf4f986"
   },
   {
     "text": "この近くにコンビニはありますか",
+    "spoken": "この近くにコンビニはありますか",
     "gender": "female",
-    "hash": "d8c9033d491c"
+    "hash": "ec32b51abb64"
   },
   {
     "text": "この電車は渋谷に止まりますか",
+    "spoken": "この電車は渋谷に止まりますか",
     "gender": "female",
-    "hash": "79415384417e"
+    "hash": "8cd7b3393333"
   },
   {
     "text": "これ、お土産です。ほんの気持ちですが、どうぞ。",
+    "spoken": "これ、お土産です。ほんの気持ちですが、どうぞ。",
     "gender": "female",
-    "hash": "e7a920826c9b"
+    "hash": "d2d4fb65f481"
   },
   {
     "text": "これ、高いです。",
+    "spoken": "これ、高いです。",
     "gender": "female",
-    "hash": "f44e6516710e"
+    "hash": "5317bef0688b"
   },
   {
     "text": "これにします",
+    "spoken": "これにします",
     "gender": "female",
-    "hash": "3d9192b39b71"
+    "hash": "215b49dccfcb"
   },
   {
     "text": "これにします。",
+    "spoken": "これにします。",
     "gender": "female",
-    "hash": "fa504f0620e4"
+    "hash": "4162b5befc03"
   },
   {
     "text": "これにします。カードで払えますか。",
+    "spoken": "これにします。カードで払えますか。",
     "gender": "female",
-    "hash": "2e96d866d48c"
+    "hash": "93010b555124"
   },
   {
     "text": "これは、しょうたのおばあちゃんです。",
+    "spoken": "これは、しょうたのおばあちゃんです。",
     "gender": "male",
-    "hash": "2c59d4481471"
+    "hash": "550ade51c21f"
   },
   {
     "text": "これはいくらですか",
+    "spoken": "これはいくらですか",
     "gender": "female",
-    "hash": "d33c910ad45c"
+    "hash": "60bd640e7606"
   },
   {
     "text": "これは何ですか",
+    "spoken": "これは何ですか",
     "gender": "female",
-    "hash": "8d7e636d901a"
+    "hash": "d210e8aeca64"
   },
   {
     "text": "これは何ですか。",
+    "spoken": "これは何ですか。",
     "gender": "female",
-    "hash": "7770e30a4148"
+    "hash": "10b946397b28"
   },
   {
     "text": "これをください",
+    "spoken": "これをください",
     "gender": "female",
-    "hash": "39eb03e8b77c"
+    "hash": "d4484e5aa1ac"
   },
   {
     "text": "これをください。",
+    "spoken": "これをください。",
     "gender": "female",
-    "hash": "29c8fa41c8c3"
+    "hash": "9f5ae0b8af30"
   },
   {
     "text": "ごちそうさまでした",
+    "spoken": "ごちそうさまでした",
     "gender": "female",
-    "hash": "11c8fca7e223"
+    "hash": "de6f6d2d6bf0"
   },
   {
     "text": "ごちそうさまでした。",
+    "spoken": "ごちそうさまでした。",
     "gender": "female",
-    "hash": "9880d7b768dc"
+    "hash": "9509ca130c22"
   },
   {
     "text": "ご両親はお元気ですか",
+    "spoken": "ご両親はお元気ですか",
     "gender": "female",
-    "hash": "b880305bf278"
+    "hash": "11336a5a17ec"
   },
   {
     "text": "ご両親はお元気ですか？",
+    "spoken": "ご両親はお元気ですか？",
     "gender": "male",
-    "hash": "f1bc39c778ca"
+    "hash": "8e8639403f0c"
   },
   {
     "text": "ご注文はお決まりですか？",
+    "spoken": "ご注文はお決まりですか？",
     "gender": "female",
-    "hash": "35f38f7fde4e"
+    "hash": "07234a7f2346"
   },
   {
     "text": "ご飯ができましたよ。",
+    "spoken": "ご飯ができましたよ。",
     "gender": "female",
-    "hash": "001ff865f7ec"
+    "hash": "8555b0aa1fc3"
   },
   {
     "text": "ご飯ですよ！",
+    "spoken": "ご飯ですよ。",
     "gender": "female",
-    "hash": "b1188338cc67"
+    "hash": "c71544fb4950"
   },
   {
     "text": "しょうがないですね。",
+    "spoken": "しょうがないですね。",
     "gender": "female",
-    "hash": "cfd337cefca5"
+    "hash": "ba1b76da5402"
   },
   {
     "text": "しょうた、また寝てるんですか",
+    "spoken": "しょうた、また寝てるんですか",
     "gender": "female",
-    "hash": "f22270d91314"
+    "hash": "bb0dafe1ecb2"
   },
   {
     "text": "しょうた、また寝てるんですか。しょうがないですね。",
+    "spoken": "しょうた、また寝てるんですか。しょうがないですね。",
     "gender": "female",
-    "hash": "4fc062ced193"
+    "hash": "fd6f7f88b00d"
   },
   {
     "text": "しょうた、また遅刻だよ。",
+    "spoken": "しょうた、また遅刻だよ。",
     "gender": "female",
-    "hash": "d40983c6c4ff"
+    "hash": "6d2f2d0c3e94"
   },
   {
     "text": "しょうたさんに代わります",
+    "spoken": "しょうたさんに代わります",
     "gender": "female",
-    "hash": "0605ace67b82"
+    "hash": "26d0eba6e34c"
   },
   {
     "text": "しょうたに代わってくれる？",
+    "spoken": "しょうたに代わってくれる？",
     "gender": "female",
-    "hash": "1911ff856d20"
+    "hash": "9a361f8f35ec"
   },
   {
     "text": "しょうたはいる？",
+    "spoken": "しょうたはいる？",
     "gender": "female",
-    "hash": "9f3467a8f5c9"
+    "hash": "c7917a4915be"
   },
   {
     "text": "すごいですね！",
+    "spoken": "すごいですね。",
     "gender": "female",
-    "hash": "c64cd3d2ed15"
+    "hash": "32daa20d824e"
   },
   {
     "text": "すみません",
+    "spoken": "すみません",
     "gender": "female",
-    "hash": "cce1862bcbd9"
+    "hash": "55ff221ccbe9"
   },
   {
     "text": "すみません、この辺に郵便局ありますか？",
+    "spoken": "すみません、この辺に郵便局ありますか？",
     "gender": "female",
-    "hash": "ee2971d98929"
+    "hash": "77dc9b417a6a"
   },
   {
     "text": "すみません、これはいくらですか。",
+    "spoken": "すみません、これはいくらですか。",
     "gender": "female",
-    "hash": "2ec9fc8b780d"
+    "hash": "209ce6deb648"
   },
   {
     "text": "すみません、ゆっくり話してください。",
+    "spoken": "すみません、ゆっくり話してください。",
     "gender": "female",
-    "hash": "9bd333eb1625"
+    "hash": "1d0e71596e4f"
   },
   {
     "text": "すみません、よく聞こえません。",
+    "spoken": "すみません、よく聞こえません。",
     "gender": "female",
-    "hash": "f693399d361f"
+    "hash": "5a25d056b457"
   },
   {
     "text": "すみません、わかりません。",
+    "spoken": "すみません、わかりません。",
     "gender": "female",
-    "hash": "c67a93f6b901"
+    "hash": "eeed9353026c"
   },
   {
     "text": "すみません、画面が固まっています。",
+    "spoken": "すみません、画面が固まっています。",
     "gender": "female",
-    "hash": "c5aa8e30f2b8"
+    "hash": "e50f996a4769"
   },
   {
     "text": "すみません、駅はどこですか。",
+    "spoken": "すみません、駅はどこですか。",
     "gender": "female",
-    "hash": "77427f344049"
+    "hash": "2176961283bc"
   },
   {
     "text": "ぜひ",
+    "spoken": "ぜひ",
     "gender": "female",
-    "hash": "d472b7cb2d91"
+    "hash": "c105da371250"
   },
   {
     "text": "ぜひ。",
+    "spoken": "ぜひ。",
     "gender": "female",
-    "hash": "f85a3fe654bf"
+    "hash": "7a3ba695c0fa"
   },
   {
     "text": "ぜひ！一緒に作りたいです。",
+    "spoken": "ぜひ、一緒に作りたいです。",
     "gender": "female",
-    "hash": "d8852b99bcf6"
+    "hash": "154df6c93bde"
   },
   {
     "text": "そうですね",
+    "spoken": "そうですね",
     "gender": "female",
-    "hash": "b7e74bb4b1f4"
+    "hash": "7eaf34a1c2de"
   },
   {
     "text": "そうですね。",
+    "spoken": "そうですね。",
     "gender": "female",
-    "hash": "5640932ec5c5"
+    "hash": "f4c5b3ef293c"
   },
   {
     "text": "そうですね。本当に暑いですね。",
+    "spoken": "そうですね。本当に暑いですね。",
     "gender": "female",
-    "hash": "3ce9ea9a4978"
+    "hash": "2b43cc0c9d69"
   },
   {
     "text": "それはよかった。",
+    "spoken": "それはよかった。",
     "gender": "male",
-    "hash": "1b7bed707090"
+    "hash": "21c478657912"
   },
   {
     "text": "たくさん食べてね。",
+    "spoken": "たくさん食べてね。",
     "gender": "female",
-    "hash": "263e1f35e0eb"
+    "hash": "1c14c17aaa99"
   },
   {
     "text": "ただいま",
+    "spoken": "ただいま",
     "gender": "female",
-    "hash": "e0fe8f456d1a"
+    "hash": "3be012b3ceba"
   },
   {
     "text": "ただいま。",
+    "spoken": "ただいま。",
     "gender": "female",
-    "hash": "e32fd58d250b"
+    "hash": "818998662b30"
   },
   {
     "text": "ただいま！",
+    "spoken": "ただいま。",
     "gender": "female",
-    "hash": "abd783f3338d"
+    "hash": "9d7af4609c56"
   },
   {
     "text": "つまらないものですが",
+    "spoken": "つまらないものですが",
     "gender": "female",
-    "hash": "35c56ca13bfb"
+    "hash": "52df2cf36953"
   },
   {
     "text": "つまらないものですが。",
+    "spoken": "つまらないものですが。",
     "gender": "female",
-    "hash": "8c9142b8a3ac"
+    "hash": "944f1dda8590"
   },
   {
     "text": "では、また",
+    "spoken": "では、また",
     "gender": "female",
-    "hash": "1a9a7515ae69"
+    "hash": "7f4f410738ee"
   },
   {
     "text": "では、また。",
+    "spoken": "では、また。",
     "gender": "female",
-    "hash": "72d48cff8373"
+    "hash": "e4d90a0dd113"
   },
   {
     "text": "とてもおいしいです",
+    "spoken": "とてもおいしいです",
     "gender": "female",
-    "hash": "36be6c1c63dc"
+    "hash": "be63c51f2737"
   },
   {
     "text": "とてもおいしいです。",
+    "spoken": "とてもおいしいです。",
     "gender": "female",
-    "hash": "bad440288280"
+    "hash": "2dc00687bfb3"
   },
   {
     "text": "どうぞ",
+    "spoken": "どうぞ",
     "gender": "female",
-    "hash": "0c5589abf72d"
+    "hash": "9336c6b2ea23"
   },
   {
     "text": "どうぞ、上がってください。",
+    "spoken": "どうぞ、上がってください。",
     "gender": "female",
-    "hash": "cf35caf66aea"
+    "hash": "b9517e933ea9"
   },
   {
     "text": "どうぞ。",
+    "spoken": "どうぞ。",
     "gender": "female",
-    "hash": "c0c2c2722aac"
+    "hash": "c0001b0a80f2"
   },
   {
     "text": "どう？お口に合う？",
+    "spoken": "どう？お口に合う？",
     "gender": "female",
-    "hash": "d75da03ea44b"
+    "hash": "2e41df379a4d"
   },
   {
     "text": "どこですか。",
+    "spoken": "どこですか。",
     "gender": "female",
-    "hash": "da7462e18294"
+    "hash": "f2479d11566e"
   },
   {
     "text": "はい、いただきます",
+    "spoken": "はい、いただきます",
     "gender": "female",
-    "hash": "926c4530f06c"
+    "hash": "175712bc63b3"
   },
   {
     "text": "はい、いただきます。",
+    "spoken": "はい、いただきます。",
     "gender": "female",
-    "hash": "be6eb13f89f5"
+    "hash": "70b74f0191ce"
   },
   {
     "text": "はい、お世話になりました。",
+    "spoken": "はい、お世話になりました。",
     "gender": "female",
-    "hash": "b831a2943531"
+    "hash": "a43e7250ed41"
   },
   {
     "text": "はい、お父さんもお母さんも元気です。",
+    "spoken": "はい、お父さんもお母さんも元気です。",
     "gender": "female",
-    "hash": "3d01fa439d27"
+    "hash": "b11e0fdec98f"
   },
   {
     "text": "はい、お願いします",
+    "spoken": "はい、お願いします",
     "gender": "female",
-    "hash": "5accbb16f77b"
+    "hash": "ca8e02d1a0ee"
   },
   {
     "text": "はい、お願いします。",
+    "spoken": "はい、お願いします。",
     "gender": "female",
-    "hash": "25dff07919d2"
+    "hash": "8eb353508301"
   },
   {
     "text": "はい、しょうたさんに代わります。",
+    "spoken": "はい、しょうたさんに代わります。",
     "gender": "female",
-    "hash": "7af125d452bc"
+    "hash": "d5a67d273e69"
   },
   {
     "text": "はい、とてもおいしいです。",
+    "spoken": "はい、とてもおいしいです。",
     "gender": "female",
-    "hash": "c1a3a7a16901"
+    "hash": "1d83d605d016"
   },
   {
     "text": "はい、とてもおいしいです！",
+    "spoken": "はい、とてもおいしいです。",
     "gender": "female",
-    "hash": "f449a60b8d4e"
+    "hash": "390121121cab"
   },
   {
     "text": "はい、どうぞ。",
+    "spoken": "はい、どうぞ。",
     "gender": "female",
-    "hash": "44a77ad23d63"
+    "hash": "f7bdaf91b771"
   },
   {
     "text": "はい、三千円です。",
+    "spoken": "はい、三千円です。",
     "gender": "female",
-    "hash": "0400712c89d0"
+    "hash": "607af0ae2e1f"
   },
   {
     "text": "はい、久しぶりです！元気です。",
+    "spoken": "はい、久しぶりです。元気です。",
     "gender": "female",
-    "hash": "b1bf70e72c94"
+    "hash": "6a1ea4a6f998"
   },
   {
     "text": "はい、二人です。",
+    "spoken": "はい、二人です。",
     "gender": "female",
-    "hash": "d2fb2d6d45c3"
+    "hash": "c6204af46f65"
   },
   {
     "text": "はい、今行きます！",
+    "spoken": "はい、今行きます。",
     "gender": "female",
-    "hash": "f1fda2465ace"
+    "hash": "7dfb8b1c2243"
   },
   {
     "text": "はい、何かお手伝いしましょうか。",
+    "spoken": "はい、何かお手伝いしましょうか。",
     "gender": "female",
-    "hash": "589e284385c7"
+    "hash": "09028cde28ea"
   },
   {
     "text": "はい、元気です。おばあさんは？",
+    "spoken": "はい、元気です。おばあさんは？",
     "gender": "female",
-    "hash": "621450881868"
+    "hash": "d7a39691ce1a"
   },
   {
     "text": "はい、元気です。お父さんは？",
+    "spoken": "はい、元気です。お父さんは？",
     "gender": "female",
-    "hash": "a749d705dd46"
+    "hash": "cf53f29f1e17"
   },
   {
     "text": "はい、元気ですよ。もう九十歳です。",
+    "spoken": "はい、元気ですよ。もう九十歳です。",
     "gender": "male",
-    "hash": "fb10c86b0b63"
+    "hash": "7a4adb085207"
   },
   {
     "text": "はい、千円です。",
+    "spoken": "はい、千円です。",
     "gender": "female",
-    "hash": "0fe67381e3a2"
+    "hash": "09b39dac0d5b"
   },
   {
     "text": "はい、大丈夫です。袋はご利用ですか？",
+    "spoken": "はい、大丈夫です。袋はご利用ですか？",
     "gender": "female",
-    "hash": "b37caf3a78f4"
+    "hash": "f7f7d2d99079"
   },
   {
     "text": "はい、好きです。ぜひ一緒に作りたいです。",
+    "spoken": "はい、好きです。ぜひ一緒に作りたいです。",
     "gender": "female",
-    "hash": "b29292c4d851"
+    "hash": "8910147dc4e4"
   },
   {
     "text": "はい、姉が一人います。",
+    "spoken": "はい、姉が一人います。",
     "gender": "female",
-    "hash": "d7685f3f12ea"
+    "hash": "07ea0ae0687a"
   },
   {
     "text": "はい、弟が一人います。",
+    "spoken": "はい、弟が一人います。",
     "gender": "female",
-    "hash": "56424ffd9f58"
+    "hash": "dff1c6cd04e4"
   },
   {
     "text": "はい、母です。",
+    "spoken": "はい、母です。",
     "gender": "female",
-    "hash": "610ef1699829"
+    "hash": "142b9e1c69a8"
   },
   {
     "text": "はい、父も母も元気です。",
+    "spoken": "はい、父も母も元気です。",
     "gender": "female",
-    "hash": "d2f7f8ec19c9"
+    "hash": "2963a0665d20"
   },
   {
     "text": "はい、苦手です。",
+    "spoken": "はい、苦手です。",
     "gender": "female",
-    "hash": "0ebe6aa17faf"
+    "hash": "e846e6aaf9de"
   },
   {
     "text": "はい、道に迷いました。",
+    "spoken": "はい、道に迷いました。",
     "gender": "female",
-    "hash": "934c3c9704d3"
+    "hash": "db0b833b8bbd"
   },
   {
     "text": "はじめまして。",
+    "spoken": "はじめまして。",
     "gender": "female",
-    "hash": "3c39203c48ca"
+    "hash": "13562fcb4407"
   },
   {
     "text": "はじめまして。しょうたの母です。",
+    "spoken": "はじめまして。しょうたの母です。",
     "gender": "female",
-    "hash": "c43de4bc87bd"
+    "hash": "4a2eade466d8"
   },
   {
     "text": "はじめまして。リズです。",
+    "spoken": "はじめまして。リズです。",
     "gender": "female",
-    "hash": "1521e86d2924"
+    "hash": "fe2e8f429277"
   },
   {
     "text": "ほんの気持ちです。",
+    "spoken": "ほんの気持ちです。",
     "gender": "female",
-    "hash": "7ccc607260a7"
+    "hash": "b784db7dfc11"
   },
   {
     "text": "まあ、気を遣わなくていいのに。ありがとう。",
+    "spoken": "まあ、気を遣わなくていいのに。ありがとう。",
     "gender": "female",
-    "hash": "48f239f3ed21"
+    "hash": "1b9b76e8dfcb"
   },
   {
     "text": "また会えてうれしいです",
+    "spoken": "また会えてうれしいです",
     "gender": "female",
-    "hash": "a6d4c443b363"
+    "hash": "fa72b3e2b3b2"
   },
   {
     "text": "また来てね。",
+    "spoken": "また来てね。",
     "gender": "female",
-    "hash": "00b28a6c8e22"
+    "hash": "ec7f84f14805"
   },
   {
     "text": "まっすぐです",
+    "spoken": "まっすぐです",
     "gender": "female",
-    "hash": "53b1f6226758"
+    "hash": "c258751e3b71"
   },
   {
     "text": "まっすぐですね。",
+    "spoken": "まっすぐですね。",
     "gender": "female",
-    "hash": "79d9f1e4a930"
+    "hash": "ad9b4500efe6"
   },
   {
     "text": "もうおなかいっぱいです",
+    "spoken": "もうおなかいっぱいです",
     "gender": "female",
-    "hash": "d9fb2946773e"
+    "hash": "2e9db8f02e73"
   },
   {
     "text": "もうおなかいっぱいです。",
+    "spoken": "もうおなかいっぱいです。",
     "gender": "female",
-    "hash": "22b5e449efe2"
+    "hash": "b7a8e082e6bc"
   },
   {
     "text": "もう一度お願いします",
+    "spoken": "もう一度お願いします",
     "gender": "female",
-    "hash": "459ec391610b"
+    "hash": "9564e10ae41c"
   },
   {
     "text": "もう一度お願いします。",
+    "spoken": "もう一度お願いします。",
     "gender": "female",
-    "hash": "2cbf885f7a5f"
+    "hash": "0cd0ca84ae94"
   },
   {
     "text": "もう一度言いますね。",
+    "spoken": "もう一度言いますね。",
     "gender": "female",
-    "hash": "8bec441ddaf0"
+    "hash": "b718437fe665"
   },
   {
     "text": "もう少しいかがですか",
+    "spoken": "もう少しいかがですか",
     "gender": "female",
-    "hash": "80d61d6fa0c3"
+    "hash": "0cf4a1b1f1dd"
   },
   {
     "text": "もう少しいかがですか？",
+    "spoken": "もう少しいかがですか？",
     "gender": "female",
-    "hash": "2e4857106a2f"
+    "hash": "09f21e3caf25"
   },
   {
     "text": "もう遅いから、寝ましょうか。",
+    "spoken": "もう遅いから、寝ましょうか。",
     "gender": "female",
-    "hash": "c147e6c5f0de"
+    "hash": "25611dbcdef0"
   },
   {
     "text": "もしもし",
+    "spoken": "もしもし",
     "gender": "female",
-    "hash": "fd1c71305f4e"
+    "hash": "266e340e1695"
   },
   {
     "text": "もしもし、リズです",
+    "spoken": "もしもし、リズです",
     "gender": "female",
-    "hash": "e8d7c257da5b"
+    "hash": "aab3b00855da"
   },
   {
     "text": "もしもし、リズです。",
+    "spoken": "もしもし、リズです。",
     "gender": "female",
-    "hash": "1b2016aa81fc"
+    "hash": "c82d4d080886"
   },
   {
     "text": "もしもし、聞こえますか？",
+    "spoken": "もしもし、聞こえますか？",
     "gender": "female",
-    "hash": "bc1a6e1833f3"
+    "hash": "eff1cb273d8f"
   },
   {
     "text": "もしもし。",
+    "spoken": "もしもし。",
     "gender": "female",
-    "hash": "59395133415f"
+    "hash": "cbabfd32e16d"
   },
   {
     "text": "もしもし？",
+    "spoken": "もしもし？",
     "gender": "female",
-    "hash": "9df62e8d6bf2"
+    "hash": "8cba6c863a93"
   },
   {
     "text": "ゆう・びん・きょく、ありますか？",
+    "spoken": "ゆう・びん・きょく、ありますか？",
     "gender": "female",
-    "hash": "faeaba040fcf"
+    "hash": "b1c3eea084e7"
   },
   {
     "text": "ゆっくり話してください",
+    "spoken": "ゆっくり話してください",
     "gender": "female",
-    "hash": "fa0cb093ada8"
+    "hash": "7d240e19c12b"
   },
   {
     "text": "ゆっくり話してください。",
+    "spoken": "ゆっくり話してください。",
     "gender": "female",
-    "hash": "a7693683d547"
+    "hash": "0b7374087420"
   },
   {
     "text": "よく聞こえません",
+    "spoken": "よく聞こえません",
     "gender": "female",
-    "hash": "3ceefce141ac"
+    "hash": "c0eef15ca285"
   },
   {
     "text": "わかりました",
+    "spoken": "わかりました",
     "gender": "female",
-    "hash": "e373802575c2"
+    "hash": "90d88295d366"
   },
   {
     "text": "わかりました。",
+    "spoken": "わかりました。",
     "gender": "female",
-    "hash": "731afb2a1ab5"
+    "hash": "bd11ba7d4844"
   },
   {
     "text": "わかりました。すみません、この辺はわかりません。",
+    "spoken": "わかりました。すみません、この辺はわかりません。",
     "gender": "female",
-    "hash": "63ae6d66b211"
+    "hash": "06214f28d4c8"
   },
   {
     "text": "わかりません",
+    "spoken": "わかりません",
     "gender": "female",
-    "hash": "6dcfc9b79bdb"
+    "hash": "169bfe76afe2"
   },
   {
     "text": "アメリカから来ました。",
+    "spoken": "アメリカから来ました。",
     "gender": "female",
-    "hash": "5a15505699bb"
+    "hash": "ee27772c7f34"
   },
   {
     "text": "アーバインとソウル出身です",
+    "spoken": "アーバインとソウル出身です",
     "gender": "female",
-    "hash": "ad1f013960c6"
+    "hash": "e014e4320a77"
   },
   {
     "text": "カードで払えますか",
+    "spoken": "カードで払えますか",
     "gender": "female",
-    "hash": "ac7df4e92161"
+    "hash": "4d64909a5230"
   },
   {
     "text": "カードで払えますか。",
+    "spoken": "カードで払えますか。",
     "gender": "female",
-    "hash": "80249f87b1ca"
+    "hash": "c4178335e6e8"
   },
   {
     "text": "グラフィックデザイナーをしています",
+    "spoken": "グラフィックデザイナーをしています",
     "gender": "female",
-    "hash": "0d9e67cb5242"
+    "hash": "25ddaad476ff"
   },
   {
     "text": "グラフィックデザイナーをしています。",
+    "spoken": "グラフィックデザイナーをしています。",
     "gender": "female",
-    "hash": "fe3c14c3cb75"
+    "hash": "067542d7815e"
   },
   {
     "text": "コーヒーを一つお願いします",
+    "spoken": "コーヒーを一つお願いします",
     "gender": "female",
-    "hash": "4513cfd02887"
+    "hash": "7e712c5cea21"
   },
   {
     "text": "コーヒーを一つお願いします。",
+    "spoken": "コーヒーを一つお願いします。",
     "gender": "female",
-    "hash": "0a7a1f435561"
+    "hash": "15b85a945f76"
   },
   {
     "text": "トイレはどこですか",
+    "spoken": "トイレはどこですか",
     "gender": "female",
-    "hash": "5d52bcd566e4"
+    "hash": "652c233f2a7f"
   },
   {
     "text": "ポイントカードはお持ちですか",
+    "spoken": "ポイントカードはお持ちですか",
     "gender": "female",
-    "hash": "9d607ce89ec8"
+    "hash": "df676eaf87d1"
   },
   {
     "text": "ポイントカードはお持ちですか？",
+    "spoken": "ポイントカードはお持ちですか？",
     "gender": "female",
-    "hash": "aaafcaee2ec2"
+    "hash": "a5da8a248b80"
   },
   {
     "text": "メニューをお願いします",
+    "spoken": "メニューをお願いします",
     "gender": "female",
-    "hash": "c50ec590cf88"
+    "hash": "46df35e33146"
   },
   {
     "text": "リズちゃん、料理するの？",
+    "spoken": "リズちゃん、料理するの？",
     "gender": "female",
-    "hash": "4d017e5eeed2"
+    "hash": "5e6532f57e5a"
   },
   {
     "text": "リズちゃん、趣味は何？",
+    "spoken": "リズちゃん、趣味は何？",
     "gender": "female",
-    "hash": "861c306228ad"
+    "hash": "ccd4912fa751"
   },
   {
     "text": "リズちゃんに兄弟はいるの？",
+    "spoken": "リズちゃんに兄弟はいるの？",
     "gender": "male",
-    "hash": "a07bba317f06"
+    "hash": "f18b464a24e4"
   },
   {
     "text": "レシートは大丈夫です",
+    "spoken": "レシートは大丈夫です",
     "gender": "female",
-    "hash": "815a9b4bcdb8"
+    "hash": "4e2f824b9d53"
   },
   {
     "text": "ローマ字でお願いします。",
+    "spoken": "ローマ字でお願いします。",
     "gender": "female",
-    "hash": "eaa0b951db58"
+    "hash": "b53db17a5697"
   },
   {
     "text": "一つです。",
+    "spoken": "一つです。",
     "gender": "female",
-    "hash": "f4e23f66aa2a"
+    "hash": "20af27d861cb"
   },
   {
     "text": "一人っ子です。",
+    "spoken": "一人っ子です。",
     "gender": "female",
-    "hash": "63157f3625b2"
+    "hash": "b2a425fdcfdd"
   },
   {
     "text": "三千円",
+    "spoken": "三千円",
     "gender": "female",
-    "hash": "05d6b120cbe6"
+    "hash": "e9f059a1f437"
   },
   {
     "text": "三千円です。",
+    "spoken": "三千円です。",
     "gender": "female",
-    "hash": "429099f13251"
+    "hash": "66919bb199f9"
   },
   {
     "text": "三番線です。",
+    "spoken": "三番線です。",
     "gender": "female",
-    "hash": "11eb736ccaf7"
+    "hash": "36bde9ecab81"
   },
   {
     "text": "久しぶりです",
+    "spoken": "久しぶりです",
     "gender": "female",
-    "hash": "329cf9756060"
+    "hash": "f80d2c3a4092"
   },
   {
     "text": "乗り換えです。",
+    "spoken": "乗り換えです。",
     "gender": "female",
-    "hash": "e04ac799e44b"
+    "hash": "8e0b242689b8"
   },
   {
     "text": "乗り換えはどこですか",
+    "spoken": "乗り換えはどこですか",
     "gender": "female",
-    "hash": "294658804af9"
+    "hash": "82058f6aa9a3"
   },
   {
     "text": "二人です",
+    "spoken": "二人です",
     "gender": "female",
-    "hash": "a554a4a22c16"
+    "hash": "2952128bf4b2"
   },
   {
     "text": "二人です。",
+    "spoken": "二人です。",
     "gender": "female",
-    "hash": "be01c1fc1bb1"
+    "hash": "dde76c2c487c"
   },
   {
     "text": "二人はどこで会ったの？",
+    "spoken": "二人はどこで会ったの？",
     "gender": "male",
-    "hash": "d4879e4b23c2"
+    "hash": "667b9db6f17a"
   },
   {
     "text": "二人はどこで会ったんですか？",
+    "spoken": "二人はどこで会ったんですか？",
     "gender": "female",
-    "hash": "82ad5871575a"
+    "hash": "79e431e15d7b"
   },
   {
     "text": "五百円",
+    "spoken": "五百円",
     "gender": "female",
-    "hash": "c685e280f421"
+    "hash": "d8a8dfa10ea4"
   },
   {
     "text": "京都に行きます。",
+    "spoken": "京都に行きます。",
     "gender": "female",
-    "hash": "9bc7826efb44"
+    "hash": "b24ec26035d1"
   },
   {
     "text": "今、キッチン手伝ってくれる？",
+    "spoken": "今、キッチン手伝ってくれる？",
     "gender": "female",
-    "hash": "d659c09f850b"
+    "hash": "2dba0a6b922f"
   },
   {
     "text": "今日は暑いですね",
+    "spoken": "今日は暑いですね",
     "gender": "female",
-    "hash": "aaa3f88076f8"
+    "hash": "220788fe0030"
   },
   {
     "text": "今日は暑いね。",
+    "spoken": "今日は暑いね。",
     "gender": "male",
-    "hash": "bbde0bc19cc7"
+    "hash": "3124953848e0"
   },
   {
     "text": "今日もよろしくお願いします",
+    "spoken": "今日もよろしくお願いします",
     "gender": "female",
-    "hash": "f62ee5b80c11"
+    "hash": "df66d3f6ea08"
   },
   {
     "text": "仕事で会いました",
+    "spoken": "仕事で会いました",
     "gender": "female",
-    "hash": "c9b99fbea859"
+    "hash": "6e8e541d00a0"
   },
   {
     "text": "仕事で会いました。",
+    "spoken": "仕事で会いました。",
     "gender": "female",
-    "hash": "ab925274de5e"
+    "hash": "1bb1b29eea47"
   },
   {
     "text": "他の色もありますよ。",
+    "spoken": "他の色もありますよ。",
     "gender": "female",
-    "hash": "792483bceb4c"
+    "hash": "f4c769411617"
   },
   {
     "text": "付き合って二年になります",
+    "spoken": "付き合って二年になります",
     "gender": "female",
-    "hash": "e6a9a1e3ec1a"
+    "hash": "183f07cc36ed"
   },
   {
     "text": "付き合って二年になります。",
+    "spoken": "付き合って二年になります。",
     "gender": "female",
-    "hash": "e434888376f2"
+    "hash": "db99fd6d94fb"
   },
   {
     "text": "以上でよろしいですか",
+    "spoken": "以上でよろしいですか",
     "gender": "female",
-    "hash": "c6a7610927a3"
+    "hash": "71862472c2f8"
   },
   {
     "text": "何かお困りですか？",
+    "spoken": "何かお困りですか？",
     "gender": "female",
-    "hash": "74588fb119ba"
+    "hash": "e88ff1b1208b"
   },
   {
     "text": "何かお手伝いしましょうか",
+    "spoken": "何かお手伝いしましょうか",
     "gender": "female",
-    "hash": "1fb5b9c5a313"
+    "hash": "328cbb63aebe"
   },
   {
     "text": "何か手伝おうか？",
+    "spoken": "何か手伝おうか？",
     "gender": "female",
-    "hash": "fe77fa1175df"
+    "hash": "a3019a8f6215"
   },
   {
     "text": "何名様ですか",
+    "spoken": "何名様ですか",
     "gender": "female",
-    "hash": "de62605c83c0"
+    "hash": "5e27f3d44498"
   },
   {
     "text": "作り方を教えてください",
+    "spoken": "作り方を教えてください",
     "gender": "female",
-    "hash": "ca92c7f44456"
+    "hash": "bcb97c39b6ea"
   },
   {
     "text": "元気ですよ。…あれ？聞こえる？",
+    "spoken": "元気ですよ。あれ？聞こえる？",
     "gender": "female",
-    "hash": "009bcd007a8c"
+    "hash": "2ebf1564807c"
   },
   {
     "text": "充電器はありますか",
+    "spoken": "充電器はありますか",
     "gender": "female",
-    "hash": "d9c3cddace4e"
+    "hash": "868ee4602d18"
   },
   {
     "text": "六百八十円です。",
+    "spoken": "六百八十円です。",
     "gender": "female",
-    "hash": "232e83b79719"
+    "hash": "6a8b9819e70b"
   },
   {
     "text": "助けてください",
+    "spoken": "助けてください",
     "gender": "female",
-    "hash": "ff981a0756cd"
+    "hash": "872bb955c5ad"
   },
   {
     "text": "助けてください。",
+    "spoken": "助けてください。",
     "gender": "female",
-    "hash": "c6566ed82493"
+    "hash": "1b3d887b7bc8"
   },
   {
     "text": "助けてください！",
+    "spoken": "助けてください。",
     "gender": "female",
-    "hash": "f927aae67e88"
+    "hash": "8fb81fc8aba9"
   },
   {
     "text": "千五百円です。",
+    "spoken": "千五百円です。",
     "gender": "female",
-    "hash": "cf937312b850"
+    "hash": "d705c47723c6"
   },
   {
     "text": "千円",
+    "spoken": "千円",
     "gender": "female",
-    "hash": "1ae8cde53509"
+    "hash": "e7e6d409c711"
   },
   {
     "text": "友達の紹介で会いました。",
+    "spoken": "友達の紹介で会いました。",
     "gender": "female",
-    "hash": "365e8ddfcb58"
+    "hash": "22b5f0fb9692"
   },
   {
     "text": "右です",
+    "spoken": "右です",
     "gender": "female",
-    "hash": "2a80cfed337c"
+    "hash": "1b6477f07119"
   },
   {
     "text": "右です。",
+    "spoken": "右です。",
     "gender": "female",
-    "hash": "ebb56d0402fb"
+    "hash": "1283d860cf25"
   },
   {
     "text": "右ですね。",
+    "spoken": "右ですね。",
     "gender": "female",
-    "hash": "9b62427deac9"
+    "hash": "d47b7e7bac15"
   },
   {
     "text": "四百五十円です。",
+    "spoken": "四百五十円です。",
     "gender": "female",
-    "hash": "805fa4dcfbc1"
+    "hash": "f84655521431"
   },
   {
     "text": "声が小さいです。",
+    "spoken": "声が小さいです。",
     "gender": "female",
-    "hash": "10f64b4134a3"
+    "hash": "03c12801be4f"
   },
   {
     "text": "大丈夫、大丈夫。気にしないで。",
+    "spoken": "大丈夫、大丈夫。気にしないで。",
     "gender": "female",
-    "hash": "5e24990bc9ba"
+    "hash": "1f4a5e52e3db"
   },
   {
     "text": "寒くなりましたね",
+    "spoken": "寒くなりましたね",
     "gender": "female",
-    "hash": "1de286a409c0"
+    "hash": "d2c941bbc7e8"
   },
   {
     "text": "寒くなりましたね。",
+    "spoken": "寒くなりましたね。",
     "gender": "female",
-    "hash": "f612444e87bf"
+    "hash": "9a9eadb5bdda"
   },
   {
     "text": "少しだけお願いします",
+    "spoken": "少しだけお願いします",
     "gender": "female",
-    "hash": "e5bdd1463c38"
+    "hash": "8e6366255872"
   },
   {
     "text": "少しだけお願いします。",
+    "spoken": "少しだけお願いします。",
     "gender": "female",
-    "hash": "6076e6d198b2"
+    "hash": "82c45d9a421b"
   },
   {
     "text": "左です",
+    "spoken": "左です",
     "gender": "female",
-    "hash": "6cd6ecf25f69"
+    "hash": "1b7da24ea1d9"
   },
   {
     "text": "左です。",
+    "spoken": "左です。",
     "gender": "female",
-    "hash": "1f7f31ceec77"
+    "hash": "5e94c09f64ba"
   },
   {
     "text": "左ですね。",
+    "spoken": "左ですね。",
     "gender": "female",
-    "hash": "1f35db559172"
+    "hash": "8b692abe9ca7"
   },
   {
     "text": "店内でお召し上がりですか",
+    "spoken": "店内でお召し上がりですか",
     "gender": "female",
-    "hash": "0800d2690262"
+    "hash": "38e77d49f3de"
   },
   {
     "text": "店内でお召し上がりですか？",
+    "spoken": "店内でお召し上がりですか？",
     "gender": "female",
-    "hash": "cdaff7659ecf"
+    "hash": "757b85b0c759"
   },
   {
     "text": "弟が一人います",
+    "spoken": "弟が一人います",
     "gender": "female",
-    "hash": "e9389b66d357"
+    "hash": "bff7ac29cc46"
   },
   {
     "text": "弟さんは元気？",
+    "spoken": "弟さんは元気？",
     "gender": "male",
-    "hash": "c1f23f98f375"
+    "hash": "8486dcd0416e"
   },
   {
     "text": "持ち帰りでお願いします",
+    "spoken": "持ち帰りでお願いします",
     "gender": "female",
-    "hash": "032fdfeba0d3"
+    "hash": "dd4da35731e5"
   },
   {
     "text": "持ち帰りでお願いします。",
+    "spoken": "持ち帰りでお願いします。",
     "gender": "female",
-    "hash": "4767a1c8967f"
+    "hash": "db0ea5789d5c"
   },
   {
     "text": "持ち帰りです。",
+    "spoken": "持ち帰りです。",
     "gender": "female",
-    "hash": "7e4c3a5e76a2"
+    "hash": "771bfe812ab0"
   },
   {
     "text": "料理するの？一緒に作ろうか。最近何かいい映画見た？",
+    "spoken": "料理するの？一緒に作ろうか。最近何かいい映画見た？",
     "gender": "female",
-    "hash": "6c471d6d2927"
+    "hash": "4fc9e8dc1aa5"
   },
   {
     "text": "新宿はおいしいです。",
+    "spoken": "新宿はおいしいです。",
     "gender": "female",
-    "hash": "9110cf16f932"
+    "hash": "e15f964d0d49"
   },
   {
     "text": "新宿行きは何番線ですか",
+    "spoken": "新宿行きは何番線ですか",
     "gender": "female",
-    "hash": "e884666f3f41"
+    "hash": "b08eb6138dfb"
   },
   {
     "text": "新宿行きは何番線ですか。",
+    "spoken": "新宿行きは何番線ですか。",
     "gender": "female",
-    "hash": "aada3618f32b"
+    "hash": "4715a0f7af58"
   },
   {
     "text": "日本のいろんなところに行きたいです",
+    "spoken": "日本のいろんなところに行きたいです",
     "gender": "female",
-    "hash": "30b9e2634f6c"
+    "hash": "af04328c7a93"
   },
   {
     "text": "日本のいろんなところに行きたいです。",
+    "spoken": "日本のいろんなところに行きたいです。",
     "gender": "female",
-    "hash": "15627afd3bd4"
+    "hash": "08bad771a5b2"
   },
   {
     "text": "日本のいろんなところに行きたいです。大阪にも行ってみたいです。",
+    "spoken": "日本のいろんなところに行きたいです。大阪にも行ってみたいです。",
     "gender": "female",
-    "hash": "42f9ab57d2c6"
+    "hash": "9094fa5f888d"
   },
   {
     "text": "日本語で何と言いますか",
+    "spoken": "日本語で何と言いますか",
     "gender": "female",
-    "hash": "40e90159195a"
+    "hash": "249f703b36a5"
   },
   {
     "text": "書いてもらえますか",
+    "spoken": "書いてもらえますか",
     "gender": "female",
-    "hash": "12ed47c7e6a6"
+    "hash": "a68629e1e544"
   },
   {
     "text": "本当にすみません",
+    "spoken": "本当にすみません",
     "gender": "female",
-    "hash": "0016bf8f28b9"
+    "hash": "119216f9050a"
   },
   {
     "text": "本当にすみません。",
+    "spoken": "本当にすみません。",
     "gender": "female",
-    "hash": "e549730ff7e6"
+    "hash": "51870d2ae6a6"
   },
   {
     "text": "本当にすみません！",
+    "spoken": "本当にすみません。",
     "gender": "female",
-    "hash": "b9bb34853c7a"
+    "hash": "8f5b34a3f429"
   },
   {
     "text": "次の駅ですね。わかりました。",
+    "spoken": "次の駅ですね。わかりました。",
     "gender": "female",
-    "hash": "8be70940f3f1"
+    "hash": "2015f0b6dc86"
   },
   {
     "text": "次の駅で乗り換えてください。",
+    "spoken": "次の駅で乗り換えてください。",
     "gender": "female",
-    "hash": "89c80605b0fa"
+    "hash": "3fca94376803"
   },
   {
     "text": "次はどこ行きたい？",
+    "spoken": "次はどこ行きたい？",
     "gender": "male",
-    "hash": "67a07fefd4a1"
+    "hash": "e89974836c2e"
   },
   {
     "text": "歩いて五分ぐらいです",
+    "spoken": "歩いて五分ぐらいです",
     "gender": "female",
-    "hash": "eb17292e51c3"
+    "hash": "25e0174e91d8"
   },
   {
     "text": "歩いて五分です。",
+    "spoken": "歩いて五分です。",
     "gender": "female",
-    "hash": "a9c00c7fe41e"
+    "hash": "b5d1c24d7f0a"
   },
   {
     "text": "母",
+    "spoken": "母",
     "gender": "female",
-    "hash": "78ce0b021c44"
+    "hash": "53933aac8726"
   },
   {
     "text": "母は元気です。",
+    "spoken": "母は元気です。",
     "gender": "female",
-    "hash": "134570ce36a5"
+    "hash": "cc22e560f8b0"
   },
   {
     "text": "気にしないでください",
+    "spoken": "気にしないでください",
     "gender": "female",
-    "hash": "1cfe9f98cfc0"
+    "hash": "41941f986d17"
   },
   {
     "text": "気にしないでください。",
+    "spoken": "気にしないでください。",
     "gender": "female",
-    "hash": "4006df1d74db"
+    "hash": "e5d5acf0705d"
   },
   {
     "text": "気にしないでね。",
+    "spoken": "気にしないでね。",
     "gender": "female",
-    "hash": "b6ec5c58d2b0"
+    "hash": "87f6d31ebf8b"
   },
   {
     "text": "気に入ってもらえるとうれしいです",
+    "spoken": "気に入ってもらえるとうれしいです",
     "gender": "female",
-    "hash": "35c4d24a3fe6"
+    "hash": "6f1fa3bb0a5b"
   },
   {
     "text": "気に入ってもらえるとうれしいです。",
+    "spoken": "気に入ってもらえるとうれしいです。",
     "gender": "female",
-    "hash": "a66830c90ac9"
+    "hash": "87ea5f1499b5"
   },
   {
     "text": "気を遣わなくていいのに。",
+    "spoken": "気を遣わなくていいのに。",
     "gender": "female",
-    "hash": "13b29fa6148e"
+    "hash": "2c32e2c62186"
   },
   {
     "text": "温めますか",
+    "spoken": "温めますか",
     "gender": "female",
-    "hash": "1198fe760c61"
+    "hash": "4c80218a75f2"
   },
   {
     "text": "漢字で書きましょうか？",
+    "spoken": "漢字で書きましょうか？",
     "gender": "female",
-    "hash": "536e2b0559bd"
+    "hash": "eda013c0a010"
   },
   {
     "text": "父",
+    "spoken": "父",
     "gender": "female",
-    "hash": "0b27d61a0761"
+    "hash": "1c3a0a4b9ccb"
   },
   {
     "text": "父も母も元気です",
+    "spoken": "父も母も元気です",
     "gender": "female",
-    "hash": "3d58d04b8685"
+    "hash": "3559cbeb5920"
   },
   {
     "text": "父も母も元気です。",
+    "spoken": "父も母も元気です。",
     "gender": "female",
-    "hash": "301dc484426c"
+    "hash": "3db70d678bf3"
   },
   {
     "text": "画面が固まっています",
+    "spoken": "画面が固まっています",
     "gender": "female",
-    "hash": "da6532cc2c0d"
+    "hash": "6b5ad823ae97"
   },
   {
     "text": "百円",
+    "spoken": "百円",
     "gender": "female",
-    "hash": "dd134499531a"
+    "hash": "ca6b2c50c8b0"
   },
   {
     "text": "私こそ、何かお手伝いしましょうか。",
+    "spoken": "私こそ、何かお手伝いしましょうか。",
     "gender": "female",
-    "hash": "295394bd8bff"
+    "hash": "7d52ccb9407c"
   },
   {
     "text": "聞こえますか",
+    "spoken": "聞こえますか",
     "gender": "female",
-    "hash": "0fcb0def755f"
+    "hash": "21ffbd148d2a"
   },
   {
     "text": "苦手なものはありますか？",
+    "spoken": "苦手なものはありますか？",
     "gender": "female",
-    "hash": "b91eac2eb6f2"
+    "hash": "7317611e5d06"
   },
   {
     "text": "英語を話せますか",
+    "spoken": "英語を話せますか",
     "gender": "female",
-    "hash": "41bc7bd204f5"
+    "hash": "3142f66c1924"
   },
   {
     "text": "英語を話せますか。",
+    "spoken": "英語を話せますか。",
     "gender": "female",
-    "hash": "e20d32eb2b6b"
+    "hash": "b93137dbb093"
   },
   {
     "text": "行ってきます",
+    "spoken": "行ってきます",
     "gender": "female",
-    "hash": "bf1bd8269afb"
+    "hash": "8c7ab2e6e9f5"
   },
   {
     "text": "袋はご利用ですか",
+    "spoken": "袋はご利用ですか",
     "gender": "female",
-    "hash": "32babbcf7b75"
+    "hash": "4a5b324151a2"
   },
   {
     "text": "袋は大丈夫です",
+    "spoken": "袋は大丈夫です",
     "gender": "female",
-    "hash": "cb941d448c67"
+    "hash": "96b5cb50a368"
   },
   {
     "text": "袋は大丈夫です。",
+    "spoken": "袋は大丈夫です。",
     "gender": "female",
-    "hash": "d50d298fda9f"
+    "hash": "3941b0a9f99f"
   },
   {
     "text": "見ているだけです",
+    "spoken": "見ているだけです",
     "gender": "female",
-    "hash": "54e27d7dd5da"
+    "hash": "c3f16b8bb6ec"
   },
   {
     "text": "見ているだけです。",
+    "spoken": "見ているだけです。",
     "gender": "female",
-    "hash": "009dabb2d3a7"
+    "hash": "7fb21fc58bce"
   },
   {
     "text": "試着してもいいですか",
+    "spoken": "試着してもいいですか",
     "gender": "female",
-    "hash": "5e0478865db7"
+    "hash": "77dfcf1d49d8"
   },
   {
     "text": "試着してもいいですか。",
+    "spoken": "試着してもいいですか。",
     "gender": "female",
-    "hash": "3b22c4bf9645"
+    "hash": "19febc0a1063"
   },
   {
     "text": "試着室はあちらです。",
+    "spoken": "試着室はあちらです。",
     "gender": "female",
-    "hash": "8a359dbb092a"
+    "hash": "27357036524c"
   },
   {
     "text": "買い物と料理と映画を見るのが好きです",
+    "spoken": "買い物と料理と映画を見るのが好きです",
     "gender": "female",
-    "hash": "0b1feb877000"
+    "hash": "4f29652b9393"
   },
   {
     "text": "買い物と料理と映画を見るのが好きです。",
+    "spoken": "買い物と料理と映画を見るのが好きです。",
     "gender": "female",
-    "hash": "e3e52681c53f"
+    "hash": "53e274aaf865"
   },
   {
     "text": "趣味は絵を描くことです。",
+    "spoken": "趣味は絵を描くことです。",
     "gender": "female",
-    "hash": "fb822a8231b5"
+    "hash": "6b68186bfd95"
   },
   {
     "text": "辛いものはちょっと苦手です",
+    "spoken": "辛いものはちょっと苦手です",
     "gender": "female",
-    "hash": "683f77911d4c"
+    "hash": "f6dbb95eba09"
   },
   {
     "text": "辛いものはちょっと苦手です。",
+    "spoken": "辛いものはちょっと苦手です。",
     "gender": "female",
-    "hash": "c7c83d19cfba"
+    "hash": "de231762064a"
   },
   {
     "text": "週末は何をしますか",
+    "spoken": "週末は何をしますか",
     "gender": "female",
-    "hash": "db480dad80fa"
+    "hash": "906bc6685421"
   },
   {
     "text": "遅れてすみません",
+    "spoken": "遅れてすみません",
     "gender": "female",
-    "hash": "939e979b7aba"
+    "hash": "bea7a7a19e60"
   },
   {
     "text": "道に迷いました",
+    "spoken": "道に迷いました",
     "gender": "female",
-    "hash": "9aa9b6a78c0b"
+    "hash": "fee5e3675ccc"
   },
   {
     "text": "雨が降りそうですね。",
+    "spoken": "雨が降りそうですね。",
     "gender": "female",
-    "hash": "26a4e86bce7e"
+    "hash": "3b185a8612b9"
   },
   {
     "text": "駅です。",
+    "spoken": "駅です。",
     "gender": "female",
-    "hash": "385faa0f00f7"
+    "hash": "3138d3d5a708"
   },
   {
     "text": "駅ですか？あそこの信号を右に曲がって、まっすぐです。",
+    "spoken": "駅ですか？あそこの信号を右に曲がって、まっすぐです。",
     "gender": "female",
-    "hash": "1027356aa495"
+    "hash": "70a30dbec150"
   },
   {
     "text": "駅はどこですか",
+    "spoken": "駅はどこですか",
     "gender": "female",
-    "hash": "84e5eae60d6f"
+    "hash": "37ed7a992e72"
   },
   {
     "text": "駅はどこですか。",
+    "spoken": "駅はどこですか。",
     "gender": "female",
-    "hash": "2743523b6640"
+    "hash": "2890ebc0d67d"
   }
 ]

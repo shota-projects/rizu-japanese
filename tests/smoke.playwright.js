@@ -324,7 +324,7 @@ const assert = (c, m) => { if (!c) throw new Error('ASSERT: ' + m); };
       const speakP = Speech.speak(samples[0]);
       await new Promise((r) => setTimeout(r, 200));
       const cur = (Speech.playerSrc && Speech.playerSrc()) || '';
-      out.push({ jp: samples[0], expectedSrc: abs, playerSrc: cur, wired: cur.indexOf('329cf9756060') >= 0 || cur === abs });
+      out.push({ jp: samples[0], expectedSrc: abs, playerSrc: cur, wired: cur.indexOf('f80d2c3a4092') >= 0 || cur === abs });
       speakP.catch(() => {});
       return out;
     }, samples);
