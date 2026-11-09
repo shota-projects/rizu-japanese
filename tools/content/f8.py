@@ -13,13 +13,13 @@ units.append({
   P("お父さんもお母さんも、元気でいてくださいね", "otōsan mo okāsan mo, genki de ite kudasai ne", "Dad, Mom, please stay well", "You call them お父さん and お母さん. A soft wish, not a formal speech.", kana="おとうさんもおかあさんも、げんきでいてくださいね", speaker="Rizu"),
   P("また来年も来ますね", "mata rainen mo kimasu ne", "I'll come again next year too", "ね invites them to agree. Smile when you say it.", kana="またらいねんもきますね", speaker="Rizu"),
   P("いいお年を", "ii otoshi o", "Have a good rest of the year", "For December, before New Year. On the day itself, switch to あけましておめでとう.", kana="いいおとしを", speaker="Rizu"),
-  P("お祝い、おめでとうございます", "o-iwai, omedetō gozaimasu", "Congratulations", "Birthdays and other family holidays. Warm, not stiff.", kana="おいわい、おめでとうございます", speaker="Rizu"),
+  P("お正月、楽しいですね", "o-shōgatsu, tanoshii desu ne", "New Year's is so fun", "Say it in the middle of the day, with the food and the visit already going.", kana="おしょうがつ、たのしいですね", speaker="Rizu"),
  ],
  "roleplay": {
   "title": "New Year at their door",
   "setting": "You and Shota arrive for New Year. Mom opens the door. Dad is right behind her. They already know you.",
   "lines": [
-   T("Mom", "リズちゃん、あけましておめでとう。", "Rizu-chan, akemashite omedetō.", "Eliz, happy New Year.", kana="リズちゃん、あけましておめでとう。"),
+   T("Mom", "リズちゃん、あけましておめでとう。", "Rizu-chan, akemashite omedetō.", "Rizu-chan, happy New Year.", kana="リズちゃん、あけましておめでとう。"),
    Y("Greet Mom and wish her a good year.", [
      O("お母さん、あけましておめでとう。今年もよろしくお願いします。", "Okāsan, akemashite omedetō. Kotoshi mo yoroshiku onegaishimasu.", "Mom, happy New Year. Let's have another good year.", kana="おかあさん、あけましておめでとう。ことしもよろしくおねがいします。"),
      O("はじめまして。リズです。", "Hajimemashite. Rizu desu.", "Nice to meet you. I'm Liz."),

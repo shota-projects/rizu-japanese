@@ -17,7 +17,7 @@ units.append({
  "roleplay": {
   "title": "Back at Mom's door", "setting": "You and Shota arrive again at his parents' place. Mom opens the door — she already knows you well.",
   "lines": [
-   T("Mom", "あら、リズちゃん！久しぶり！上がって上がって。", "Ara, Rizu-chan! Hisashiburi! Agatte agatte.", "Oh, Eliz! It's been ages! Come on in.", kana="あら、リズちゃん！ひさしぶり！あがってあがって。", note="Family nickname: リズちゃん (Rizu-chan). Keep answering in polite です/ます."),
+   T("Mom", "あら、リズちゃん！久しぶり！上がって上がって。", "Ara, Rizu-chan! Hisashiburi! Agatte agatte.", "Oh, Rizu-chan! It's been ages! Come on in.", kana="あら、リズちゃん！ひさしぶり！あがってあがって。", note="Family nickname: リズちゃん (Rizu-chan). Keep answering in polite です/ます."),
    Y("Greet her warmly as a returning guest.", [
      O("お母さん、久しぶりです！また会えてうれしいです。お邪魔します。", "Okāsan, hisashiburi desu! Mata aete ureshii desu. O-jama shimasu.", "Mom, it's been a while! So happy to see you again. Thanks for having me.", kana="おかあさん、ひさしぶりです！またあえてうれしいです。おじゃまします。"),
      O("はじめまして。リズです。", "Hajimemashite. Rizu desu.", "Nice to meet you. I'm Liz. (too formal — you already know her)"),

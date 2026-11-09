@@ -96,7 +96,7 @@
       "jp": "あら、リズちゃん！久しぶり！上がって上がって。",
       "kana": "あら、リズちゃん！ひさしぶり！あがってあがって。",
       "romaji": "Ara, Rizu-chan! Hisashiburi! Agatte agatte.",
-      "en": "Oh, Eliz! It's been ages! Come on in.",
+      "en": "Oh, Rizu-chan! It's been ages! Come on in.",
       "note": "Family nickname: リズちゃん (Rizu-chan). Keep answering in polite です/ます."
      },
      {
@@ -396,11 +396,11 @@
      "speaker": "Rizu"
     },
     {
-     "jp": "お祝い、おめでとうございます",
-     "kana": "おいわい、おめでとうございます",
-     "romaji": "o-iwai, omedetō gozaimasu",
-     "en": "Congratulations",
-     "note": "Birthdays and other family holidays. Warm, not stiff.",
+     "jp": "お正月、楽しいですね",
+     "kana": "おしょうがつ、たのしいですね",
+     "romaji": "o-shōgatsu, tanoshii desu ne",
+     "en": "New Year's is so fun",
+     "note": "Say it in the middle of the day, with the food and the visit already going.",
      "speaker": "Rizu"
     }
    ],
@@ -413,7 +413,7 @@
       "name": "Mom",
       "jp": "リズちゃん、あけましておめでとう。",
       "romaji": "Rizu-chan, akemashite omedetō.",
-      "en": "Eliz, happy New Year."
+      "en": "Rizu-chan, happy New Year."
      },
      {
       "speaker": "you",
@@ -762,7 +762,7 @@
       "jp": "リズちゃんに兄弟はいるの？",
       "kana": "リズちゃんにきょうだいはいるの？",
       "romaji": "Rizu-chan ni kyōdai wa iru no?",
-      "en": "Do you have any brothers or sisters, Eliz?"
+      "en": "Do you have any brothers or sisters, Rizu-chan?"
      },
      {
       "speaker": "you",
@@ -1687,7 +1687,7 @@
       "jp": "リズちゃん、趣味は何？",
       "kana": "リズちゃん、しゅみはなに？",
       "romaji": "Rizu-chan, shumi wa nani?",
-      "en": "Eliz, what's your hobby?"
+      "en": "Rizu-chan, what's your hobby?"
      },
      {
       "speaker": "you",
@@ -1944,11 +1944,11 @@
      "jp": "リズちゃん、料理するの？",
      "kana": "リズちゃん、りょうりするの？",
      "romaji": "Rizu-chan, ryōri suru no?",
-     "en": "Eliz, do you cook?",
+     "en": "Rizu-chan, do you cook?",
      "meanings": [
-      "Eliz, do you cook?",
-      "Eliz, do you draw?",
-      "Eliz, are you leaving?"
+      "Rizu-chan, do you cook?",
+      "Rizu-chan, do you draw?",
+      "Rizu-chan, are you leaving?"
      ],
      "reply": {
       "prompt": "Say you'd love to cook together.",
@@ -2366,7 +2366,7 @@
      "jp": "リズちゃん、聞こえる？",
      "kana": "リズちゃん、きこえる？",
      "romaji": "Rizu-chan, kikoeru?",
-     "en": "Eliz, can you hear me?",
+     "en": "Rizu-chan, can you hear me?",
      "note": "Mom drops ます. You can answer in です/ます.",
      "speaker": "Mom"
     },
@@ -2385,10 +2385,10 @@
      "speaker": "Mom"
     },
     {
-     "jp": "グラフィックの仕事、ちょっと忙しいです。",
-     "kana": "グラフィックのしごと、ちょっといそがしいです。",
-     "romaji": "gurafikku no shigoto, chotto isogashii desu.",
-     "en": "Graphic design work is a little busy.",
+     "jp": "デザインの仕事、ちょっと忙しいです。",
+     "kana": "デザインのしごと、ちょっといそがしいです。",
+     "romaji": "dezain no shigoto, chotto isogashii desu.",
+     "en": "Design work is a little busy.",
      "note": "You're a graphic designer. ちょっと keeps it light.",
      "speaker": "Rizu"
     },
@@ -2439,7 +2439,7 @@
     {
      "jp": "おやすみ、リズちゃん。",
      "romaji": "oyasumi, Rizu-chan.",
-     "en": "Night, Eliz.",
+     "en": "Night, Rizu-chan.",
      "speaker": "Dad"
     }
    ],
@@ -2453,7 +2453,7 @@
       "jp": "リズちゃん、聞こえる？",
       "kana": "リズちゃん、きこえる？",
       "romaji": "Rizu-chan, kikoeru?",
-      "en": "Eliz, can you hear me?"
+      "en": "Rizu-chan, can you hear me?"
      },
      {
       "speaker": "you",
@@ -2491,10 +2491,10 @@
       "prompt": "Tell her about your graphic design work.",
       "options": [
        {
-        "jp": "グラフィックの仕事、ちょっと忙しいです。",
-        "kana": "グラフィックのしごと、ちょっといそがしいです。",
-        "romaji": "Gurafikku no shigoto, chotto isogashii desu.",
-        "en": "Graphic design work is a little busy."
+        "jp": "デザインの仕事、ちょっと忙しいです。",
+        "kana": "デザインのしごと、ちょっといそがしいです。",
+        "romaji": "Dezain no shigoto, chotto isogashii desu.",
+        "en": "Design work is a little busy."
        },
        {
         "jp": "いいえ、聞こえません。",
@@ -2605,7 +2605,7 @@
       "name": "Dad",
       "jp": "おやすみ、リズちゃん。",
       "romaji": "Oyasumi, Rizu-chan.",
-      "en": "Night, Eliz."
+      "en": "Night, Rizu-chan."
      }
     ]
    },
@@ -2724,10 +2724,10 @@
       "prompt": "Say work is a little busy.",
       "options": [
        {
-        "jp": "グラフィックの仕事、ちょっと忙しいです。",
-        "kana": "グラフィックのしごと、ちょっといそがしいです。",
-        "romaji": "Gurafikku no shigoto, chotto isogashii desu.",
-        "en": "Graphic design work is a little busy."
+        "jp": "デザインの仕事、ちょっと忙しいです。",
+        "kana": "デザインのしごと、ちょっといそがしいです。",
+        "romaji": "Dezain no shigoto, chotto isogashii desu.",
+        "en": "Design work is a little busy."
        },
        {
         "jp": "お土産です。",
@@ -2749,9 +2749,9 @@
      "jp": "おやすみ、リズちゃん。聞こえてる？",
      "kana": "おやすみ、リズちゃん。きこえてる？",
      "romaji": "Oyasumi, Rizu-chan. Kikoeteru?",
-     "en": "Night, Eliz. Can you still hear me?",
+     "en": "Night, Rizu-chan. Can you still hear me?",
      "meanings": [
-      "Night, Eliz. Can you still hear me?",
+      "Night, Rizu-chan. Can you still hear me?",
       "The screen is small.",
       "Please write that down."
      ],

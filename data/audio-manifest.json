@@ -2480,13 +2480,6 @@
       "hash": "cae35192172e",
       "spoken": "いいお年を"
     },
-    "お祝い、おめでとうございます": {
-      "src": "./audio/f/8a7217bdd2a0.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "8a7217bdd2a0",
-      "spoken": "お祝い、おめでとうございます"
-    },
     "リズちゃん、あけましておめでとう。": {
       "src": "./audio/f/5f879a2ffa92.mp3",
       "voice": "ja-JP-NanamiNeural",
@@ -2613,13 +2606,6 @@
       "hash": "e515caa5b8c5",
       "spoken": "元気よ。仕事は忙しい？"
     },
-    "グラフィックの仕事、ちょっと忙しいです。": {
-      "src": "./audio/f/bed16acbd105.mp3",
-      "voice": "ja-JP-NanamiNeural",
-      "gender": "female",
-      "hash": "bed16acbd105",
-      "spoken": "グラフィックの仕事、ちょっと忙しいです。"
-    },
     "画面、固まってるよ。": {
       "src": "./audio/m/854bc81efc98.mp3",
       "voice": "ja-JP-KeitaNeural",
@@ -2682,6 +2668,20 @@
       "gender": "male",
       "hash": "b7c89b8b047d",
       "spoken": "おやすみ、リズちゃん。聞こえてる？"
+    },
+    "お正月、楽しいですね": {
+      "src": "./audio/f/84028887843b.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "84028887843b",
+      "spoken": "お正月、楽しいですね"
+    },
+    "デザインの仕事、ちょっと忙しいです。": {
+      "src": "./audio/f/5260df1ae156.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "5260df1ae156",
+      "spoken": "デザインの仕事、ちょっと忙しいです。"
     }
   }
 }
