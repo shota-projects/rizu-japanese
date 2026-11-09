@@ -3,28 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>にほんご · for Eliz</title>
-  <meta name="description" content="A small speaking-first Japanese course made for Eliz: family conversation and getting around.">
-  <meta name="theme-color" content="#2E2836">
-  <link rel="manifest" href="./manifest.json">
+  <title>にほんご · for リズちゃん</title>
+  <meta name="description" content="Speaking practice for Rizu-chan: warm family Japanese, then restaurants, trains, and shops.">
+  <meta name="theme-color" content="#16111c">
+  <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="にほんご">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="preload" href="./fonts/quicksand-700.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="./fonts/mplus-rounded-800.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="./css/style.css">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <script type="module" crossorigin src="./assets/index-B54sJYy6.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BwhnsURU.css">
 </head>
 <body>
+  <div id="update-banner" class="update-banner" hidden>
+    <p>Update available</p>
+    <button type="button" id="update-apply">Update</button>
+  </div>
   <div class="shell">
-    <header class="topbar" id="topbar"></header>
+    <header class="topbar hidden" id="topbar"></header>
     <main id="app" aria-live="polite"><p class="loading">読み込み中…</p></main>
   </div>
   <div class="toast" id="toast" role="status"></div>
-  <script src="./js/store.js"></script>
-  <script src="./js/speech.js"></script>
-  <script src="./js/app.js"></script>
 </body>
 </html>

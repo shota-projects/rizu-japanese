@@ -23,7 +23,7 @@ units.append({
      O("そうですね。本当に暑いですね。", "Sō desu ne. Hontō ni atsui desu ne.", "It really is. So hot.", kana="そうですね。ほんとうにあついですね。"),
      O("うん、暑い。", "Un, atsui.", "Yeah, hot. (too casual)", kana="うん、あつい。"),
      O("寒くなりましたね。", "Samuku narimashita ne.", "It's gotten cold.", kana="さむくなりましたね。")]),
-   T("Mom", "リズちゃん、趣味は何？", "Rizu-chan, shumi wa nani?", "Eliz, what's your hobby?", kana="リズちゃん、しゅみはなに？"),
+   T("Mom", "リズちゃん、趣味は何？", "Rizu-chan, shumi wa nani?", "Rizu-chan, what's your hobby?", kana="リズちゃん、しゅみはなに？"),
    Y("Say you like shopping, cooking, and movies.", [
      O("買い物と料理と映画を見るのが好きです。", "Kaimono to ryōri to eiga o miru no ga suki desu.", "I like shopping, cooking, and watching movies.", kana="かいものとりょうりとえいがをみるのがすきです。"),
      O("趣味は絵を描くことです。", "Shumi wa e o kaku koto desu.", "My hobby is drawing.", kana="しゅみはえをかくことです。"),
@@ -58,6 +58,6 @@ units.append({
     [O("仕事で会いました。", "Shigoto de aimashita.", "We met at work.", kana="しごとであいました。"), O("付き合って二年になります。", "Tsukiatte ni-nen ni narimasu.", "We've been together two years.", kana="つきあってにねんになります。"), O("京都に行きます。", "Kyōto ni ikimasu.", "I'm going to Kyoto.", kana="きょうとにいきます。")], kana="ふたりはどこであったんですか？"),
   L("次はどこ行きたい？", "Tsugi wa doko ikitai?", "Where do you want to go next?", ["Where do you want to go next?", "Where did you go last time?", "When are you leaving?"], "Say you want to visit lots of places.",
     [O("日本のいろんなところに行きたいです。", "Nihon no iron'na tokoro ni ikitai desu.", "I want to go to all sorts of places in Japan.", kana="にほんのいろんなところにいきたいです。"), O("すみません、わかりません。", "Sumimasen, wakarimasen.", "Sorry, I don't understand."), O("おやすみなさい。", "Oyasumi nasai.", "Good night.")], kana="つぎはどこいきたい？"),
-  L("リズちゃん、料理するの？", "Rizu-chan, ryōri suru no?", "Eliz, do you cook?", ["Eliz, do you cook?", "Eliz, do you draw?", "Eliz, are you leaving?"], "Say you'd love to cook together.",
+  L("リズちゃん、料理するの？", "Rizu-chan, ryōri suru no?", "Rizu-chan, do you cook?", ["Rizu-chan, do you cook?", "Rizu-chan, do you draw?", "Rizu-chan, are you leaving?"], "Say you'd love to cook together.",
     [O("はい、好きです。ぜひ一緒に作りたいです。", "Hai, suki desu. Zehi issho ni tsukuritai desu.", "Yes, I like it. I'd love to cook together.", kana="はい、すきです。ぜひいっしょにつくりたいです。"), O("趣味は絵を描くことです。", "Shumi wa e o kaku koto desu.", "My hobby is drawing.", kana="しゅみはえをかくことです。"), O("おやすみなさい。", "Oyasumi nasai.", "Good night.")], kana="リズちゃん、りょうりするの？"),
  ]})

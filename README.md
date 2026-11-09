@@ -1,46 +1,30 @@
-# にほんご for Eliz
+# にほんご for リズちゃん
 
-A small, speaking-first Japanese course for a complete beginner. Plain HTML/CSS/JS, no backend, progress saved in `localStorage` on the device. Installable as a PWA and works offline.
+Speaking practice for Rizu-chan (Eliz): warm family Japanese, then restaurants, trains, and shops. Static site, no backend. Progress stays on the device.
 
-## Run it
+The lesson text and MP3s in `data/` and `audio/` are the approved course (Nanami for her lines, Keita for Dad). The app around them is a small Vite + TypeScript project.
+
+## Pages
+
+GitHub Pages serves the **repository root** from `main` (`https://shota-projects.github.io/rizu-japanese/`). `npm run build` writes the shell (`index.html`, `assets/`, `sw.js`, `manifest.webmanifest`) back to the root so that existing Pages setting keeps working. Pull requests do not change the live site.
+
+## Develop
 
 ```sh
-cd eliz-japanese
-python3 -m http.server 8765   # then open http://localhost:8765/
+npm install
+npm run dev      # http://localhost:5173/
+npm test
+npm run build    # refresh the files Pages serves
 ```
 
-(Opening `index.html` straight from disk won't load the lessons; serve the folder.)
+Open the built site with any static server from the repo root (`npx serve .`). Don’t open `index.html` as a file — lesson JSON and audio need HTTP.
 
-## What's in it
+## Progress
 
-Home shows two **Speak** tracks plus **Review**:
+Saved under `rizu-jp-v2`. The first launch copies `eliz-jp-v1` if it is still on the device. Each phrase, unit, day, and setting has an `updatedAt`. `mergeProgress` in `web/src/progress/merge.ts` is the hook for a later sync layer; nothing here talks to a server.
 
-- **Family** (かぞくとはなそう, first): meeting the family, family words, home phrases, the dinner table, small talk, gifts/thanks/sorry, phone & video calls. Defaults to polite です/ます, with notes on when family speech gets casual.
-- **Getting around** (まちで): restaurants & cafés, directions & trains, shopping & prices, convenience store & checkout, asking for help.
+Backup codes still start with `EJP1.` and can be copied or shared. Codes from the previous app import too.
 
-Each unit has four steps: **phrases** (taught as whole chunks, with optional grammar notes), a **listening drill** (natural speed, no text; pick the meaning, try a reply, then the text is revealed), a **role-play**, and a **quick quiz**. Phrases go into a 5-box spaced-repetition **review** (same day, 1, 3, 7, 16 days).
+## Lessons
 
-Audio uses the browser's Japanese voice (`speechSynthesis`). Speaking practice uses speech recognition where the browser has it (Chrome, Safari) and falls back to self-rating.
-
-**Settings** (gear on home): hiragana readings on/off, and romaji *show / fade / hide*. Fade hides romaji (tap to peek) on phrases in review box 3+ and in finished units.
-
-## Editing lessons
-
-- Lesson data: `data/speak.json` (`tracks` + `units`). You can edit it directly.
-- Source of truth for regenerating it: `tools/content/f*.py` (Family) and `g*.py` (Getting around), one unit per file. Then run `python3 tools/build_content.py`, which validates and rewrites `data/speak.json`.
-- After changing content, run `sh tools/build_fonts.sh` to refresh the self-hosted font subset (new kanji otherwise fall back to the system font), and bump `VERSION` in `sw.js` so installed copies update.
-
-## Code layout
-
-- `js/parts/*.js` → concatenated into `js/app.js` by `sh tools/build_app.sh` (edit the parts, not app.js).
-- `css/parts/*.css` → `css/style.css` (`cat css/parts/*.css > css/style.css`).
-- `js/store.js` progress + settings, `js/speech.js` audio and recognition.
-- `img/` mascot poses, `icons/` PWA icons, `fonts/` M PLUS Rounded 1c subset (SIL Open Font License).
-
-## Reading course (parked)
-
-`data/read.json` and the read views (`js/parts/06-read.js`) are kept but unlinked. To bring them back, set `FEATURES.read = true` in `js/parts/01-core.js`, rebuild, and add a link on home.
-
-## Tests
-
-`tests/smoke.playwright.js` runs the main flows headless at 390×844, checks for zero console errors and offline mode, and writes screenshots to `screenshots/`.
+Edit `tools/content/*.py`, then `python3 tools/build_content.py`. New kanji need `sh tools/build_fonts.sh`. Audio is regenerated with `tools/gen_audio.py`. Bump a build (`npm run build`) so the service worker picks up a new cache id. Returning visitors see an **Update available** banner; the new version loads when they tap it.

@@ -5,13 +5,13 @@
    "id": "family",
    "title": "Family",
    "jpTitle": "かぞくとはなそう",
-   "blurb": "Warm catch-ups with family she already knows: door hellos, dinner, teasing Shota, video calls."
+   "blurb": "Warm catch-ups with family she already knows: door hellos, New Year, dinner, teasing Shota, video calls."
   },
   {
    "id": "around",
    "title": "Getting around",
    "jpTitle": "まちで",
-   "blurb": "Cafés, trains, shops, konbini, and asking for help."
+   "blurb": "Trains and asking for help first, then cafés, shops, and the konbini."
   }
  ],
  "units": [
@@ -96,7 +96,7 @@
       "jp": "あら、リズちゃん！久しぶり！上がって上がって。",
       "kana": "あら、リズちゃん！ひさしぶり！あがってあがって。",
       "romaji": "Ara, Rizu-chan! Hisashiburi! Agatte agatte.",
-      "en": "Oh, Eliz! It's been ages! Come on in.",
+      "en": "Oh, Rizu-chan! It's been ages! Come on in.",
       "note": "Family nickname: リズちゃん (Rizu-chan). Keep answering in polite です/ます."
      },
      {
@@ -319,6 +319,324 @@
    ]
   },
   {
+   "id": "f-holiday",
+   "track": "family",
+   "title": "New Year & holidays",
+   "jpTitle": "お正月",
+   "summary": "A warm visit over New Year or another family holiday: the greeting, a small gift, osechi and mochi, and a real thank-you. You already know them.",
+   "phrases": [
+    {
+     "jp": "あけましておめでとう",
+     "romaji": "akemashite omedetō",
+     "en": "Happy New Year",
+     "note": "How you greet お父さん and お母さん on New Year's day. Familiar, not a speech.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "今年もよろしくお願いします",
+     "kana": "ことしもよろしくおねがいします",
+     "romaji": "kotoshi mo yoroshiku onegaishimasu",
+     "en": "Let's have another good year together",
+     "note": "Say it right after the New Year greeting. They may answer 今年もよろしく.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "これ、よかったらどうぞ",
+     "romaji": "kore, yokattara dōzo",
+     "en": "This is a little something, if you'd like",
+     "note": "Hand the gift over as you say it. No big presentation.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "おせち、一緒に食べましょう",
+     "kana": "おせち、いっしょにたべましょう",
+     "romaji": "osechi, issho ni tabemashō",
+     "en": "Let's eat the osechi together",
+     "note": "Osechi is the New Year meal in the stacked boxes. Offering to share is the warm move.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "お餅、おいしいですね",
+     "kana": "おもち、おいしいですね",
+     "romaji": "o-mochi, oishii desu ne",
+     "en": "The mochi is really good",
+     "note": "Say it while you eat. If it's in soup, that's お雑煮.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "今日は呼んでくれて、ありがとうございます",
+     "kana": "きょうはよんでくれて、ありがとうございます",
+     "romaji": "kyō wa yonde kurete, arigatō gozaimasu",
+     "en": "Thank you for having me today",
+     "note": "A real thank-you for the visit, once you're comfortable, not at the door.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "お父さんもお母さんも、元気でいてくださいね",
+     "kana": "おとうさんもおかあさんも、げんきでいてくださいね",
+     "romaji": "otōsan mo okāsan mo, genki de ite kudasai ne",
+     "en": "Dad, Mom, please stay well",
+     "note": "You call them お父さん and お母さん. A soft wish, not a formal speech.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "また来年も来ますね",
+     "kana": "またらいねんもきますね",
+     "romaji": "mata rainen mo kimasu ne",
+     "en": "I'll come again next year too",
+     "note": "ね invites them to agree. Smile when you say it.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "いいお年を",
+     "kana": "いいおとしを",
+     "romaji": "ii otoshi o",
+     "en": "Have a good rest of the year",
+     "note": "For December, before New Year. On the day itself, switch to あけましておめでとう.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "お正月、楽しいですね",
+     "kana": "おしょうがつ、たのしいですね",
+     "romaji": "o-shōgatsu, tanoshii desu ne",
+     "en": "New Year's is so fun",
+     "note": "Say it in the middle of the day, with the food and the visit already going.",
+     "speaker": "Rizu"
+    }
+   ],
+   "roleplay": {
+    "title": "New Year at their door",
+    "setting": "You and Shota arrive for New Year. Mom opens the door. Dad is right behind her. They already know you.",
+    "lines": [
+     {
+      "speaker": "them",
+      "name": "Mom",
+      "jp": "リズちゃん、あけましておめでとう。",
+      "romaji": "Rizu-chan, akemashite omedetō.",
+      "en": "Rizu-chan, happy New Year."
+     },
+     {
+      "speaker": "you",
+      "prompt": "Greet Mom and wish her a good year.",
+      "options": [
+       {
+        "jp": "お母さん、あけましておめでとう。今年もよろしくお願いします。",
+        "kana": "おかあさん、あけましておめでとう。ことしもよろしくおねがいします。",
+        "romaji": "Okāsan, akemashite omedetō. Kotoshi mo yoroshiku onegaishimasu.",
+        "en": "Mom, happy New Year. Let's have another good year."
+       },
+       {
+        "jp": "はじめまして。リズです。",
+        "romaji": "Hajimemashite. Rizu desu.",
+        "en": "Nice to meet you. I'm Liz."
+       },
+       {
+        "jp": "いってきます。",
+        "romaji": "Ittekimasu.",
+        "en": "I'm heading out."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Dad",
+      "jp": "おう、来てくれたね。寒いだろ。",
+      "kana": "おう、きてくれたね。さむいだろ。",
+      "romaji": "Ō, kite kureta ne. Samui daro.",
+      "en": "Oh, you came. It's cold, huh?"
+     },
+     {
+      "speaker": "you",
+      "prompt": "Greet Dad and offer the gift.",
+      "options": [
+       {
+        "jp": "お父さん、これ、よかったらどうぞ。",
+        "kana": "おとうさん、これ、よかったらどうぞ。",
+        "romaji": "Otōsan, kore, yokattara dōzo.",
+        "en": "Dad, this is a little something, if you'd like."
+       },
+       {
+        "jp": "駅はどこですか。",
+        "kana": "えきはどこですか。",
+        "romaji": "Eki wa doko desu ka.",
+        "en": "Where is the station?"
+       },
+       {
+        "jp": "お会計お願いします。",
+        "kana": "おかいけいおねがいします。",
+        "romaji": "O-kaikei onegaishimasu.",
+        "en": "Check, please."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Mom",
+      "jp": "おせち、用意してあるよ。一緒に食べよう。",
+      "kana": "おせち、よういしてあるよ。いっしょにたべよう。",
+      "romaji": "Osechi, yōi shite aru yo. Issho ni tabeyō.",
+      "en": "The osechi is ready. Let's eat it together."
+     },
+     {
+      "speaker": "you",
+      "prompt": "Say you'll eat together, and that the mochi looks good.",
+      "options": [
+       {
+        "jp": "おせち、一緒に食べましょう。お餅もおいしそうですね。",
+        "kana": "おせち、いっしょにたべましょう。おもちもおいしそうですね。",
+        "romaji": "Osechi, issho ni tabemashō. O-mochi mo oishisō desu ne.",
+        "en": "Let's eat the osechi together. The mochi looks good too."
+       },
+       {
+        "jp": "もう結構です。",
+        "kana": "もうけっこうです。",
+        "romaji": "Mō kekkō desu.",
+        "en": "I'm fine, thanks."
+       },
+       {
+        "jp": "さようなら。",
+        "romaji": "Sayōnara.",
+        "en": "Goodbye."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Dad",
+      "jp": "また来年も来いよ。",
+      "kana": "またらいねんもこいよ。",
+      "romaji": "Mata rainen mo koi yo.",
+      "en": "Come again next year too."
+     },
+     {
+      "speaker": "you",
+      "prompt": "Say you'll come, and thank them for having you.",
+      "options": [
+       {
+        "jp": "はい、また来年も来ますね。今日は呼んでくれて、ありがとうございます。",
+        "kana": "はい、またらいねんもきますね。きょうはよんでくれて、ありがとうございます。",
+        "romaji": "Hai, mata rainen mo kimasu ne. Kyō wa yonde kurete, arigatō gozaimasu.",
+        "en": "Yes, I'll come again next year. Thank you for having me today."
+       },
+       {
+        "jp": "はじめまして。",
+        "romaji": "Hajimemashite.",
+        "en": "Nice to meet you."
+       },
+       {
+        "jp": "助けてください。",
+        "kana": "たすけてください。",
+        "romaji": "Tasukete kudasai.",
+        "en": "Please help me."
+       }
+      ]
+     }
+    ]
+   },
+   "listening": [
+    {
+     "jp": "あけましておめでとう。今年もよろしくね。",
+     "kana": "あけましておめでとう。ことしもよろしくね。",
+     "romaji": "Akemashite omedetō. Kotoshi mo yoroshiku ne.",
+     "en": "Happy New Year. Let's have another good year.",
+     "meanings": [
+      "Happy New Year — another good year together.",
+      "Nice to meet you for the first time.",
+      "Good night, see you tomorrow."
+     ],
+     "reply": {
+      "prompt": "Greet her back.",
+      "options": [
+       {
+        "jp": "お母さん、あけましておめでとう。今年もよろしくお願いします。",
+        "kana": "おかあさん、あけましておめでとう。ことしもよろしくおねがいします。",
+        "romaji": "Okāsan, akemashite omedetō. Kotoshi mo yoroshiku onegaishimasu.",
+        "en": "Mom, happy New Year. Let's have another good year."
+       },
+       {
+        "jp": "いらっしゃいませ。",
+        "romaji": "Irasshaimase.",
+        "en": "Welcome. (shop greeting)"
+       },
+       {
+        "jp": "これにします。",
+        "romaji": "Kore ni shimasu.",
+        "en": "I'll take this one."
+       }
+      ]
+     },
+     "speaker": "Mom"
+    },
+    {
+     "jp": "おせち、食べな。",
+     "kana": "おせち、たべな。",
+     "romaji": "Osechi, tabena.",
+     "en": "Have some osechi.",
+     "meanings": [
+      "Have some osechi.",
+      "The train is here.",
+      "Please speak more slowly."
+     ],
+     "reply": {
+      "prompt": "Say you'll eat together.",
+      "options": [
+       {
+        "jp": "はい、一緒に食べましょう。",
+        "kana": "はい、いっしょにたべましょう。",
+        "romaji": "Hai, issho ni tabemashō.",
+        "en": "Yes, let's eat together."
+       },
+       {
+        "jp": "左です。",
+        "kana": "ひだりです。",
+        "romaji": "Hidari desu.",
+        "en": "It's on the left."
+       },
+       {
+        "jp": "お水をください。",
+        "kana": "おみずをください。",
+        "romaji": "O-mizu o kudasai.",
+        "en": "Water, please."
+       }
+      ]
+     },
+     "speaker": "Dad"
+    },
+    {
+     "jp": "これ、おみやげ？いいの？",
+     "romaji": "Kore, o-miyage? Ii no?",
+     "en": "Is this a gift? You didn't have to.",
+     "meanings": [
+      "Is this a gift? You didn't have to.",
+      "Is this the station?",
+      "Are you leaving already?"
+     ],
+     "reply": {
+      "prompt": "Offer it simply.",
+      "options": [
+       {
+        "jp": "これ、よかったらどうぞ。",
+        "romaji": "Kore, yokattara dōzo.",
+        "en": "This is a little something, if you'd like."
+       },
+       {
+        "jp": "駅です。",
+        "kana": "えきです。",
+        "romaji": "Eki desu.",
+        "en": "It's a station."
+       },
+       {
+        "jp": "いってきます。",
+        "romaji": "Ittekimasu.",
+        "en": "I'm heading out."
+       }
+      ]
+     },
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
    "id": "f-family",
    "track": "family",
    "title": "Family words",
@@ -444,7 +762,7 @@
       "jp": "リズちゃんに兄弟はいるの？",
       "kana": "リズちゃんにきょうだいはいるの？",
       "romaji": "Rizu-chan ni kyōdai wa iru no?",
-      "en": "Do you have any brothers or sisters, Eliz?"
+      "en": "Do you have any brothers or sisters, Rizu-chan?"
      },
      {
       "speaker": "you",
@@ -1369,7 +1687,7 @@
       "jp": "リズちゃん、趣味は何？",
       "kana": "リズちゃん、しゅみはなに？",
       "romaji": "Rizu-chan, shumi wa nani?",
-      "en": "Eliz, what's your hobby?"
+      "en": "Rizu-chan, what's your hobby?"
      },
      {
       "speaker": "you",
@@ -1626,11 +1944,11 @@
      "jp": "リズちゃん、料理するの？",
      "kana": "リズちゃん、りょうりするの？",
      "romaji": "Rizu-chan, ryōri suru no?",
-     "en": "Eliz, do you cook?",
+     "en": "Rizu-chan, do you cook?",
      "meanings": [
-      "Eliz, do you cook?",
-      "Eliz, do you draw?",
-      "Eliz, are you leaving?"
+      "Rizu-chan, do you cook?",
+      "Rizu-chan, do you draw?",
+      "Rizu-chan, are you leaving?"
      ],
      "reply": {
       "prompt": "Say you'd love to cook together.",
@@ -1975,91 +2293,182 @@
    "track": "family",
    "title": "Phone & video calls",
    "jpTitle": "でんわ",
-   "summary": "Video calls with family who already know your voice: hellos, glitches, handing off to Shota.",
+   "summary": "Video calls with Mom and Dad, who already know your voice: hearing each other, a frozen screen, what you've been up to, and a soft good night.",
    "phrases": [
     {
      "jp": "もしもし",
      "romaji": "moshimoshi",
      "en": "Hello? (phone only)",
-     "note": "Only on the phone or a video call, never in person."
+     "note": "Only on the phone or a video call, never in person.",
+     "speaker": "Rizu"
     },
     {
      "jp": "もしもし、リズです",
      "romaji": "moshimoshi, Rizu desu",
      "en": "Hello, it's Liz.",
-     "note": "Say your name right away so they know who it is."
+     "note": "Say your name right away so they know who it is.",
+     "speaker": "Rizu"
     },
     {
      "jp": "聞こえますか",
      "kana": "きこえますか",
      "romaji": "kikoemasu ka",
-     "en": "Can you hear me?"
+     "en": "Can you hear me?",
+     "speaker": "Rizu"
     },
     {
      "jp": "よく聞こえません",
      "kana": "よくきこえません",
      "romaji": "yoku kikoemasen",
-     "en": "I can't hear you well."
+     "en": "I can't hear you well.",
+     "speaker": "Rizu"
     },
     {
      "jp": "画面が固まっています",
      "kana": "がめんがかたまっています",
      "romaji": "gamen ga katamatte imasu",
      "en": "The screen is frozen.",
-     "note": "For video-call glitches."
+     "note": "The polite line. Dad says the casual 画面、固まってるよ.",
+     "speaker": "Rizu"
     },
     {
      "jp": "お元気でしたか",
      "kana": "おげんきでしたか",
      "romaji": "o-genki deshita ka",
      "en": "Have you been well?",
-     "note": "Natural when you haven't talked in a while."
+     "note": "Natural when you haven't talked in a while.",
+     "speaker": "Rizu"
     },
     {
      "jp": "しょうたさんに代わります",
      "kana": "しょうたさんにかわります",
      "romaji": "Shōta-san ni kawarimasu",
      "en": "I'll put Shota on.",
-     "note": "代わる (kawaru) = to switch, take over."
+     "note": "代わる (kawaru) = to switch, take over.",
+     "speaker": "Rizu"
     },
     {
      "jp": "お体に気をつけてください",
      "kana": "おからだにきをつけてください",
      "romaji": "o-karada ni ki o tsukete kudasai",
      "en": "Please take care of yourself.",
-     "note": "A caring goodbye, especially to grandparents."
+     "note": "A caring goodbye, especially to grandparents.",
+     "speaker": "Rizu"
     },
     {
      "jp": "では、また",
      "romaji": "dewa, mata",
      "en": "Well, talk soon.",
-     "note": "A polite way to wrap up. Casual: じゃあね (jā ne)."
+     "note": "A polite way to wrap up. Mom's casual version is また電話するね.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "リズちゃん、聞こえる？",
+     "kana": "リズちゃん、きこえる？",
+     "romaji": "Rizu-chan, kikoeru?",
+     "en": "Rizu-chan, can you hear me?",
+     "note": "Mom drops ます. You can answer in です/ます.",
+     "speaker": "Mom"
+    },
+    {
+     "jp": "はい、聞こえます。お母さん、元気だった？",
+     "kana": "はい、きこえます。おかあさん、げんきだった？",
+     "romaji": "hai, kikoemasu. okāsan, genki datta?",
+     "en": "Yes, I can hear you. Have you been well, Mom?",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "元気よ。仕事は忙しい？",
+     "kana": "げんきよ。しごとはいそがしい？",
+     "romaji": "genki yo. shigoto wa isogashii?",
+     "en": "I'm fine. Is work busy?",
+     "speaker": "Mom"
+    },
+    {
+     "jp": "デザインの仕事、ちょっと忙しいです。",
+     "kana": "デザインのしごと、ちょっといそがしいです。",
+     "romaji": "dezain no shigoto, chotto isogashii desu.",
+     "en": "Design work is a little busy.",
+     "note": "You're a graphic designer. ちょっと keeps it light.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "画面、固まってるよ。",
+     "kana": "がめん、かたまってるよ。",
+     "romaji": "gamen, katamatteru yo.",
+     "en": "The screen is frozen.",
+     "note": "Dad's casual. Answer with the polite line if you want.",
+     "speaker": "Dad"
+    },
+    {
+     "jp": "すみません、ちょっと固まってました。",
+     "kana": "すみません、ちょっとかたまってました。",
+     "romaji": "sumimasen, chotto katamatte mashita.",
+     "en": "Sorry, it froze for a second.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "最近なにやってるの？",
+     "kana": "さいきんなにやってるの？",
+     "romaji": "saikin nani yatteru no?",
+     "en": "What have you been up to lately?",
+     "speaker": "Mom"
+    },
+    {
+     "jp": "料理したり、映画を見たりしてます。",
+     "kana": "りょうりしたり、えいがをみたりしてます。",
+     "romaji": "ryōri shitari, eiga o mitari shitemasu.",
+     "en": "I've been cooking and watching movies.",
+     "note": "たり…たり is for a couple of things you've been doing.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "また電話するね。",
+     "kana": "またでんわするね。",
+     "romaji": "mata denwa suru ne.",
+     "en": "I'll call again, okay?",
+     "speaker": "Mom"
+    },
+    {
+     "jp": "はい、また電話します。おやすみなさい。",
+     "kana": "はい、またでんわします。おやすみなさい。",
+     "romaji": "hai, mata denwa shimasu. oyasumi nasai.",
+     "en": "Okay, I'll call again too. Good night.",
+     "speaker": "Rizu"
+    },
+    {
+     "jp": "おやすみ、リズちゃん。",
+     "romaji": "oyasumi, Rizu-chan.",
+     "en": "Night, Rizu-chan.",
+     "speaker": "Dad"
     }
    ],
    "roleplay": {
-    "title": "Video call with grandma",
-    "setting": "Shota's grandmother video-calls. Shota is in the next room.",
+    "title": "Video call with Mom and Dad",
+    "setting": "Mom video-calls from the living room. Dad leans into the frame halfway through. They already know your voice.",
     "lines": [
      {
       "speaker": "them",
-      "name": "Grandma",
-      "jp": "もしもし？",
-      "romaji": "Moshimoshi?",
-      "en": "Hello?"
+      "name": "Mom",
+      "jp": "リズちゃん、聞こえる？",
+      "kana": "リズちゃん、きこえる？",
+      "romaji": "Rizu-chan, kikoeru?",
+      "en": "Rizu-chan, can you hear me?"
      },
      {
       "speaker": "you",
-      "prompt": "Answer and say who you are.",
+      "prompt": "Say you can hear her, and ask if she's been well.",
       "options": [
        {
-        "jp": "もしもし、リズです。",
-        "romaji": "Moshimoshi, Rizu desu.",
-        "en": "Hello, it's Liz."
+        "jp": "はい、聞こえます。お母さん、元気だった？",
+        "kana": "はい、きこえます。おかあさん、げんきだった？",
+        "romaji": "Hai, kikoemasu. Okāsan, genki datta?",
+        "en": "Yes, I can hear you. Have you been well, Mom?"
        },
        {
         "jp": "いらっしゃいませ。",
         "romaji": "Irasshaimase.",
-        "en": "Welcome! (shop greeting)"
+        "en": "Welcome. (shop greeting)"
        },
        {
         "jp": "お邪魔します。",
@@ -2071,22 +2480,21 @@
      },
      {
       "speaker": "them",
-      "name": "Grandma",
-      "jp": "あら、リズちゃん。お元気でしたか？",
-      "kana": "あら、リズちゃん。おげんきでしたか？",
-      "romaji": "Ara, Rizu-chan. O-genki deshita ka?",
-      "en": "Oh, Eliz! Have you been well?"
+      "name": "Mom",
+      "jp": "元気よ。仕事は忙しい？",
+      "kana": "げんきよ。しごとはいそがしい？",
+      "romaji": "Genki yo. Shigoto wa isogashii?",
+      "en": "I'm fine. Is work busy?"
      },
      {
       "speaker": "you",
-      "prompt": "Say you're well and ask her back.",
-      "note": "Ending with は？ (wa?) is a quick way to say \"and you?\".",
+      "prompt": "Tell her about your graphic design work.",
       "options": [
        {
-        "jp": "はい、元気です。おばあさんは？",
-        "kana": "はい、げんきです。おばあさんは？",
-        "romaji": "Hai, genki desu. Obāsan wa?",
-        "en": "Yes, I'm well. And you?"
+        "jp": "デザインの仕事、ちょっと忙しいです。",
+        "kana": "デザインのしごと、ちょっといそがしいです。",
+        "romaji": "Dezain no shigoto, chotto isogashii desu.",
+        "en": "Design work is a little busy."
        },
        {
         "jp": "いいえ、聞こえません。",
@@ -2103,21 +2511,21 @@
      },
      {
       "speaker": "them",
-      "name": "Grandma",
-      "jp": "元気ですよ。…あれ？聞こえる？",
-      "kana": "げんきですよ。…あれ？きこえる？",
-      "romaji": "Genki desu yo. …Are? Kikoeru?",
-      "en": "I'm fine. …Huh? Can you hear me?"
+      "name": "Dad",
+      "jp": "画面、固まってるよ。",
+      "kana": "がめん、かたまってるよ。",
+      "romaji": "Gamen, katamatteru yo.",
+      "en": "The screen is frozen."
      },
      {
       "speaker": "you",
-      "prompt": "Say the screen is frozen.",
+      "prompt": "Say it froze for a second.",
       "options": [
        {
-        "jp": "すみません、画面が固まっています。",
-        "kana": "すみません、がめんがかたまっています。",
-        "romaji": "Sumimasen, gamen ga katamatte imasu.",
-        "en": "Sorry, the screen is frozen."
+        "jp": "すみません、ちょっと固まってました。",
+        "kana": "すみません、ちょっとかたまってました。",
+        "romaji": "Sumimasen, chotto katamatte mashita.",
+        "en": "Sorry, it froze for a second."
        },
        {
         "jp": "では、また。",
@@ -2127,26 +2535,27 @@
        {
         "jp": "ぜひ。",
         "romaji": "Zehi.",
-        "en": "I'd love to!"
+        "en": "I'd love to."
        }
       ]
      },
      {
       "speaker": "them",
-      "name": "Grandma",
-      "jp": "しょうたはいる？",
-      "romaji": "Shōta wa iru?",
-      "en": "Is Shota there?"
+      "name": "Mom",
+      "jp": "最近なにやってるの？",
+      "kana": "さいきんなにやってるの？",
+      "romaji": "Saikin nani yatteru no?",
+      "en": "What have you been up to lately?"
      },
      {
       "speaker": "you",
-      "prompt": "Say you'll put him on.",
+      "prompt": "Mention cooking and movies.",
       "options": [
        {
-        "jp": "はい、しょうたさんに代わります。",
-        "kana": "はい、しょうたさんにかわります。",
-        "romaji": "Hai, Shōta-san ni kawarimasu.",
-        "en": "Yes, I'll put Shota on."
+        "jp": "料理したり、映画を見たりしてます。",
+        "kana": "りょうりしたり、えいがをみたりしてます。",
+        "romaji": "Ryōri shitari, eiga o mitari shitemasu.",
+        "en": "I've been cooking and watching movies."
        },
        {
         "jp": "いいえ、まだ勉強中です。",
@@ -2163,20 +2572,21 @@
      },
      {
       "speaker": "them",
-      "name": "Grandma",
-      "jp": "ありがとう。またね。",
-      "romaji": "Arigatō. Mata ne.",
-      "en": "Thanks. Talk soon."
+      "name": "Mom",
+      "jp": "また電話するね。",
+      "kana": "またでんわするね。",
+      "romaji": "Mata denwa suru ne.",
+      "en": "I'll call again, okay?"
      },
      {
       "speaker": "you",
-      "prompt": "Say a caring goodbye.",
+      "prompt": "Say you'll call too, and good night.",
       "options": [
        {
-        "jp": "お体に気をつけてください。では、また。",
-        "kana": "おからだにきをつけてください。では、また。",
-        "romaji": "O-karada ni ki o tsukete kudasai. Dewa, mata.",
-        "en": "Please take care of yourself. Talk soon."
+        "jp": "はい、また電話します。おやすみなさい。",
+        "kana": "はい、またでんわします。おやすみなさい。",
+        "romaji": "Hai, mata denwa shimasu. Oyasumi nasai.",
+        "en": "Okay, I'll call again too. Good night."
        },
        {
         "jp": "もしもし。",
@@ -2189,6 +2599,13 @@
         "en": "(said before eating)"
        }
       ]
+     },
+     {
+      "speaker": "them",
+      "name": "Dad",
+      "jp": "おやすみ、リズちゃん。",
+      "romaji": "Oyasumi, Rizu-chan.",
+      "en": "Night, Rizu-chan."
      }
     ]
    },
@@ -2289,6 +2706,657 @@
         "kana": "おかいけいおねがいします。",
         "romaji": "O-kaikei onegaishimasu.",
         "en": "Check, please."
+       }
+      ]
+     }
+    },
+    {
+     "jp": "元気だった？仕事はどう？",
+     "kana": "げんきだった？しごとはどう？",
+     "romaji": "Genki datta? Shigoto wa dō?",
+     "en": "Have you been well? How's work?",
+     "meanings": [
+      "Have you been well? How's work?",
+      "Can you hear the TV?",
+      "Are you on the train?"
+     ],
+     "reply": {
+      "prompt": "Say work is a little busy.",
+      "options": [
+       {
+        "jp": "デザインの仕事、ちょっと忙しいです。",
+        "kana": "デザインのしごと、ちょっといそがしいです。",
+        "romaji": "Dezain no shigoto, chotto isogashii desu.",
+        "en": "Design work is a little busy."
+       },
+       {
+        "jp": "お土産です。",
+        "kana": "おみやげです。",
+        "romaji": "O-miyage desu.",
+        "en": "This is a little gift."
+       },
+       {
+        "jp": "二人です。",
+        "kana": "ふたりです。",
+        "romaji": "Futari desu.",
+        "en": "Two people."
+       }
+      ]
+     },
+     "speaker": "Mom"
+    },
+    {
+     "jp": "おやすみ、リズちゃん。聞こえてる？",
+     "kana": "おやすみ、リズちゃん。きこえてる？",
+     "romaji": "Oyasumi, Rizu-chan. Kikoeteru?",
+     "en": "Night, Rizu-chan. Can you still hear me?",
+     "meanings": [
+      "Night, Rizu-chan. Can you still hear me?",
+      "The screen is small.",
+      "Please write that down."
+     ],
+     "reply": {
+      "prompt": "Say good night and that you'll call again.",
+      "options": [
+       {
+        "jp": "はい、また電話します。おやすみなさい。",
+        "kana": "はい、またでんわします。おやすみなさい。",
+        "romaji": "Hai, mata denwa shimasu. Oyasumi nasai.",
+        "en": "Okay, I'll call again too. Good night."
+       },
+       {
+        "jp": "右です。",
+        "kana": "みぎです。",
+        "romaji": "Migi desu.",
+        "en": "It's on the right."
+       },
+       {
+        "jp": "お箸です。",
+        "kana": "おはしです。",
+        "romaji": "O-hashi desu.",
+        "en": "These are chopsticks."
+       }
+      ]
+     },
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "id": "g-trains",
+   "track": "around",
+   "title": "Directions & trains",
+   "jpTitle": "みちとでんしゃ",
+   "summary": "Asking where things are, understanding left / right / straight, catching the right train.",
+   "phrases": [
+    {
+     "jp": "トイレはどこですか",
+     "romaji": "toire wa doko desu ka",
+     "en": "Where is the restroom?",
+     "note": "Swap in any place: 駅 (eki), the station.",
+     "grammar": "[place] はどこですか = Where is [place]?"
+    },
+    {
+     "jp": "駅はどこですか",
+     "kana": "えきはどこですか",
+     "romaji": "eki wa doko desu ka",
+     "en": "Where is the station?"
+    },
+    {
+     "jp": "この近くにコンビニはありますか",
+     "kana": "このちかくにコンビニはありますか",
+     "romaji": "kono chikaku ni konbini wa arimasu ka",
+     "en": "Is there a convenience store near here?"
+    },
+    {
+     "jp": "まっすぐです",
+     "romaji": "massugu desu",
+     "en": "It's straight ahead.",
+     "note": "You'll hear these in answers. Watch their hands too."
+    },
+    {
+     "jp": "右です",
+     "kana": "みぎです",
+     "romaji": "migi desu",
+     "en": "It's on the right."
+    },
+    {
+     "jp": "左です",
+     "kana": "ひだりです",
+     "romaji": "hidari desu",
+     "en": "It's on the left."
+    },
+    {
+     "jp": "ここから遠いですか",
+     "kana": "ここからとおいですか",
+     "romaji": "koko kara tōi desu ka",
+     "en": "Is it far from here?"
+    },
+    {
+     "jp": "歩いて五分ぐらいです",
+     "kana": "あるいてごふんぐらいです",
+     "romaji": "aruite go-fun gurai desu",
+     "en": "About five minutes on foot.",
+     "note": "ぐらい = about. 十分 (juppun) is ten minutes."
+    },
+    {
+     "jp": "新宿行きは何番線ですか",
+     "kana": "しんじゅくいきはなんばんせんですか",
+     "romaji": "Shinjuku-iki wa nan-bansen desu ka",
+     "en": "Which platform for trains to Shinjuku?",
+     "note": "〜行き (iki) = bound for ~. 番線 (bansen) = platform number."
+    },
+    {
+     "jp": "この電車は渋谷に止まりますか",
+     "kana": "このでんしゃはしぶやにとまりますか",
+     "romaji": "kono densha wa Shibuya ni tomarimasu ka",
+     "en": "Does this train stop at Shibuya?",
+     "note": "Express trains skip stations, so it's worth asking."
+    },
+    {
+     "jp": "乗り換えはどこですか",
+     "kana": "のりかえはどこですか",
+     "romaji": "norikae wa doko desu ka",
+     "en": "Where do I transfer?"
+    }
+   ],
+   "roleplay": {
+    "title": "Looking for the station",
+    "setting": "You're lost near Shibuya, heading for Shinjuku, and stop a friendly passer-by.",
+    "lines": [
+     {
+      "speaker": "you",
+      "prompt": "Get their attention and ask where the station is.",
+      "options": [
+       {
+        "jp": "すみません、駅はどこですか。",
+        "kana": "すみません、えきはどこですか。",
+        "romaji": "Sumimasen, eki wa doko desu ka.",
+        "en": "Excuse me, where is the station?"
+       },
+       {
+        "jp": "いらっしゃいませ。",
+        "romaji": "Irasshaimase.",
+        "en": "Welcome! (shop greeting)"
+       },
+       {
+        "jp": "駅です。",
+        "kana": "えきです。",
+        "romaji": "Eki desu.",
+        "en": "It's a station."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Passer-by",
+      "jp": "駅ですか？あそこの信号を右に曲がって、まっすぐです。",
+      "kana": "えきですか？あそこのしんごうをみぎにまがって、まっすぐです。",
+      "romaji": "Eki desu ka? Asoko no shingō o migi ni magatte, massugu desu.",
+      "en": "The station? Turn right at that traffic light, then go straight.",
+      "fast": true
+     },
+     {
+      "speaker": "you",
+      "prompt": "Ask if it's far.",
+      "options": [
+       {
+        "jp": "ここから遠いですか。",
+        "kana": "ここからとおいですか。",
+        "romaji": "Koko kara tōi desu ka.",
+        "en": "Is it far from here?"
+       },
+       {
+        "jp": "左です。",
+        "kana": "ひだりです。",
+        "romaji": "Hidari desu.",
+        "en": "It's on the left."
+       },
+       {
+        "jp": "お水をください。",
+        "kana": "おみずをください。",
+        "romaji": "O-mizu o kudasai.",
+        "en": "Water, please."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Passer-by",
+      "jp": "いいえ、歩いて五分ぐらいです。",
+      "kana": "いいえ、あるいてごふんぐらいです。",
+      "romaji": "Iie, aruite go-fun gurai desu.",
+      "en": "No, about five minutes on foot."
+     },
+     {
+      "speaker": "you",
+      "prompt": "Thank them.",
+      "options": [
+       {
+        "jp": "ありがとうございます。",
+        "romaji": "Arigatō gozaimasu.",
+        "en": "Thank you very much."
+       },
+       {
+        "jp": "つまらないものですが。",
+        "romaji": "Tsumaranai mono desu ga.",
+        "en": "It's just a little something…"
+       },
+       {
+        "jp": "もしもし。",
+        "romaji": "Moshimoshi.",
+        "en": "Hello? (phone)"
+       }
+      ]
+     },
+     {
+      "speaker": "you",
+      "prompt": "At the station, ask a staff member which platform goes to Shinjuku.",
+      "options": [
+       {
+        "jp": "新宿行きは何番線ですか。",
+        "kana": "しんじゅくいきはなんばんせんですか。",
+        "romaji": "Shinjuku-iki wa nan-bansen desu ka.",
+        "en": "Which platform for Shinjuku?"
+       },
+       {
+        "jp": "新宿はおいしいです。",
+        "kana": "しんじゅくはおいしいです。",
+        "romaji": "Shinjuku wa oishii desu.",
+        "en": "Shinjuku is delicious."
+       },
+       {
+        "jp": "乗り換えです。",
+        "kana": "のりかえです。",
+        "romaji": "Norikae desu.",
+        "en": "It's a transfer."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Staff",
+      "jp": "三番線です。",
+      "kana": "さんばんせんです。",
+      "romaji": "San-bansen desu.",
+      "en": "Platform 3."
+     }
+    ]
+   },
+   "listening": [
+    {
+     "jp": "三番線です。",
+     "kana": "さんばんせんです。",
+     "romaji": "San-bansen desu.",
+     "en": "It's platform 3.",
+     "meanings": [
+      "Platform 3.",
+      "3 minutes.",
+      "3 stops."
+     ],
+     "reply": {
+      "prompt": "Thank them.",
+      "options": [
+       {
+        "jp": "ありがとうございます。",
+        "romaji": "Arigatō gozaimasu.",
+        "en": "Thank you."
+       },
+       {
+        "jp": "持ち帰りでお願いします。",
+        "kana": "もちかえりでおねがいします。",
+        "romaji": "Mochikaeri de onegaishimasu.",
+        "en": "To go, please."
+       },
+       {
+        "jp": "いってらっしゃい。",
+        "romaji": "Itterasshai.",
+        "en": "Have a good day."
+       }
+      ]
+     }
+    },
+    {
+     "jp": "次の駅で乗り換えてください。",
+     "kana": "つぎのえきでのりかえてください。",
+     "romaji": "Tsugi no eki de norikaete kudasai.",
+     "en": "Please transfer at the next station.",
+     "meanings": [
+      "Transfer at the next station.",
+      "Get off at the last stop.",
+      "This train doesn't stop here."
+     ],
+     "reply": {
+      "prompt": "Check you understood.",
+      "options": [
+       {
+        "jp": "次の駅ですね。わかりました。",
+        "kana": "つぎのえきですね。わかりました。",
+        "romaji": "Tsugi no eki desu ne. Wakarimashita.",
+        "en": "The next station, right? Got it."
+       },
+       {
+        "jp": "歩いて五分です。",
+        "kana": "あるいてごふんです。",
+        "romaji": "Aruite go-fun desu.",
+        "en": "Five minutes on foot."
+       },
+       {
+        "jp": "これにします。",
+        "romaji": "Kore ni shimasu.",
+        "en": "I'll take this one."
+       }
+      ]
+     }
+    },
+    {
+     "jp": "あの信号を左に曲がってください。",
+     "kana": "あのしんごうをひだりにまがってください。",
+     "romaji": "Ano shingō o hidari ni magatte kudasai.",
+     "en": "Turn left at that traffic light.",
+     "meanings": [
+      "Turn left at the light.",
+      "Turn right at the light.",
+      "Go straight past the light."
+     ],
+     "reply": {
+      "prompt": "Which way do you go?",
+      "options": [
+       {
+        "jp": "左ですね。",
+        "kana": "ひだりですね。",
+        "romaji": "Hidari desu ne.",
+        "en": "Left, right?"
+       },
+       {
+        "jp": "右ですね。",
+        "kana": "みぎですね。",
+        "romaji": "Migi desu ne.",
+        "en": "To the right, then?"
+       },
+       {
+        "jp": "まっすぐですね。",
+        "romaji": "Massugu desu ne.",
+        "en": "Straight, right?"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "g-help",
+   "track": "around",
+   "title": "Asking for help",
+   "jpTitle": "たすけて",
+   "summary": "Lifesavers for when you don't understand: slower, again, in English, write it down.",
+   "phrases": [
+    {
+     "jp": "すみません",
+     "romaji": "sumimasen",
+     "en": "Excuse me / Sorry",
+     "note": "Gets attention, apologizes, and even says thanks. The most useful word you'll learn."
+    },
+    {
+     "jp": "わかりません",
+     "romaji": "wakarimasen",
+     "en": "I don't understand.",
+     "note": "Softer: すみません、わかりません。"
+    },
+    {
+     "jp": "もう一度お願いします",
+     "kana": "もういちどおねがいします",
+     "romaji": "mō ichido onegaishimasu",
+     "en": "One more time, please.",
+     "note": "Totally normal to ask. People are happy to repeat."
+    },
+    {
+     "jp": "ゆっくり話してください",
+     "kana": "ゆっくりはなしてください",
+     "romaji": "yukkuri hanashite kudasai",
+     "en": "Please speak slowly.",
+     "grammar": "〜てください = please do ~. ゆっくり = slowly."
+    },
+    {
+     "jp": "英語を話せますか",
+     "kana": "えいごをはなせますか",
+     "romaji": "eigo o hanasemasu ka",
+     "en": "Can you speak English?"
+    },
+    {
+     "jp": "日本語で何と言いますか",
+     "kana": "にほんごでなんといいますか",
+     "romaji": "Nihongo de nan to iimasu ka",
+     "en": "How do you say it in Japanese?",
+     "note": "Point at something or say the English word first."
+    },
+    {
+     "jp": "書いてもらえますか",
+     "kana": "かいてもらえますか",
+     "romaji": "kaite moraemasu ka",
+     "en": "Could you write it down?",
+     "note": "Great for addresses and names."
+    },
+    {
+     "jp": "道に迷いました",
+     "kana": "みちにまよいました",
+     "romaji": "michi ni mayoimashita",
+     "en": "I'm lost."
+    },
+    {
+     "jp": "助けてください",
+     "kana": "たすけてください",
+     "romaji": "tasukete kudasai",
+     "en": "Please help me!",
+     "note": "For emergencies. In Japan, dial 110 for police and 119 for fire or ambulance."
+    },
+    {
+     "jp": "わかりました",
+     "romaji": "wakarimashita",
+     "en": "Got it / I understand.",
+     "note": "Past tense, but it means \"understood\" right now."
+    }
+   ],
+   "roleplay": {
+    "title": "Someone stops you on the street",
+    "setting": "A local asks you something in fast Japanese.",
+    "lines": [
+     {
+      "speaker": "them",
+      "name": "Local",
+      "jp": "すみません、この辺に郵便局ありますか？",
+      "kana": "すみません、このへんにゆうびんきょくありますか？",
+      "romaji": "Sumimasen, kono hen ni yūbinkyoku arimasu ka?",
+      "en": "Excuse me, is there a post office around here?",
+      "fast": true
+     },
+     {
+      "speaker": "you",
+      "prompt": "Ask them to speak slowly.",
+      "options": [
+       {
+        "jp": "すみません、ゆっくり話してください。",
+        "kana": "すみません、ゆっくりはなしてください。",
+        "romaji": "Sumimasen, yukkuri hanashite kudasai.",
+        "en": "Sorry, please speak slowly."
+       },
+       {
+        "jp": "わかりました。",
+        "romaji": "Wakarimashita.",
+        "en": "Got it."
+       },
+       {
+        "jp": "助けてください！",
+        "kana": "たすけてください！",
+        "romaji": "Tasukete kudasai!",
+        "en": "Please help me!"
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Local",
+      "jp": "ゆう・びん・きょく、ありますか？",
+      "romaji": "Yū-bin-kyoku, arimasu ka?",
+      "en": "Is there a post office?"
+     },
+     {
+      "speaker": "you",
+      "prompt": "You still don't understand. Say so.",
+      "options": [
+       {
+        "jp": "すみません、わかりません。",
+        "romaji": "Sumimasen, wakarimasen.",
+        "en": "Sorry, I don't understand."
+       },
+       {
+        "jp": "はい、二人です。",
+        "kana": "はい、ふたりです。",
+        "romaji": "Hai, futari desu.",
+        "en": "Yes, two people."
+       },
+       {
+        "jp": "お会計お願いします。",
+        "kana": "おかいけいおねがいします。",
+        "romaji": "O-kaikei onegaishimasu.",
+        "en": "Check, please."
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Local",
+      "jp": "あ、ごめんなさい。Post office？",
+      "romaji": "A, gomen nasai. Post office?",
+      "en": "Oh, sorry! Post office?"
+     },
+     {
+      "speaker": "you",
+      "prompt": "Now you get it. Say you're not from around here.",
+      "options": [
+       {
+        "jp": "わかりました。すみません、この辺はわかりません。",
+        "kana": "わかりました。すみません、このへんはわかりません。",
+        "romaji": "Wakarimashita. Sumimasen, kono hen wa wakarimasen.",
+        "en": "Got it. Sorry, I don't know this area."
+       },
+       {
+        "jp": "いってきます。",
+        "romaji": "Ittekimasu.",
+        "en": "I'm heading out."
+       },
+       {
+        "jp": "いらっしゃいませ。",
+        "romaji": "Irasshaimase.",
+        "en": "Welcome!"
+       }
+      ]
+     },
+     {
+      "speaker": "them",
+      "name": "Local",
+      "jp": "いえいえ、ありがとう。",
+      "romaji": "Ie ie, arigatō.",
+      "en": "No worries, thanks!"
+     }
+    ]
+   },
+   "listening": [
+    {
+     "jp": "何かお困りですか？",
+     "kana": "なにかおこまりですか？",
+     "romaji": "Nanika o-komari desu ka?",
+     "en": "Is something wrong? Can I help?",
+     "meanings": [
+      "Do you need help?",
+      "What are you looking for?",
+      "Are you hungry?"
+     ],
+     "reply": {
+      "prompt": "Say you're lost.",
+      "options": [
+       {
+        "jp": "はい、道に迷いました。",
+        "kana": "はい、みちにまよいました。",
+        "romaji": "Hai, michi ni mayoimashita.",
+        "en": "Yes, I'm lost."
+       },
+       {
+        "jp": "いただきます。",
+        "romaji": "Itadakimasu.",
+        "en": "(said before eating)"
+       },
+       {
+        "jp": "これにします。",
+        "romaji": "Kore ni shimasu.",
+        "en": "I'll take this one."
+       }
+      ]
+     }
+    },
+    {
+     "jp": "ここをまっすぐ行って、二つ目の角を右に曲がって、すぐ左です。",
+     "kana": "ここをまっすぐいって、ふたつめのかどをみぎにまがって、すぐひだりです。",
+     "romaji": "Koko o massugu itte, futatsu-me no kado o migi ni magatte, sugu hidari desu.",
+     "en": "Go straight, turn right at the second corner, and it's right there on the left.",
+     "meanings": [
+      "Long directions: straight, right, then left.",
+      "It's closed today.",
+      "Take the train two stops."
+     ],
+     "reply": {
+      "prompt": "Too fast! Ask them to slow down.",
+      "options": [
+       {
+        "jp": "ゆっくり話してください。",
+        "kana": "ゆっくりはなしてください。",
+        "romaji": "Yukkuri hanashite kudasai.",
+        "en": "Please speak slowly."
+       },
+       {
+        "jp": "わかりました。",
+        "romaji": "Wakarimashita.",
+        "en": "Got it."
+       },
+       {
+        "jp": "お水をください。",
+        "kana": "おみずをください。",
+        "romaji": "O-mizu o kudasai.",
+        "en": "Water, please."
+       }
+      ]
+     }
+    },
+    {
+     "jp": "漢字で書きましょうか？",
+     "kana": "かんじでかきましょうか？",
+     "romaji": "Kanji de kakimashō ka?",
+     "en": "Shall I write it in kanji?",
+     "meanings": [
+      "Shall I write it in kanji?",
+      "Can you read this?",
+      "Shall I call a taxi?"
+     ],
+     "reply": {
+      "prompt": "Ask for romaji instead.",
+      "options": [
+       {
+        "jp": "ローマ字でお願いします。",
+        "kana": "ローマじでおねがいします。",
+        "romaji": "Rōmaji de onegaishimasu.",
+        "en": "In romaji, please."
+       },
+       {
+        "jp": "英語を話せますか。",
+        "kana": "えいごをはなせますか。",
+        "romaji": "Eigo o hanasemasu ka.",
+        "en": "Can you speak English?"
+       },
+       {
+        "jp": "助けてください。",
+        "kana": "たすけてください。",
+        "romaji": "Tasukete kudasai.",
+        "en": "Please help me."
        }
       ]
      }
@@ -2599,308 +3667,6 @@
         "kana": "みぎです。",
         "romaji": "Migi desu.",
         "en": "It's on the right."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "g-trains",
-   "track": "around",
-   "title": "Directions & trains",
-   "jpTitle": "みちとでんしゃ",
-   "summary": "Asking where things are, understanding left / right / straight, catching the right train.",
-   "phrases": [
-    {
-     "jp": "トイレはどこですか",
-     "romaji": "toire wa doko desu ka",
-     "en": "Where is the restroom?",
-     "note": "Swap in any place: 駅 (eki), the station.",
-     "grammar": "[place] はどこですか = Where is [place]?"
-    },
-    {
-     "jp": "駅はどこですか",
-     "kana": "えきはどこですか",
-     "romaji": "eki wa doko desu ka",
-     "en": "Where is the station?"
-    },
-    {
-     "jp": "この近くにコンビニはありますか",
-     "kana": "このちかくにコンビニはありますか",
-     "romaji": "kono chikaku ni konbini wa arimasu ka",
-     "en": "Is there a convenience store near here?"
-    },
-    {
-     "jp": "まっすぐです",
-     "romaji": "massugu desu",
-     "en": "It's straight ahead.",
-     "note": "You'll hear these in answers. Watch their hands too."
-    },
-    {
-     "jp": "右です",
-     "kana": "みぎです",
-     "romaji": "migi desu",
-     "en": "It's on the right."
-    },
-    {
-     "jp": "左です",
-     "kana": "ひだりです",
-     "romaji": "hidari desu",
-     "en": "It's on the left."
-    },
-    {
-     "jp": "ここから遠いですか",
-     "kana": "ここからとおいですか",
-     "romaji": "koko kara tōi desu ka",
-     "en": "Is it far from here?"
-    },
-    {
-     "jp": "歩いて五分ぐらいです",
-     "kana": "あるいてごふんぐらいです",
-     "romaji": "aruite go-fun gurai desu",
-     "en": "About five minutes on foot.",
-     "note": "ぐらい = about. 十分 (juppun) is ten minutes."
-    },
-    {
-     "jp": "新宿行きは何番線ですか",
-     "kana": "しんじゅくいきはなんばんせんですか",
-     "romaji": "Shinjuku-iki wa nan-bansen desu ka",
-     "en": "Which platform for trains to Shinjuku?",
-     "note": "〜行き (iki) = bound for ~. 番線 (bansen) = platform number."
-    },
-    {
-     "jp": "この電車は渋谷に止まりますか",
-     "kana": "このでんしゃはしぶやにとまりますか",
-     "romaji": "kono densha wa Shibuya ni tomarimasu ka",
-     "en": "Does this train stop at Shibuya?",
-     "note": "Express trains skip stations, so it's worth asking."
-    },
-    {
-     "jp": "乗り換えはどこですか",
-     "kana": "のりかえはどこですか",
-     "romaji": "norikae wa doko desu ka",
-     "en": "Where do I transfer?"
-    }
-   ],
-   "roleplay": {
-    "title": "Looking for the station",
-    "setting": "You're lost near Shibuya, heading for Shinjuku, and stop a friendly passer-by.",
-    "lines": [
-     {
-      "speaker": "you",
-      "prompt": "Get their attention and ask where the station is.",
-      "options": [
-       {
-        "jp": "すみません、駅はどこですか。",
-        "kana": "すみません、えきはどこですか。",
-        "romaji": "Sumimasen, eki wa doko desu ka.",
-        "en": "Excuse me, where is the station?"
-       },
-       {
-        "jp": "いらっしゃいませ。",
-        "romaji": "Irasshaimase.",
-        "en": "Welcome! (shop greeting)"
-       },
-       {
-        "jp": "駅です。",
-        "kana": "えきです。",
-        "romaji": "Eki desu.",
-        "en": "It's a station."
-       }
-      ]
-     },
-     {
-      "speaker": "them",
-      "name": "Passer-by",
-      "jp": "駅ですか？あそこの信号を右に曲がって、まっすぐです。",
-      "kana": "えきですか？あそこのしんごうをみぎにまがって、まっすぐです。",
-      "romaji": "Eki desu ka? Asoko no shingō o migi ni magatte, massugu desu.",
-      "en": "The station? Turn right at that traffic light, then go straight.",
-      "fast": true
-     },
-     {
-      "speaker": "you",
-      "prompt": "Ask if it's far.",
-      "options": [
-       {
-        "jp": "ここから遠いですか。",
-        "kana": "ここからとおいですか。",
-        "romaji": "Koko kara tōi desu ka.",
-        "en": "Is it far from here?"
-       },
-       {
-        "jp": "左です。",
-        "kana": "ひだりです。",
-        "romaji": "Hidari desu.",
-        "en": "It's on the left."
-       },
-       {
-        "jp": "お水をください。",
-        "kana": "おみずをください。",
-        "romaji": "O-mizu o kudasai.",
-        "en": "Water, please."
-       }
-      ]
-     },
-     {
-      "speaker": "them",
-      "name": "Passer-by",
-      "jp": "いいえ、歩いて五分ぐらいです。",
-      "kana": "いいえ、あるいてごふんぐらいです。",
-      "romaji": "Iie, aruite go-fun gurai desu.",
-      "en": "No, about five minutes on foot."
-     },
-     {
-      "speaker": "you",
-      "prompt": "Thank them.",
-      "options": [
-       {
-        "jp": "ありがとうございます。",
-        "romaji": "Arigatō gozaimasu.",
-        "en": "Thank you very much."
-       },
-       {
-        "jp": "つまらないものですが。",
-        "romaji": "Tsumaranai mono desu ga.",
-        "en": "It's just a little something…"
-       },
-       {
-        "jp": "もしもし。",
-        "romaji": "Moshimoshi.",
-        "en": "Hello? (phone)"
-       }
-      ]
-     },
-     {
-      "speaker": "you",
-      "prompt": "At the station, ask a staff member which platform goes to Shinjuku.",
-      "options": [
-       {
-        "jp": "新宿行きは何番線ですか。",
-        "kana": "しんじゅくいきはなんばんせんですか。",
-        "romaji": "Shinjuku-iki wa nan-bansen desu ka.",
-        "en": "Which platform for Shinjuku?"
-       },
-       {
-        "jp": "新宿はおいしいです。",
-        "kana": "しんじゅくはおいしいです。",
-        "romaji": "Shinjuku wa oishii desu.",
-        "en": "Shinjuku is delicious."
-       },
-       {
-        "jp": "乗り換えです。",
-        "kana": "のりかえです。",
-        "romaji": "Norikae desu.",
-        "en": "It's a transfer."
-       }
-      ]
-     },
-     {
-      "speaker": "them",
-      "name": "Staff",
-      "jp": "三番線です。",
-      "kana": "さんばんせんです。",
-      "romaji": "San-bansen desu.",
-      "en": "Platform 3."
-     }
-    ]
-   },
-   "listening": [
-    {
-     "jp": "三番線です。",
-     "kana": "さんばんせんです。",
-     "romaji": "San-bansen desu.",
-     "en": "It's platform 3.",
-     "meanings": [
-      "Platform 3.",
-      "3 minutes.",
-      "3 stops."
-     ],
-     "reply": {
-      "prompt": "Thank them.",
-      "options": [
-       {
-        "jp": "ありがとうございます。",
-        "romaji": "Arigatō gozaimasu.",
-        "en": "Thank you."
-       },
-       {
-        "jp": "持ち帰りでお願いします。",
-        "kana": "もちかえりでおねがいします。",
-        "romaji": "Mochikaeri de onegaishimasu.",
-        "en": "To go, please."
-       },
-       {
-        "jp": "いってらっしゃい。",
-        "romaji": "Itterasshai.",
-        "en": "Have a good day."
-       }
-      ]
-     }
-    },
-    {
-     "jp": "次の駅で乗り換えてください。",
-     "kana": "つぎのえきでのりかえてください。",
-     "romaji": "Tsugi no eki de norikaete kudasai.",
-     "en": "Please transfer at the next station.",
-     "meanings": [
-      "Transfer at the next station.",
-      "Get off at the last stop.",
-      "This train doesn't stop here."
-     ],
-     "reply": {
-      "prompt": "Check you understood.",
-      "options": [
-       {
-        "jp": "次の駅ですね。わかりました。",
-        "kana": "つぎのえきですね。わかりました。",
-        "romaji": "Tsugi no eki desu ne. Wakarimashita.",
-        "en": "The next station, right? Got it."
-       },
-       {
-        "jp": "歩いて五分です。",
-        "kana": "あるいてごふんです。",
-        "romaji": "Aruite go-fun desu.",
-        "en": "Five minutes on foot."
-       },
-       {
-        "jp": "これにします。",
-        "romaji": "Kore ni shimasu.",
-        "en": "I'll take this one."
-       }
-      ]
-     }
-    },
-    {
-     "jp": "あの信号を左に曲がってください。",
-     "kana": "あのしんごうをひだりにまがってください。",
-     "romaji": "Ano shingō o hidari ni magatte kudasai.",
-     "en": "Turn left at that traffic light.",
-     "meanings": [
-      "Turn left at the light.",
-      "Turn right at the light.",
-      "Go straight past the light."
-     ],
-     "reply": {
-      "prompt": "Which way do you go?",
-      "options": [
-       {
-        "jp": "左ですね。",
-        "kana": "ひだりですね。",
-        "romaji": "Hidari desu ne.",
-        "en": "Left, right?"
-       },
-       {
-        "jp": "右ですね。",
-        "kana": "みぎですね。",
-        "romaji": "Migi desu ne.",
-        "en": "To the right, then?"
-       },
-       {
-        "jp": "まっすぐですね。",
-        "romaji": "Massugu desu ne.",
-        "en": "Straight, right?"
        }
       ]
      }
@@ -3532,285 +4298,6 @@
         "jp": "これにします。",
         "romaji": "Kore ni shimasu.",
         "en": "I'll take this one."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "g-help",
-   "track": "around",
-   "title": "Asking for help",
-   "jpTitle": "たすけて",
-   "summary": "Lifesavers for when you don't understand: slower, again, in English, write it down.",
-   "phrases": [
-    {
-     "jp": "すみません",
-     "romaji": "sumimasen",
-     "en": "Excuse me / Sorry",
-     "note": "Gets attention, apologizes, and even says thanks. The most useful word you'll learn."
-    },
-    {
-     "jp": "わかりません",
-     "romaji": "wakarimasen",
-     "en": "I don't understand.",
-     "note": "Softer: すみません、わかりません。"
-    },
-    {
-     "jp": "もう一度お願いします",
-     "kana": "もういちどおねがいします",
-     "romaji": "mō ichido onegaishimasu",
-     "en": "One more time, please.",
-     "note": "Totally normal to ask. People are happy to repeat."
-    },
-    {
-     "jp": "ゆっくり話してください",
-     "kana": "ゆっくりはなしてください",
-     "romaji": "yukkuri hanashite kudasai",
-     "en": "Please speak slowly.",
-     "grammar": "〜てください = please do ~. ゆっくり = slowly."
-    },
-    {
-     "jp": "英語を話せますか",
-     "kana": "えいごをはなせますか",
-     "romaji": "eigo o hanasemasu ka",
-     "en": "Can you speak English?"
-    },
-    {
-     "jp": "日本語で何と言いますか",
-     "kana": "にほんごでなんといいますか",
-     "romaji": "Nihongo de nan to iimasu ka",
-     "en": "How do you say it in Japanese?",
-     "note": "Point at something or say the English word first."
-    },
-    {
-     "jp": "書いてもらえますか",
-     "kana": "かいてもらえますか",
-     "romaji": "kaite moraemasu ka",
-     "en": "Could you write it down?",
-     "note": "Great for addresses and names."
-    },
-    {
-     "jp": "道に迷いました",
-     "kana": "みちにまよいました",
-     "romaji": "michi ni mayoimashita",
-     "en": "I'm lost."
-    },
-    {
-     "jp": "助けてください",
-     "kana": "たすけてください",
-     "romaji": "tasukete kudasai",
-     "en": "Please help me!",
-     "note": "For emergencies. In Japan, dial 110 for police and 119 for fire or ambulance."
-    },
-    {
-     "jp": "わかりました",
-     "romaji": "wakarimashita",
-     "en": "Got it / I understand.",
-     "note": "Past tense, but it means \"understood\" right now."
-    }
-   ],
-   "roleplay": {
-    "title": "Someone stops you on the street",
-    "setting": "A local asks you something in fast Japanese.",
-    "lines": [
-     {
-      "speaker": "them",
-      "name": "Local",
-      "jp": "すみません、この辺に郵便局ありますか？",
-      "kana": "すみません、このへんにゆうびんきょくありますか？",
-      "romaji": "Sumimasen, kono hen ni yūbinkyoku arimasu ka?",
-      "en": "Excuse me, is there a post office around here?",
-      "fast": true
-     },
-     {
-      "speaker": "you",
-      "prompt": "Ask them to speak slowly.",
-      "options": [
-       {
-        "jp": "すみません、ゆっくり話してください。",
-        "kana": "すみません、ゆっくりはなしてください。",
-        "romaji": "Sumimasen, yukkuri hanashite kudasai.",
-        "en": "Sorry, please speak slowly."
-       },
-       {
-        "jp": "わかりました。",
-        "romaji": "Wakarimashita.",
-        "en": "Got it."
-       },
-       {
-        "jp": "助けてください！",
-        "kana": "たすけてください！",
-        "romaji": "Tasukete kudasai!",
-        "en": "Please help me!"
-       }
-      ]
-     },
-     {
-      "speaker": "them",
-      "name": "Local",
-      "jp": "ゆう・びん・きょく、ありますか？",
-      "romaji": "Yū-bin-kyoku, arimasu ka?",
-      "en": "Is there a post office?"
-     },
-     {
-      "speaker": "you",
-      "prompt": "You still don't understand. Say so.",
-      "options": [
-       {
-        "jp": "すみません、わかりません。",
-        "romaji": "Sumimasen, wakarimasen.",
-        "en": "Sorry, I don't understand."
-       },
-       {
-        "jp": "はい、二人です。",
-        "kana": "はい、ふたりです。",
-        "romaji": "Hai, futari desu.",
-        "en": "Yes, two people."
-       },
-       {
-        "jp": "お会計お願いします。",
-        "kana": "おかいけいおねがいします。",
-        "romaji": "O-kaikei onegaishimasu.",
-        "en": "Check, please."
-       }
-      ]
-     },
-     {
-      "speaker": "them",
-      "name": "Local",
-      "jp": "あ、ごめんなさい。Post office？",
-      "romaji": "A, gomen nasai. Post office?",
-      "en": "Oh, sorry! Post office?"
-     },
-     {
-      "speaker": "you",
-      "prompt": "Now you get it. Say you're not from around here.",
-      "options": [
-       {
-        "jp": "わかりました。すみません、この辺はわかりません。",
-        "kana": "わかりました。すみません、このへんはわかりません。",
-        "romaji": "Wakarimashita. Sumimasen, kono hen wa wakarimasen.",
-        "en": "Got it. Sorry, I don't know this area."
-       },
-       {
-        "jp": "いってきます。",
-        "romaji": "Ittekimasu.",
-        "en": "I'm heading out."
-       },
-       {
-        "jp": "いらっしゃいませ。",
-        "romaji": "Irasshaimase.",
-        "en": "Welcome!"
-       }
-      ]
-     },
-     {
-      "speaker": "them",
-      "name": "Local",
-      "jp": "いえいえ、ありがとう。",
-      "romaji": "Ie ie, arigatō.",
-      "en": "No worries, thanks!"
-     }
-    ]
-   },
-   "listening": [
-    {
-     "jp": "何かお困りですか？",
-     "kana": "なにかおこまりですか？",
-     "romaji": "Nanika o-komari desu ka?",
-     "en": "Is something wrong? Can I help?",
-     "meanings": [
-      "Do you need help?",
-      "What are you looking for?",
-      "Are you hungry?"
-     ],
-     "reply": {
-      "prompt": "Say you're lost.",
-      "options": [
-       {
-        "jp": "はい、道に迷いました。",
-        "kana": "はい、みちにまよいました。",
-        "romaji": "Hai, michi ni mayoimashita.",
-        "en": "Yes, I'm lost."
-       },
-       {
-        "jp": "いただきます。",
-        "romaji": "Itadakimasu.",
-        "en": "(said before eating)"
-       },
-       {
-        "jp": "これにします。",
-        "romaji": "Kore ni shimasu.",
-        "en": "I'll take this one."
-       }
-      ]
-     }
-    },
-    {
-     "jp": "ここをまっすぐ行って、二つ目の角を右に曲がって、すぐ左です。",
-     "kana": "ここをまっすぐいって、ふたつめのかどをみぎにまがって、すぐひだりです。",
-     "romaji": "Koko o massugu itte, futatsu-me no kado o migi ni magatte, sugu hidari desu.",
-     "en": "Go straight, turn right at the second corner, and it's right there on the left.",
-     "meanings": [
-      "Long directions: straight, right, then left.",
-      "It's closed today.",
-      "Take the train two stops."
-     ],
-     "reply": {
-      "prompt": "Too fast! Ask them to slow down.",
-      "options": [
-       {
-        "jp": "ゆっくり話してください。",
-        "kana": "ゆっくりはなしてください。",
-        "romaji": "Yukkuri hanashite kudasai.",
-        "en": "Please speak slowly."
-       },
-       {
-        "jp": "わかりました。",
-        "romaji": "Wakarimashita.",
-        "en": "Got it."
-       },
-       {
-        "jp": "お水をください。",
-        "kana": "おみずをください。",
-        "romaji": "O-mizu o kudasai.",
-        "en": "Water, please."
-       }
-      ]
-     }
-    },
-    {
-     "jp": "漢字で書きましょうか？",
-     "kana": "かんじでかきましょうか？",
-     "romaji": "Kanji de kakimashō ka?",
-     "en": "Shall I write it in kanji?",
-     "meanings": [
-      "Shall I write it in kanji?",
-      "Can you read this?",
-      "Shall I call a taxi?"
-     ],
-     "reply": {
-      "prompt": "Ask for romaji instead.",
-      "options": [
-       {
-        "jp": "ローマ字でお願いします。",
-        "kana": "ローマじでおねがいします。",
-        "romaji": "Rōmaji de onegaishimasu.",
-        "en": "In romaji, please."
-       },
-       {
-        "jp": "英語を話せますか。",
-        "kana": "えいごをはなせますか。",
-        "romaji": "Eigo o hanasemasu ka.",
-        "en": "Can you speak English?"
-       },
-       {
-        "jp": "助けてください。",
-        "kana": "たすけてください。",
-        "romaji": "Tasukete kudasai.",
-        "en": "Please help me."
        }
       ]
      }

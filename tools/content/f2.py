@@ -24,7 +24,7 @@ units.append({
      O("母は元気です。", "Haha wa genki desu.", "My mother is well.", kana="ははははげんきです。"),
      O("おばあさんです。", "Obāsan desu.", "It's a grandmother.")]),
    T("Dad", "はい、元気ですよ。もう九十歳です。", "Hai, genki desu yo. Mō kyūjussai desu.", "Yes, she's doing well. She's already 90.", kana="はい、げんきですよ。もうきゅうじゅっさいです。"),
-   T("Dad", "リズちゃんに兄弟はいるの？", "Rizu-chan ni kyōdai wa iru no?", "Do you have any brothers or sisters, Eliz?", kana="リズちゃんにきょうだいはいるの？"),
+   T("Dad", "リズちゃんに兄弟はいるの？", "Rizu-chan ni kyōdai wa iru no?", "Do you have any brothers or sisters, Rizu-chan?", kana="リズちゃんにきょうだいはいるの？"),
    Y("Say you have one younger brother.", [
      O("はい、弟が一人います。", "Hai, otōto ga hitori imasu.", "Yes, I have one younger brother.", kana="はい、おとうとがひとりいます。"),
      O("はい、姉が一人います。", "Hai, ane ga hitori imasu.", "Yes, I have one older sister.", kana="はい、あねがひとりいます。"),
