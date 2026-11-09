@@ -1,8 +1,8 @@
-/* Generated. Cache 5530c3d395a7. Do not edit by hand. */
-const VERSION = 'rizu-5530c3d395a7';
+/* Generated. Cache 0abff8814a7e. Do not edit by hand. */
+const VERSION = 'rizu-0abff8814a7e';
 const PRECACHE = [
-  "./assets/index-DYsxMB7u.js",
-  "./assets/index-g3qERxmD.css",
+  "./assets/index-B54sJYy6.js",
+  "./assets/index-BwhnsURU.css",
   "./assets/mplus-rounded-500-CIlnqefN.woff2",
   "./assets/mplus-rounded-700-CxxCDv8p.woff2",
   "./assets/mplus-rounded-800-CAZoDTON.woff2",

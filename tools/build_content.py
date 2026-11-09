@@ -4,10 +4,13 @@ Edit the unit files, then run:  python3 tools/build_content.py
 import json, os, sys, importlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "content"))
-ORDER = ["f1", "f2", "f3", "f4", "f5", "f6", "f7", "g1", "g2", "g3", "g4", "g5"]
+# Family greetings stay first. Within Getting around, trains and asking for help
+# come before cafés and shops. The app's daily path then teaches greetings,
+# trains, and help before the rest.
+ORDER = ["f1", "f8", "f2", "f3", "f4", "f5", "f6", "f7", "g2", "g5", "g1", "g3", "g4"]
 TRACKS = [
- {"id": "family", "title": "Family", "jpTitle": "かぞくとはなそう", "blurb": "Warm catch-ups with family she already knows: door hellos, dinner, teasing Shota, video calls."},
- {"id": "around", "title": "Getting around", "jpTitle": "まちで", "blurb": "Cafés, trains, shops, konbini, and asking for help."},
+ {"id": "family", "title": "Family", "jpTitle": "かぞくとはなそう", "blurb": "Warm catch-ups with family she already knows: door hellos, New Year, dinner, teasing Shota, video calls."},
+ {"id": "around", "title": "Getting around", "jpTitle": "まちで", "blurb": "Trains and asking for help first, then cafés, shops, and the konbini."},
 ]
 def clean(o):
     if isinstance(o, dict):

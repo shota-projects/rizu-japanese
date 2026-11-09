@@ -157,6 +157,9 @@ h1 { font-size: 1.55rem; line-height: 1.25; margin: .15rem 0 .35rem; font-weight
 }
 .card-deco { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); color: var(--pink); font-size: 1.6rem; }
 .phrase, .q-main { text-align: center; }
+.phrase-who { margin: 0 0 6px; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
+.phrase-who.mom, .phrase-who.rizu { color: var(--pink); }
+.phrase-who.dad { color: var(--lav); }
 .phrase-jp, .q-main.jp { font-size: 1.7rem; line-height: 1.35; font-weight: 800; word-break: keep-all; }
 .phrase.big .phrase-jp { font-size: 2.15rem; }
 .phrase.big.long .phrase-jp { font-size: 1.7rem; }

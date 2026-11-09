@@ -1,4 +1,4 @@
-import { curriculumPath, phraseId, unitsOf, type IndexedPhrase, type Unit } from '../content/course'
+import { curriculumPath, dailyUnits, nextUnseen, phraseId, type IndexedPhrase, type Unit } from '../content/course'
 import { course, progress } from '../session'
 
 export function unitStats(u: Unit) {
@@ -10,15 +10,7 @@ export function unitStats(u: Unit) {
 }
 
 export function interleavedUnits(): Unit[] {
-  const fam = unitsOf(course, 'family')
-  const around = unitsOf(course, 'around')
-  const order: Unit[] = []
-  const n = Math.max(fam.length, around.length)
-  for (let i = 0; i < n; i++) {
-    if (fam[i]) order.push(fam[i])
-    if (around[i]) order.push(around[i])
-  }
-  return order
+  return dailyUnits(course)
 }
 
 export function nextUnit(afterId?: string): Unit {
@@ -37,18 +29,14 @@ export function alignUnlocked(): void {
 }
 
 export function nextNewPhrases(count: number): IndexedPhrase[] {
-  const path = curriculumPath(course)
-  const unlocked = progress.state.curriculum.value.unlocked || 0
-  return path.slice(unlocked, unlocked + count)
+  return nextUnseen(curriculumPath(course), progress.state.seen, count)
 }
 
 export function peekTomorrow(count: number): IndexedPhrase[] {
   const path = curriculumPath(course)
-  const unlocked = progress.state.curriculum.value.unlocked || 0
-  const daily = progress.ensureDaily()
-  const todayNew = (daily.newIds && daily.newIds.length) || Math.min(count, Math.max(0, path.length - unlocked))
-  const start = daily.newDone ? unlocked : unlocked + todayNew
-  return path.slice(start, start + Math.min(3, count))
+  const today = new Set(progress.ensureDaily().newIds || [])
+  const upcoming = path.filter((p) => !progress.state.seen[p.id] && !today.has(p.id))
+  return upcoming.slice(0, Math.min(3, count))
 }
 
 export function dailyProgress() {

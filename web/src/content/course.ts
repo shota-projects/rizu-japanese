@@ -7,6 +7,8 @@ export interface Line {
   grammar?: string
   fast?: boolean
   name?: string
+  /** Who says this line: Rizu, Mom, or Dad. */
+  speaker?: string
 }
 
 export interface Choice extends Line {
@@ -29,6 +31,7 @@ export interface RoleLine {
 export interface ListenItem extends Line {
   meanings: string[]
   reply: { prompt: string; options: Choice[] }
+  speaker?: string
 }
 
 export interface Phrase extends Line {
@@ -91,18 +94,44 @@ export function unitsOf(course: Course, trackId: string): Unit[] {
   return course.units.filter((u) => u.track === trackId)
 }
 
-/** Family and getting-around units interleaved, then each unit’s phrases in order. */
-export function curriculumPath(course: Course): IndexedPhrase[] {
-  const fam = unitsOf(course, 'family')
-  const around = unitsOf(course, 'around')
-  const order: Unit[] = []
-  const n = Math.max(fam.length, around.length)
-  for (let i = 0; i < n; i++) {
-    if (fam[i]) order.push(fam[i])
-    if (around[i]) order.push(around[i])
+/**
+ * Daily teaching order. Family greetings stay first. Trains and asking for help
+ * come next, before cafés, shops, and the later family topics.
+ * Phrase ids are still unitId:jp, so a reorder does not touch saved Leitner cards.
+ */
+export const DAILY_UNIT_IDS = [
+  'f-meet',
+  'g-trains',
+  'g-help',
+  'f-holiday',
+  'f-family',
+  'g-food',
+  'f-home',
+  'g-shopping',
+  'f-dinner',
+  'g-konbini',
+  'f-chat',
+  'f-gifts',
+  'f-calls',
+] as const
+
+export function dailyUnits(course: Course): Unit[] {
+  const byId = new Map(course.units.map((u) => [u.id, u]))
+  const ordered: Unit[] = []
+  for (const id of DAILY_UNIT_IDS) {
+    const unit = byId.get(id)
+    if (unit) ordered.push(unit)
   }
+  for (const unit of course.units) {
+    if (!ordered.includes(unit)) ordered.push(unit)
+  }
+  return ordered
+}
+
+/** Phrases in daily order. */
+export function curriculumPath(course: Course): IndexedPhrase[] {
   const path: IndexedPhrase[] = []
-  for (const unit of order) {
+  for (const unit of dailyUnits(course)) {
     for (const phrase of unit.phrases) {
       const id = phraseId(unit.id, phrase.jp)
       const indexed = course.byId.get(id)
@@ -110,4 +139,9 @@ export function curriculumPath(course: Course): IndexedPhrase[] {
     }
   }
   return path
+}
+
+/** Next phrases she has not already learned. Ignores the stored cursor so a reorder cannot skip new early units or replay finished ones. */
+export function nextUnseen(path: IndexedPhrase[], seen: Record<string, unknown>, count: number): IndexedPhrase[] {
+  return path.filter((p) => !seen[p.id]).slice(0, count)
 }

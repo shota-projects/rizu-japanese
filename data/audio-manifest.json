@@ -7,7 +7,7 @@
     "female": "ja-JP-NanamiNeural",
     "male": "ja-JP-KeitaNeural"
   },
-  "count": 344,
+  "count": 382,
   "byText": {
     "Suicaで払います": {
       "src": "./audio/f/6c96e4b2e0ef.mp3",
@@ -2416,6 +2416,272 @@
       "gender": "female",
       "hash": "70a30dbec150",
       "spoken": "駅ですか？あそこの信号を右に曲がって、まっすぐです。"
+    },
+    "あけましておめでとう": {
+      "src": "./audio/f/af549003a63d.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "af549003a63d",
+      "spoken": "あけましておめでとう"
+    },
+    "今年もよろしくお願いします": {
+      "src": "./audio/f/1fc2eeba7cc7.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "1fc2eeba7cc7",
+      "spoken": "今年もよろしくお願いします"
+    },
+    "これ、よかったらどうぞ": {
+      "src": "./audio/f/24793ff5473c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "24793ff5473c",
+      "spoken": "これ、よかったらどうぞ"
+    },
+    "おせち、一緒に食べましょう": {
+      "src": "./audio/f/11a2cce0a951.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "11a2cce0a951",
+      "spoken": "おせち、一緒に食べましょう"
+    },
+    "お餅、おいしいですね": {
+      "src": "./audio/f/615b41304268.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "615b41304268",
+      "spoken": "お餅、おいしいですね"
+    },
+    "今日は呼んでくれて、ありがとうございます": {
+      "src": "./audio/f/15dce4477879.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "15dce4477879",
+      "spoken": "今日は呼んでくれて、ありがとうございます"
+    },
+    "お父さんもお母さんも、元気でいてくださいね": {
+      "src": "./audio/f/856d91a0f04a.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "856d91a0f04a",
+      "spoken": "お父さんもお母さんも、元気でいてくださいね"
+    },
+    "また来年も来ますね": {
+      "src": "./audio/f/176fe810ca37.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "176fe810ca37",
+      "spoken": "また来年も来ますね"
+    },
+    "いいお年を": {
+      "src": "./audio/f/cae35192172e.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "cae35192172e",
+      "spoken": "いいお年を"
+    },
+    "お祝い、おめでとうございます": {
+      "src": "./audio/f/8a7217bdd2a0.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "8a7217bdd2a0",
+      "spoken": "お祝い、おめでとうございます"
+    },
+    "リズちゃん、あけましておめでとう。": {
+      "src": "./audio/f/5f879a2ffa92.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "5f879a2ffa92",
+      "spoken": "リズちゃん、あけましておめでとう。"
+    },
+    "お母さん、あけましておめでとう。今年もよろしくお願いします。": {
+      "src": "./audio/f/cd5b23479465.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "cd5b23479465",
+      "spoken": "お母さん、あけましておめでとう。今年もよろしくお願いします。"
+    },
+    "おう、来てくれたね。寒いだろ。": {
+      "src": "./audio/m/78a09bfd03a4.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "78a09bfd03a4",
+      "spoken": "おう、来てくれたね。寒いだろ。"
+    },
+    "お父さん、これ、よかったらどうぞ。": {
+      "src": "./audio/f/5f183c95f183.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "5f183c95f183",
+      "spoken": "お父さん、これ、よかったらどうぞ。"
+    },
+    "おせち、用意してあるよ。一緒に食べよう。": {
+      "src": "./audio/f/6ff712a24258.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "6ff712a24258",
+      "spoken": "おせち、用意してあるよ。一緒に食べよう。"
+    },
+    "おせち、一緒に食べましょう。お餅もおいしそうですね。": {
+      "src": "./audio/f/1b9ab65a99f1.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "1b9ab65a99f1",
+      "spoken": "おせち、一緒に食べましょう。お餅もおいしそうですね。"
+    },
+    "もう結構です。": {
+      "src": "./audio/f/f3bad5a2460c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "f3bad5a2460c",
+      "spoken": "もう結構です。"
+    },
+    "さようなら。": {
+      "src": "./audio/f/d75856564993.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "d75856564993",
+      "spoken": "さようなら。"
+    },
+    "また来年も来いよ。": {
+      "src": "./audio/m/85a18cd594ac.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "85a18cd594ac",
+      "spoken": "また来年も来いよ。"
+    },
+    "はい、また来年も来ますね。今日は呼んでくれて、ありがとうございます。": {
+      "src": "./audio/f/707b9c00455c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "707b9c00455c",
+      "spoken": "はい、また来年も来ますね。今日は呼んでくれて、ありがとうございます。"
+    },
+    "あけましておめでとう。今年もよろしくね。": {
+      "src": "./audio/f/b345a70d99f7.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b345a70d99f7",
+      "spoken": "あけましておめでとう。今年もよろしくね。"
+    },
+    "おせち、食べな。": {
+      "src": "./audio/m/97413fc3737a.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "97413fc3737a",
+      "spoken": "おせち、食べな。"
+    },
+    "はい、一緒に食べましょう。": {
+      "src": "./audio/f/902ba217c6ac.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "902ba217c6ac",
+      "spoken": "はい、一緒に食べましょう。"
+    },
+    "これ、おみやげ？いいの？": {
+      "src": "./audio/f/308bf9715653.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "308bf9715653",
+      "spoken": "これ、おみやげ？いいの？"
+    },
+    "これ、よかったらどうぞ。": {
+      "src": "./audio/f/349c66e1840c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "349c66e1840c",
+      "spoken": "これ、よかったらどうぞ。"
+    },
+    "リズちゃん、聞こえる？": {
+      "src": "./audio/f/1e9b23fc0200.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "1e9b23fc0200",
+      "spoken": "リズちゃん、聞こえる？"
+    },
+    "はい、聞こえます。お母さん、元気だった？": {
+      "src": "./audio/f/d8477bab17b2.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "d8477bab17b2",
+      "spoken": "はい、聞こえます。お母さん、元気だった？"
+    },
+    "元気よ。仕事は忙しい？": {
+      "src": "./audio/f/e515caa5b8c5.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "e515caa5b8c5",
+      "spoken": "元気よ。仕事は忙しい？"
+    },
+    "グラフィックの仕事、ちょっと忙しいです。": {
+      "src": "./audio/f/bed16acbd105.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "bed16acbd105",
+      "spoken": "グラフィックの仕事、ちょっと忙しいです。"
+    },
+    "画面、固まってるよ。": {
+      "src": "./audio/m/854bc81efc98.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "854bc81efc98",
+      "spoken": "画面、固まってるよ。"
+    },
+    "すみません、ちょっと固まってました。": {
+      "src": "./audio/f/3d696a545216.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "3d696a545216",
+      "spoken": "すみません、ちょっと固まってました。"
+    },
+    "最近なにやってるの？": {
+      "src": "./audio/f/32e247ba373b.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "32e247ba373b",
+      "spoken": "最近なにやってるの？"
+    },
+    "料理したり、映画を見たりしてます。": {
+      "src": "./audio/f/b2892c2226b1.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "b2892c2226b1",
+      "spoken": "料理したり、映画を見たりしてます。"
+    },
+    "また電話するね。": {
+      "src": "./audio/f/f414df2c4c3c.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "f414df2c4c3c",
+      "spoken": "また電話するね。"
+    },
+    "はい、また電話します。おやすみなさい。": {
+      "src": "./audio/f/f89f79e199ca.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "f89f79e199ca",
+      "spoken": "はい、また電話します。おやすみなさい。"
+    },
+    "おやすみ、リズちゃん。": {
+      "src": "./audio/m/29e0a47ee8d7.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "29e0a47ee8d7",
+      "spoken": "おやすみ、リズちゃん。"
+    },
+    "元気だった？仕事はどう？": {
+      "src": "./audio/f/cdf1fd2d3d9a.mp3",
+      "voice": "ja-JP-NanamiNeural",
+      "gender": "female",
+      "hash": "cdf1fd2d3d9a",
+      "spoken": "元気だった？仕事はどう？"
+    },
+    "おやすみ、リズちゃん。聞こえてる？": {
+      "src": "./audio/m/b7c89b8b047d.mp3",
+      "voice": "ja-JP-KeitaNeural",
+      "gender": "male",
+      "hash": "b7c89b8b047d",
+      "spoken": "おやすみ、リズちゃん。聞こえてる？"
     }
   }
 }

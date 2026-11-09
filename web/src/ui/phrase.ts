@@ -31,7 +31,9 @@ export function phraseHTML(p: Line, opts: { big?: boolean; known?: boolean; show
   const kana = kanaFor(p)
   const len = [...(p.jp || '')].length
   const size = len > 18 ? 'xlong' : len > 12 ? 'long' : ''
+  const who = p.speaker ? `<p class="phrase-who ${p.speaker === 'Dad' ? 'dad' : p.speaker === 'Mom' ? 'mom' : 'rizu'}">${esc(p.speaker)}</p>` : ''
   return `<div class="phrase ${big ? 'big' : ''} ${size}">
+    ${who}
     <div class="jp phrase-jp" lang="ja">${esc(p.jp)}</div>
     ${kana ? `<div class="jp phrase-kana" lang="ja">${esc(kana)}</div>` : ''}
     <div class="phrase-romaji-wrap">${romajiHTML(p.romaji, 'phrase-romaji', !!opts.known)}</div>

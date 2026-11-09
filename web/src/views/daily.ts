@@ -323,11 +323,14 @@ export function viewTodayListen(): void {
 }
 
 function pickDailyListen(n: number): ListenItem[] {
-  const unlockedUnits = new Set<string>()
   const path = curriculumPath(course)
-  const upto = progress.state.curriculum.value.unlocked || 0
-  path.slice(0, Math.max(upto, 1)).forEach((x) => unlockedUnits.add(x.unit.id))
-  if (course.units[0]) unlockedUnits.add(course.units[0].id)
+  const unlockedUnits = new Set<string>()
+  if (path[0]) unlockedUnits.add(path[0].unit.id)
+  for (const item of path) {
+    if (progress.state.seen[item.id]) unlockedUnits.add(item.unit.id)
+  }
+  const next = path.find((p) => !progress.state.seen[p.id])
+  if (next) unlockedUnits.add(next.unit.id)
   const pool: ListenItem[] = []
   for (const u of course.units) {
     if (!unlockedUnits.has(u.id) || !u.listening) continue

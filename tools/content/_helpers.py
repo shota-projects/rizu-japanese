@@ -1,10 +1,11 @@
 import json
-def P(jp, romaji, en, note=None, kana=None, grammar=None):
+def P(jp, romaji, en, note=None, kana=None, grammar=None, speaker=None):
     d = {"jp": jp}
     if kana: d["kana"] = kana
     d.update({"romaji": romaji, "en": en})
     if note: d["note"] = note
     if grammar: d["grammar"] = grammar
+    if speaker: d["speaker"] = speaker
     return d
 def O(jp, romaji, en, kana=None):
     d = {"jp": jp}
@@ -23,9 +24,10 @@ def Y(prompt, options, note=None):
     if note: d["note"] = note
     d["options"] = options
     return d
-def L(jp, romaji, en, meanings, prompt, replies, kana=None, note=None):
+def L(jp, romaji, en, meanings, prompt, replies, kana=None, note=None, speaker=None):
     d = {"jp": jp}
     if kana: d["kana"] = kana
     d.update({"romaji": romaji, "en": en, "meanings": meanings, "reply": {"prompt": prompt, "options": replies}})
     if note: d["note"] = note
+    if speaker: d["speaker"] = speaker
     return d
